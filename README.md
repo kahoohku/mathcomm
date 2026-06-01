@@ -27,7 +27,7 @@ $$ \mu(U) = \sup\{ I(f) : f \in C_c(U), 0 \leq f \leq 1 \} $$
 
 and
 
-$$ \mu(K) = \inf\{ I(f) : f \in C_c(X), f \geq \chi_K $$
+$$ \mu(K) = \inf\{ I(f) : f \in C_c(X), f \geq \chi_K \} $$
 
 for all open $U$ and compact $K$.
 
@@ -35,7 +35,7 @@ for all open $U$ and compact $K$.
 Suppose $\mu$ is $\sigma$-finite, $1 \leq p < \infty$, and $p$, $q$ are conjugate exponents.
 The map $\varphi \colon L^q \to (L^p)^*$ given by
 
-$$ g \mapsto \varphi_g, \quad \varphi_g(f) = \int \!\! fg\, d\mu $$
+$$ g \mapsto \varphi_g, \quad \varphi_g(f) = \int fg\, d\mu $$
 
 is a bijective isometry. In particular, $L^p$ is reflexive for $1 < p < \infty$.
 
