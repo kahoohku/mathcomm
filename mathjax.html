@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MathJax TeX Test Page</title>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+<style type="text/css">
+body {
+  margin: 40px auto;
+  max-width: 650px;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #444;
+  padding: 0 10px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+h1, h2, h3 {
+  line-height: 1.2;
+}
+</style>
+</head>
+<body>
+
+<p> <b>Riesz Representation Theorem.</b>&ensp;
+Suppose \(V\) is a finite-dimensional inner-product space and \(\varphi\) is a linear functional on \(V\).
+Then there is a unique vector \(v \in V\) such that
+$$ \varphi u = \langle u, v \rangle, \qquad \text{for all } u \in V. $$
+</p>
+
+<p> <b>Riesz Representation Theorem.</b>&ensp;
+Let \(H\) be a Hilbert space.
+For every continuous linear functional \(\varphi \in H^*\), there is a unique vector \(v \in H\) such that
+\[ \varphi u = \langle u, v \rangle, \qquad \text{for all } u \in H. \]
+Moreover, \(\lVert v\rVert = \lVert\varphi\rVert\).
+</p>
+
+<p> <b>Riesz Representation Theorem.</b>&ensp;
+Suppose \(X\) is a \(\sigma\)-compact LCH space and \(I\) is a positive linear functional on \(C_c(X)\).
+Then there is a unique regular Borel measure \(\mu\) on \(X\) such that \(I(f) = \int f\, d\mu\) for all \(f \in C_c(X)\).
+Moreover, \(\mu\) satisfies
+\[ \mu(U) = \sup\{ I(f) : f \in C_c(U), 0 \leq f \leq 1 \} \]
+and
+\[ \mu(K) = \inf\{ I(f) : f \in C_c(X), f \geq \chi_K \} \]
+for all open \(U\) and compact \(K\).
+</p>
+
+<p> <b>Riesz Representation Theorem.</b>&ensp;
+Suppose \(\mu\) is \(\sigma\)-finite, \(1 \leq p < \infty\), and \(p\), \(q\) are conjugate exponents.
+The map \(\varphi \colon L^q \to (L^p)^*\) given by
+$$ g \mapsto \varphi_g, \quad \varphi_g(f) = \int fg\, d\mu $$
+is a bijective isometry. In particular, \(L^p\) is reflexive for \(1 < p < \infty\).
+</p>
+
+</body>
+</html>
