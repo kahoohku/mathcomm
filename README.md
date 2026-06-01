@@ -13,7 +13,7 @@ Then there is a unique vector $v \in V$ such that
 Let $H$ be a Hilbert space.
 For every continuous linear functional $\varphi \in H^*$, there is a unique vector $v \in H$ such that
 \[ \varphi u = \langle u, v \rangle, \qquad \text{for all } u \in H. \]
-Moreover, $\norm v = \norm \varphi$.
+Moreover, $\norm v = \norm\varphi$.
 
 **Riesz Representation Theorem.**
 Suppose $X$ is a $\sigma$-compact LCH space and $I$ is a positive linear functional on $C_c(X)$.

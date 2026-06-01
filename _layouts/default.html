@@ -5,7 +5,12 @@
     <script>
       MathJax = {
         tex: {
-          inlineMath: {'[+]': [['$', '$']]}
+          inlineMath: {'[+]': [['$', '$']]},
+          displayMath: {'[+]': [['\\[', '\\]']]},
+		  macros: {
+            abs: ['{\\lvert #1 \\right}', 1],
+            norm: ['{\\lVert #1 \\right}', 1]
+          }
         }
       };
     </script>
