@@ -3,13 +3,7 @@ body {
   font-size: 18px;
   color: black;
 }
-section {
-  width: calc(100% - 270px);
-  float: right;
-  padding-bottom: 50px;
-}
 .wrapper {
-  max-width: 1600px
-  width: 100%;
+  width: 1200px;
   margin: 0 auto;
 }
