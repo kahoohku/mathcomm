@@ -275,7 +275,6 @@ symbols are used correctly, the easiest way to read the sentence to see
 if it is a grammatically correct complete sentence and if it makes
 sense.
 
-
 ## The Symbols '$\in$' and '$\subseteq$'
 
 The first symbol is set membership and simply reads 'in' or 'belongs to'
@@ -293,7 +292,9 @@ concisely as we have shown throughout this section, there is always a
 danger of overusing them. For example, consider the following definition
 of a function $f(x)$ being continuous at the point $a$:
 
-- $\forall \varepsilon>0\ \exists \delta>0 \text{ s.t. } \left|x-a \right|<\delta \Rightarrow \left|f(x)-f(a)\right|<\varepsilon$.
+- $\forall \varepsilon>0\ \exists \delta>0 \text{ s.t. }
+  \left|x-a \right|<\delta
+  \Rightarrow \left|f(x)-f(a)\right|<\varepsilon$.
 
 While it is perfectly sound and correct, it is a bit difficult to read.
 Reducing the use of symbols would give
@@ -320,100 +321,10 @@ Here we refer to things such as functions, polynomials and so on (as
 opposed to abstract algebra), which most secondary school students
 should know.
 
-::: center
-+--------------------------------------------+--------------------------------------------+-------------------------------+
-|                                            |                                            |                      Comments |
-+:===========================================+:===========================================+:==============================+
-|                                            |                                            |                      Comments |
-+--------------------------------------------+--------------------------------------------+-------------------------------+
-| 1.  Suppose $p(x)=ax+b$, where $a$ and $b$ | 1.  Suppose $p(x)=ax+b$, where $a$ and $b$ | The word 'constant' can be    |
-|     are                                    |     are                                    | used as an adjective or a     |
-|     ***[constant]{style="color: red"}***.  |     ***[constants]{style="color: red"}***. | noun. As an adjective, it is  |
-|                                            |                                            | used to describe the          |
-| 2.  Hence $p(x)$ and $q(x)$ are            | 2.  Hence $p(x)$ and $q(x)$ are            | non-varying property of       |
-|     ***[constants]{style="color: red"}***  |     ***[constant]{style="color: red"}***   | functions. As a noun, it is   |
-|     polynomials.                           |     polynomials.                           | used to refer to a fixed and  |
-|                                            |                                            | well-defined number and has a |
-|                                            |                                            | plural form 'constants'.      |
-+--------------------------------------------+--------------------------------------------+-------------------------------+
-| Since $6=2\times 3$, so 6                  | 1.  Since $6=2\times 3$, so 6 ***[is       | A rule of thumb is that if    |
-| ***[divides]{style="color: red"}*** 3.     |     divisible by]{style="color: red"}***   | $a$ divides $b$ (where $a$,   |
-|                                            |     3.                                     | $b$ are positive integers),   |
-|                                            |                                            | then $a$ must be the smaller  |
-|                                            | 2.  Since $6=2\times 3$, so ***[$3$        | number.                       |
-|                                            |     divides $6$]{style="color: red"}***.   |                               |
-+--------------------------------------------+--------------------------------------------+-------------------------------+
-| We can ***[move]{style="color: red"}***    | We can                                     | When referring to moving      |
-| the graph of $y=e^x$ to the left by 1 unit | ***[translate]{style="color: red"}*** the  | graphs by a fixed vector the  |
-| to obtain the graph of $y=e^{x+1}$.        | graph of $y=e^x$ to the left by 1 unit to  | verb 'translate' is used.     |
-|                                            | obtain the graph of $y=e^{x+1}$.           |                               |
-+--------------------------------------------+--------------------------------------------+-------------------------------+
-| The                                        | The ***[product]{style="color: red"}*** of | The result of multiplication  |
-| ***[multiplication]{style="color: red"}*** | two positive numbers is positive.          | is 'product'.                 |
-| of two positive numbers is positive.       |                                            |                               |
-+--------------------------------------------+--------------------------------------------+-------------------------------+
-| We count the number of integers between 1  | We count the number of integers between 1  | There is redundant            |
-| and 100 which are not ***[prime            | and 100 which are not                      | information in the wrong      |
-| numbers]{style="color: red"}***.           | ***[prime]{style="color: red"}***.         | example ('integers' are       |
-|                                            |                                            | 'numbers'). The convention is |
-|                                            |                                            | to use only the adjective.    |
-+--------------------------------------------+--------------------------------------------+-------------------------------+
-| The ***[thousand]{style="color: red"}***   | The ***[thousands]{style="color: red"}***  | When referring to digits use  |
-| digit of 12345 is 2.                       | digit of 12345 is 2.                       | the terms 'unit digit', 'tens |
-|                                            |                                            | digit', 'hundreds digit',     |
-|                                            |                                            | etc.                          |
-+--------------------------------------------+--------------------------------------------+-------------------------------+
-| The ***[tenth]{style="color: red"}***      | The ***[tens]{style="color: red"}*** digit | The tenth digit refers to the |
-| digit of 12.34 is 1.                       | of 12.34 is 1.                             | digit immediately to the      |
-|                                            |                                            | right of the decimal point,   |
-|                                            |                                            | i.e. 3 in this example.       |
-+--------------------------------------------+--------------------------------------------+-------------------------------+
-| 1.  $N$ is divisible by 7                  | 1.  $N$ is divisible by 7 ***[             | In mathematical proofs the    |
-|     ***[when]{style="color: red"}*** $N^2$ |     if]{style="color: red"}*** $N^2$ is    | convention is to use 'if'     |
-|     is divisible by 7.                     |     divisible by 7.                        | rather than 'when' for        |
-|                                            |                                            | describing a condition. But   |
-| 2.  Let $f(x)=2x$.                         | 2.  Let $f(x)=2x$.                         | in the second example, it is  |
-|     ***[If]{style="color: red"}*** $x=3$,  |     ***[When]{style="color: red"}***       | more popular to use 'when'    |
-|     $f(x)=6$.                              |     $x=3$, $f(x)=6$.                       | since we are talking about a  |
-|                                            |                                            | variable taking on a certain  |
-|                                            |                                            | value.                        |
-+--------------------------------------------+--------------------------------------------+-------------------------------+
-:::
-
 ## Geometry
 
 Plane geometry is another popular topic in the mathematics syllabus of
 secondary school.
-
-::: center
-+--------------------------------------------+-----------------------------------------------+-------------------------------+
-|                                            |                                               |                      Comments |
-+:===========================================+:==============================================+:==============================+
-| Denote the ***[centre of the               | Denote the                                    | 'Circumcentre' is the centre  |
-| circumcentre]{style="color: red"}*** of    | ***[circumcentre]{style="color: red"}*** of   | of the circumscribed circle.  |
-| $ABC$ by $O$.                              | $ABC$ by $O$.                                 |                               |
-+--------------------------------------------+-----------------------------------------------+-------------------------------+
-| 1.  The quadrilateral $ABCD$ is            | 1.  The quadrilateral $ABCD$ is               | 'Concyclic' is used to        |
-|     ***[concyclic]{style="color: red"}***. |     ***[cyclic]{style="color: red"}***.       | describe points whereas       |
-|                                            |                                               | 'cyclic' is used to describe  |
-| 2.  The points $A$, $B$, $C$ and $D$ are   | 2.  The points $A$, $B$, $C$ and $D$ are      | polygons.                     |
-|     ***[cyclic]{style="color: red"}***.    |     ***[concyclic]{style="color: red"}***.    |                               |
-+--------------------------------------------+-----------------------------------------------+-------------------------------+
-| Let $ABCD$                                 | 1.  Let $ABCD$ ***[be]{style="color: red"}*** | The correct examples are the  |
-| ***[form]{style="color: red"}*** a square. |     a square.                                 | mathematical conventions.     |
-|                                            |                                               |                               |
-|                                            | 2.  The points $A$, $B$, $C$ and $D$          |                               |
-|                                            |     ***[form]{style="color: red"}*** a        |                               |
-|                                            |     square.                                   |                               |
-+--------------------------------------------+-----------------------------------------------+-------------------------------+
-| The length of the                          | 1.  The length of the                         | In mathematics                |
-| ***[perimeter]{style="color: red"}*** of   |     ***[circumference]{style="color: red"}*** | 'circumference' is the outer  |
-| the circle is $4\pi$ cm.                   |     of the circle is $4\pi$ cm.               | boundary of a circle, while   |
-|                                            |                                               | 'perimeter' means 'length of  |
-|                                            | 2.  The ***[perimeter]{style="color: red"}*** | the boundary'.                |
-|                                            |     of the circle is $4 \pi$ cm.              |                               |
-+--------------------------------------------+-----------------------------------------------+-------------------------------+
-:::
 
 ## Mathematical Induction
 
@@ -421,180 +332,12 @@ Mathematical induction is a widely used technique of proof in many
 branches of mathematics. Study the following proof. Can you point out
 all the problems in it?
 
-::: center
-:::
-
 There are close to ten errors in the proof. How many can you find?
-
-::: center
-                                                                                                                                                                                                                                               Comments
-  ----------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                                                                                                                                                                                                                                               Comments
-  Let $S(n)$ be the statement [ **for all positive integers** .]{style="color: red"}                          Let $S(n)$ be the statement []{style="color: red"}.                                                         $S(n)$ is a statement that depends on the value of $n$. We want to prove that $S(n)$ is true for all $n$.
-  []{style="color: red"}                                                                                      []{style="color: red"}                                                                                      We start adding from 1 and end at $n$. When $n=1$, there is only one term and we should not write '$+2$' at all.
-  [$$\begin{align*}                                                                                           [$$\begin{align*}                                                                                           When proving an equality, we do not simplify both sides simultaneously. We may either start from one side and reach the other, or simplify both sides separately to obtain the same value or expression.
-  \pmb{1+2+\cdots+1}&\pmb{=\dfrac{1(1+1)}2}\\ \pmb{1}&\pmb{=1}                                                \text{{\bf LHS}}&\pmb{=1}\\\text{{\bf RHS}}&\pmb{=\dfrac{1(1+1)}2=1}                                        
-  \end{align*}$$]{style="color: red"}                                                                         \end{align*}$$]{style="color: red"}                                                                         
-  Assume $S(k)$ is true for ***[all positive integers]{style="color: red"}*** $k$.                            Assume $S(k)$ is true for ***[some positive integer]{style="color: red"}*** $k$.                            '$S(k)$ is true for all $k$' is precisely the statement we need to prove, and therefore it does not make sense to assume $S(k)$ is true for all $k$.
-  ***[s.t.]{style="color: red"}*** $1+2+\cdots+k=\dfrac{k(k+1)}2~$.                                           ***[i.e.]{style="color: red"}*** $1+2+\cdots+k=\dfrac{k(k+1)}2~$.                                           Here we want to use the phrase 'that is' rather than 'such that', because we want to explain what we mean by $S(k)$ is true, rather than to talk about some consequences.
-  When []{style="color: red"}                                                                                 When []{style="color: red"}                                                                                 When we say 'when $n= \cdots$', we are discussing what happens under that particular value of $n$. Here we need to prove that $S(k+1)$ is true, so we cannot say 'when $S(k+1)$'.
-  []{style="color: red"}                                                                                      [$\text{{\bf LHS}} \pmb{=1+2+\cdots+(k+1)}$]{style="color: red"}                                            $S(k+1)$ is a statement and cannot be equal to $1+2+\cdots+(k+1)$.
-  Hence []{style="color: red"} is also true.                                                                  Hence []{style="color: red"} is also true.                                                                  Only a statement can be true or false. $S(k+1)$ is a statement, but $n=k+1$ is not a statement since $n$ and $k$ are dummy variables and we cannot say $n=k+1$ is true or false.
-  By the ***[principal]{style="color: red"}*** of mathematical induction, $P(n)$ is true for all $n\geq 2$.   By the ***[principle]{style="color: red"}*** of mathematical induction, $P(n)$ is true for all $n\geq 2$.   'Principal' is the head of a school and 'principle' is a general law or primary truth.
-:::
-
-## Functions and Calculus
-
-These errors are specific to the use of terminology in the concepts of
-functions, limits, differentiation and integration.
-
-::: center
-+---------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------+-------------------------------+
-|                                                                                 |                                                                                                                                |                      Comments |
-+:================================================================================+:===============================================================================================================================+:==============================+
-|                                                                                 |                                                                                                                                |                      Comments |
-+---------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------+-------------------------------+
-| $-1$ is not ***[the domain]{style="color: red"}*** of $\sqrt{x}$.               | 1.  $-1$ is not ***[in the domain]{style="color: red"}*** of $\sqrt{x}$.                                                       | 'Domain' is a set and the     |
-|                                                                                 |                                                                                                                                | intended meaning here is to   |
-|                                                                                 | 2.  $-1$ is not ***[an element of the domain]{style="color: red"}*** of $\sqrt{x}$.                                            | clarify whether $-1$ is an    |
-|                                                                                 |                                                                                                                                | element of this set.          |
-+---------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------+-------------------------------+
-| The ***[differentiation]{style="color: red"}*** of $x^2$ is $2x$.               | The ***[derivative]{style="color: red"}*** of $x^2$ is $2x$.                                                                   | 'Differentiation' is the      |
-|                                                                                 |                                                                                                                                | process of finding the        |
-|                                                                                 |                                                                                                                                | derivative.                   |
-+---------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------+-------------------------------+
-| To solve for the points of intersection of the graphs, we                       | To solve for the points of intersection of the graphs, we ***[set]{style="color: red"}*** $x+1=2x+3$.                          | 'Suppose' is used for         |
-| ***[suppose]{style="color: red"}*** $x+1=2x+3$.                                 |                                                                                                                                | assumption. In this example   |
-|                                                                                 |                                                                                                                                | there is no assumption;       |
-|                                                                                 |                                                                                                                                | rather we assign two          |
-|                                                                                 |                                                                                                                                | expressions to be equal to    |
-|                                                                                 |                                                                                                                                | find $x$.                     |
-+---------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------+-------------------------------+
-| The function $f(x)=3x$ is strictly increasing ***[in]{style="color: red"}***    | The function $f(x)=3x$ is strictly increasing ***[on]{style="color: red"}*** the interval $[0,1]$.                             | It is a mathematical          |
-| the interval $[0,1]$.                                                           |                                                                                                                                | convention to say 'on an      |
-|                                                                                 |                                                                                                                                | interval' rather than 'in an  |
-|                                                                                 |                                                                                                                                | interval'.                    |
-+---------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------+-------------------------------+
-| Let $f(x)=\sin x$. When []{style="color: red"}, we have []{style="color: red"}. | Let $f(x)=\sin x$. When []{style="color: red"}, we have []{style="color: red"}.                                                | The statement $\sin 0=0$ is   |
-|                                                                                 |                                                                                                                                | true regardless of what       |
-|                                                                                 |                                                                                                                                | happens to $f(0)$. Also,      |
-|                                                                                 |                                                                                                                                | there must be a condition     |
-|                                                                                 |                                                                                                                                | following the word 'when'.    |
-|                                                                                 |                                                                                                                                | For example, you could say    |
-|                                                                                 |                                                                                                                                | 'when $x$ is 2, the value of  |
-|                                                                                 |                                                                                                                                | $f(x)$ is 5'. But in the      |
-|                                                                                 |                                                                                                                                | example, $f(0)$ is not a      |
-|                                                                                 |                                                                                                                                | condition.                    |
-+---------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------+-------------------------------+
-| Note that $\ln(\sin 0)$ ***[has no solution]{style="color: red"}***.            | Note that $\ln(\sin 0)$ is ***[undefined]{style="color: red"}***.                                                              | We can only say that an       |
-|                                                                                 |                                                                                                                                | equation (with some sort of   |
-|                                                                                 |                                                                                                                                | variable) has no solution;    |
-|                                                                                 |                                                                                                                                | but here $\ln(\sin 0)$ is a   |
-|                                                                                 |                                                                                                                                | value (although undefined).   |
-+---------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------+-------------------------------+
-| The $(k+1)$-th derivative of $\sin x$ is                                        | The $(k+1)$-th derivative of $\sin x$ is                                                                                       | The notation in the first     |
-| $$\textcolor{red}{\pmb{\frac{d^kd}{dx^kx}}}(\sin x)=\frac{d^k}{dx^k}(\cos x).$$ | $$\textcolor{red}{\pmb{\frac{d^k}{dx^k}}}\left(\textcolor{red}{\pmb{\dfrac{d}{dx}}}(\sin x)\right)=\frac{d^k}{dx^k}(\cos x).$$ | example is wrong.             |
-+---------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------+-------------------------------+
-:::
 
 ## Linear Algebra
 
 These errors are specific to the use of terminology in the theory of
 matrices and vector spaces.
-
-::: center
-+----------------------------------------+------------------------------------------+-------------------------------+
-|                                        |                                          |                      Comments |
-+:=======================================+:=========================================+:==============================+
-|                                        |                                          |                      Comments |
-+----------------------------------------+------------------------------------------+-------------------------------+
-| The ***[second]{style="color: red"}*** | The                                      | It is unclear what the        |
-| entry of $A$ is 2.                     | ***[(1,2)-entry]{style="color: red"}***  | 'second' entry of a matrix is |
-|                                        | of $A$ is 2.                             | --- whether it is the second  |
-|                                        |                                          | element in the first row or   |
-|                                        |                                          | the first element in the      |
-|                                        |                                          | second row.                   |
-+----------------------------------------+------------------------------------------+-------------------------------+
-| Since $A$ is $3\times 4$ and $B$ is    | Since $A$ is $3\times 4$ and $B$ is      | Although not wrong, it is not |
-| $4\times 5$, the matrix                | $4\times 5$, the matrix                  | a common practice to denote   |
-| []{style="color: red"} is $3\times 5$. | []{style="color: red"} is $3\times 5$.   | the multiplication of         |
-|                                        |                                          | matrices using the '$\times$' |
-|                                        |                                          | sign. Most of the time no     |
-|                                        |                                          | symbol is used at all.        |
-+----------------------------------------+------------------------------------------+-------------------------------+
-| The ***[matrix]{style="color: red"}*** | The ***[entries of the                   | 'Positive' is used to         |
-| $A$ ***[is]{style="color: red"}***     | matrix]{style="color: red"}*** $A$       | describe real numbers.        |
-| positive.                              | ***[are]{style="color: red"}***          |                               |
-|                                        | positive.                                |                               |
-+----------------------------------------+------------------------------------------+-------------------------------+
-| ***[For the -entry of                  | 1.  ***[The -entry of                    | 'The $(2,3)$-entry of $A$'    |
-| ]{style="color: red"}*** $= 2+3 = 5$.  |     ]{style="color: red"}***             | can be equal to a number, but |
-|                                        |     $= 2+3 = 5$.                         | 'for the $(2,3)$-entry of     |
-|                                        |                                          | $A$' is a phrase and cannot   |
-|                                        | 2.  For the $(2,3)$-entry of $A$***[, it | be equal to a number.         |
-|                                        |     is equal to]{style="color: red"}***  |                               |
-|                                        |     $2+3=5$.                             |                               |
-+----------------------------------------+------------------------------------------+-------------------------------+
-| When $E$ is ***[a Type                 | 1.  When $E$ is ***[of Type              | 'Type III' is an adjective,   |
-| III]{style="color: red"}***, \...      |     III]{style="color: red"}***, \...    | so it should be followed by a |
-|                                        |                                          | noun, or we add the           |
-|                                        | 2.  When $E$ is ***[a Type III           | preposition 'of' beforehand.  |
-|                                        |     elementary                           |                               |
-|                                        |     matrix]{style="color: red"}***, \... |                               |
-+----------------------------------------+------------------------------------------+-------------------------------+
-| If ***[$A$ is rank                     | 1.  If ***[$A$ has rank                  | '$A$ is rank $3$' is not a    |
-| $3$]{style="color: red"}***, then it   |     $3$]{style="color: red"}***, then it | proper complete sentence.     |
-| must be invertible.                    |     must be invertible.                  |                               |
-|                                        |                                          |                               |
-|                                        | 2.  If ***[$A$ is of rank                |                               |
-|                                        |     $3$]{style="color: red"}***, then it |                               |
-|                                        |     must be invertible.                  |                               |
-|                                        |                                          |                               |
-|                                        | 3.  If ***[rank $A$                      |                               |
-|                                        |     $=3$]{style="color: red"}***, then   |                               |
-|                                        |     it must be invertible.               |                               |
-+----------------------------------------+------------------------------------------+-------------------------------+
-| We ***[solve]{style="color: red"}***   | 1.  We ***[find ]{style="color: red"}*** | We can 'solve' an equation    |
-| the characteristic                     |     the characteristic polynomial of $A$ | but not a polynomial.         |
-| ***[polynomial]{style="color: red"}*** |     as follows.                          |                               |
-| of $A$ as follows.                     |                                          |                               |
-|                                        | 2.  We solve the characteristic          |                               |
-|                                        |     ***[equation]{style="color: red"}*** |                               |
-|                                        |     of $A$ as follows.                   |                               |
-+----------------------------------------+------------------------------------------+-------------------------------+
-| The matrix $A$ is linearly independent | The ***[rows]{style="color: red"}*** of  | Linear independence refers to |
-| and so must be invertible.             | the matrix $A$ are linearly independent  | elements of a vector space    |
-|                                        | and so must be invertible.               | (e.g. row/column vectors).    |
-|                                        |                                          | The intended meaning here is  |
-|                                        |                                          | that the row vectors of $A$   |
-|                                        |                                          | (multiple objects) are        |
-|                                        |                                          | linearly independent, not the |
-|                                        |                                          | matrix $A$ itself (a single   |
-|                                        |                                          | object) being linearly        |
-|                                        |                                          | independent.                  |
-+----------------------------------------+------------------------------------------+-------------------------------+
-| Hence []{style="color: red"} is a      | Hence []{style="color: red"} is a basis. | A basis is a set of vectors   |
-| basis.                                 |                                          | in a vector space and         |
-|                                        |                                          | therefore must be expressed   |
-|                                        |                                          | as a set.                     |
-+----------------------------------------+------------------------------------------+-------------------------------+
-| Since $A$ has rank 2, we have          | Since $A$ has rank 2, we have            | $\mathop{\mathrm{Null}}A$     |
-| []{style="color: red"}.                | []{style="color: red"}.                  | refers to the null space of   |
-|                                        |                                          | $A$ and cannot be equal to a  |
-|                                        |                                          | number. What is equal to 3 is |
-|                                        |                                          | the dimension of its null     |
-|                                        |                                          | space (also called its        |
-|                                        |                                          | nullity).                     |
-+----------------------------------------+------------------------------------------+-------------------------------+
-| Since $A$ has rank 2, the              | Since $A$ has rank 2, the                | 'Null space' is not a matrix  |
-| ***[rank]{style="color: red"}*** of    | ***[dimension]{style="color: red"}*** of | and hence has no rank.        |
-| its null space is 3.                   | its null space is 3.                     |                               |
-+----------------------------------------+------------------------------------------+-------------------------------+
-| If a $3\times3$ matrix is invertible,  | If a $3\times3$ matrix is invertible,    | 'Rank' is already a number.   |
-| its ***[number of                      | its ***[rank]{style="color: red"}*** is  |                               |
-| rank]{style="color: red"}*** is 3.     | 3.                                       |                               |
-+----------------------------------------+------------------------------------------+-------------------------------+
-:::
 
 # Miscellaneous
 
@@ -604,16 +347,11 @@ It is important to write in a neat and legible manner. The following
 lists some frequently confused characters:
 
 - '$t$' vs '+'
-
 - '1' vs '$l$' vs 'I'  (in particular the natural logarithm is '$\ln$',
-  not 'In'!)
-
+  not '$\mathrm{In}$'!)
 - '$x$' vs '$\times$'
-
 - '$p$' vs '$\rho$'
-
 - '$a$' vs '$\alpha$' vs '2'
-
 - '0' vs '6' vs '$\sigma$'
 
 On a side note, Greek letters are extensively used by mathematicians (26
@@ -633,13 +371,7 @@ Also, there are certain expressions such as $\dfrac{1}{2x}$ and
 $\dfrac{1}{2}x$ which you need to distinguish carefully. Sometimes it
 also helps by writing with proper indentation. For example,
 
-::: center
-:::
-
 is more readable than
-
-::: center
-:::
 
 ## Avoiding Isolated Equations
 
