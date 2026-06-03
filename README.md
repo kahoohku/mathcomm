@@ -348,6 +348,7 @@ $1<3$. Likewise, '$=$' is transitive. However, '$\ne$' is not.
 
 | Wrong | Correct | Comments |
 | --- | --- | --- |
+| Since $\boldsymbol{a \neq b \neq c}$, we have... | {::nomarkdown}<ul><li>{:/} Since **$\boldsymbol{a \neq b}$, $\boldsymbol{b \neq c}$, and $\boldsymbol{a \neq c}$**, we have...{::nomarkdown}</li><li>{:/} Since **$\boldsymbol{a, b, c}$ are pairwise distinct**, we have... {::nomarkdown}</li></ul>{:/} | The wrong example intended to mean that all three values $a,b$ and $c$ are different but with the way it is written, $a$ and $c$ could be equal (for example consider $1\neq 2\neq1$). |
 
 ### Proper order
 
