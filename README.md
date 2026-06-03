@@ -141,8 +141,9 @@ following it.
 | Wrong | Correct | Comments |
 | --- | --- | --- |
 | Construct **a** $m \times n$ table. | Construct **an** $m \times n$ table | When the letters $m$ and $n$ are pronounced there is actually a vowel sound /e/ at the beginning of each letter. This means that the article 'an' should be used. |
-| <ul><li> By **binomial theorem**, we have... </li><li> By **the Pythagoras' Theorem**, $ABC$ is a right-angled triangle.</li></ul> | <ul><li> By **the binomial theorem**, we have... </li><li> By **Pythagoras' Theorem**, $ABC$ is a right-angled triangle.</li></ul> | When referring to a specific theorem (e.g. the Fundamental Theorem of Calculus) use 'the' (the definite article).  However, when referring to a theorem from a named person use the zero article. |
+| \<ul\>\<li\> By **binomial theorem**, we have... \</li\>\<li\> By **the Pythagoras' Theorem**, $ABC$ is a right-angled triangle.\</li\>\</ul\> | \<ul\>\<li\> By **the binomial theorem**, we have... \</li\>\<li\> By **Pythagoras' Theorem**, $ABC$ is a right-angled triangle.\</li\>\</ul\> | When referring to a specific theorem (e.g. the Fundamental Theorem of Calculus) use 'the' (the definite article).  However, when referring to a theorem from a named person use the zero article. |
 | By (a), **the $g$** is continuous. | <ul><li> By (a), **$g$** is continuous. </li><li> By (a), **the function $g$** is continuous. </li></ul> | When naming something with a letter (e.g. $g$) use the zero article. When using the noun function use the definite article (e.g. the function $g$). |
+| Let $x$ be **a positive** | Let $x$ be **positive** | Use the adjective form and not the noun form. |
 
 ### The difference between singular and plural
 
