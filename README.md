@@ -73,9 +73,7 @@ Here are a couple of examples, and how they may be modified:
 | Sentence starting with a small letter | How it may be modified |
 | --- | --- |
 | $p$ is not a prime number if it is divisible by 3 and greater than 3. | If the number $p$ is divisible by 3 and greater than 3, then it is not a prime number. |
-| $x^2+x+1=0$ has no real root     | The equation $x^2+x+1=0$ has no  |
-| since its discriminant is        | real root since its discriminant |
-| negative.                        | is negative                      |
+| $x^2+x+1=0$ has no real root since its discriminant is negative. | The equation $x^2+x+1=0$ has no real root since its discriminant is negative. |
 
 Some even suggest that we should never start a sentence with a symbol or
 a variable, even if that is in capital letter. In that case similar
@@ -85,8 +83,7 @@ modifications as above may be applied.
 
 We often separate variables by commas, for instance
 
-- Let $a$, $b$, $c$ be positive real numbers. Then
-  $\dfrac{a+b+c}3\ge\sqrt[3]{abc}$.
+- Let $a$, $b$, $c$ be positive real numbers. Then $\dfrac{a+b+c}3\ge\sqrt[3]{abc}$.
 
 However, consider the following sentence:
 
@@ -141,48 +138,14 @@ indefinite article 'a/an' should be used instead. Whether 'a' or 'an'
 should be used depends on the pronunciation of the word or letter
 following it.
 
-::: center
-+--------------------------------------+-----------------------------------------------+-------------------------------+
-|                                      |                                               |                      Comments |
-+:=====================================+:==============================================+:==============================+
-| Construct                            | Construct ***[an]{style="color: red"}***      | When the letters *m* and *n*  |
-| ***[a]{style="color: red"}***        | $m\times n$ table.                            | are pronounced there is       |
-| $m\times n$ table.                   |                                               | actually a vowel sound /e/ at |
-|                                      |                                               | the beginning of each letter. |
-|                                      |                                               | This means that the article   |
-|                                      |                                               | 'an' should be used.          |
-+--------------------------------------+-----------------------------------------------+-------------------------------+
-| 1.  By ***[binomial                  | 1.  By ***[the binomial                       | When referring to a specific  |
-|     theorem]{style="color: red"}***, |     theorem]{style="color: red"}***, we       | theorem (e.g. the Fundamental |
-|     we have\...                      |     have\...                                  | Theorem of Calculus) use      |
-|                                      |                                               | 'the' (the definite article). |
-| 2.  By ***[the Pythagoras'           | 2.  By ***[Pythagoras'                        | However, when referring to a  |
-|     Theorem]{style="color: red"}***, |     Theorem]{style="color: red"}***, $ABC$ is | theorem from a named person   |
-|     $ABC$ is a right-angled          |     a right-angled triangle.                  | use the zero article.         |
-|     triangle.                        |                                               |                               |
-+--------------------------------------+-----------------------------------------------+-------------------------------+
-| By (a), ***[the                      | 1.  By (a), ***[g]{style="color: red"}*** is  | When naming something with a  |
-| g]{style="color: red"}*** is         |     continuous.                               | letter (e.g. $g$) use the     |
-| continuous.                          |                                               | zero article. When using the  |
-|                                      | 2.  By (a), ***[the function                  | noun function use the         |
-|                                      |     g]{style="color: red"}*** is continuous.  | definite article (e.g. the    |
-|                                      |                                               | function $g$).                |
-+--------------------------------------+-----------------------------------------------+-------------------------------+
-| 1.  Let $x$ be ***[non-negative      | 1.  Let $x$ be ***[a non-negative             | When using the phrase         |
-|     number]{style="color: red"}***.  |     number]{style="color: red"}***.           | 'negative' or 'non-negative   |
-|                                      |                                               | number' use the indefinite    |
-| 2.  Let $x$ be ***[the non-negative  | 2.  Let $x$ be                                | article because 'a' means any |
-|     number]{style="color: red"}***.  |     ***[non-negative]{style="color: red"}***. | number. When using            |
-|                                      |                                               | 'non-negative' as an          |
-|                                      |                                               | adjective then use the zero   |
-|                                      |                                               | article.                      |
-+--------------------------------------+-----------------------------------------------+-------------------------------+
-| Let $x$ be ***[a                     | Let $x$ be                                    | Use the adjective form and    |
-| positive]{style="color: red"}***.    | ***[positive]{style="color: red"}***.         | not the noun form.            |
-+--------------------------------------+-----------------------------------------------+-------------------------------+
-:::
-
- 
+| Wrong | Correct | Comments |
+| --- | --- | --- |
+| Construct **a** $m \times n$ table. | Construct **an** $m \times n$ table | When the letters $m$ and $n$ are pronounced there is actually a vowel sound /e/ at the beginning of each letter. This means that the article 'an' should be used. |
+| <ul><li> By **binomial theorem**, we have...  </li>
+<li> By **the Pythagoras' Theorem**, $ABC$ is a right-angled triangle.</li> </ul> |
+<ul><li> By **the binomial theorem**, we have...  </li>
+<li> By **Pythagoras' Theorem**, $ABC$ is a right-angled triangle.</li> </ul> |
+When referring to a specific theorem (e.g. the Fundamental Theorem of Calculus) use 'the' (the definite article).  However, when referring to a theorem from a named person use the zero article. |
 
 ### The difference between singular and plural
 
