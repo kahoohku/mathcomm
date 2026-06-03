@@ -155,6 +155,12 @@ one.
 
 | Wrong | Correct | Comments |
 | --- | --- | --- |
+| Throwing two fair **dices** once, we have $6 \times 6 = 36$ different possible outcomes. | Throwing two fair **dice** once, we have $6 \times 6 = 36$ different possible outcomes. | The singular form is 'die', the plural form is 'dice' (without 's'). In modern English sometimes 'dice' is also accepted as the singular form. |
+| **Every square are rectangles** | {::nomarkdown}<ul><li>{:/} Every square **is a rectangle**. {::nomarkdown}</li><li>{:/} **All squares** are rectangles. {::nomarkdown}</li></ul>{:/} | {::nomarkdown}<ul><li>{:/} Every $+$ singular form of noun. {::nomarkdown}</li><li>{:/} All $+$ plural form of noun. {::nomarkdown}</li></ul>{:/} |
+| Assume $P(k)$ is true for some positive **integers** $k$, i.e. $k(k+1)$ is divisible by 2. | Assume $P(k)$ is true for some positive **integer** $k$, i.e. $k(k+1)$ is divisible by 2. | There is only one integer here (namely $k$); therefore it should be in singular form. |
+| Let $A$ be a square **matrice**. | Let $A$ be a square **matrix**. | 'Matrices' is the plural form of 'matrix'. |
+| Let $A$ be the **vertice** of the pyramid. | Let $A$ be the **vertex** of the pyramid. | 'Vertices' is the plural form of 'vertex'. |
+| $(0,0)$ is the only local **maxima**. | $(0,0)$ is the only local **maximum**. | 'Maxima' is the plural form of 'maximum'. |
 
 ### The different verb forms
 
