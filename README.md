@@ -169,6 +169,11 @@ be aware of which ones are correct and which ones are wrong.
 
 | Wrong | Correct | Comments |
 | --- | --- | --- |
+| {::nomarkdown}<ul><li>{:/} There **exists** real numbers $m$ and $n$ such that $m>n$. {::nomarkdown}</li><li>{:/} There **exist** a real number $m$ such that $m>1$. {::nomarkdown}</li></ul>{:/} | {::nomarkdown}<ul><li>{:/} There **exist** real numbers $m$ and $n$ such that $m>n$. {::nomarkdown}</li><li>{:/} There **exists** a real number $m$ such that $m>1$. {::nomarkdown}</li></ul>{:/} | Make sure the subject agrees with the verb. Whether to use 'exists' or 'exist' depends on whether the noun that follows is in singular or plural form. |
+| There **exist** no integer $k$ such that $3k=2$. | There **exists** no integer $k$ such that $3k=2$. | 'Integer' in this example is singular. |
+| **Replace** $a$ by $-a$, we have $f(-a)=(-a)^2=a^2=f(a)$. | {::nomarkdown}<ul><li>{:/} **Replacing** $a$ by $-a$, we have $f(-a)=(-a)^2=a^2=f(a)$. {::nomarkdown}</li><li>{:/} **If we replace** $a$ by $-a$, we have $f(-a)=(-a)^2=a^2=f(a)$. {::nomarkdown}</li></ul>{:/} | 'Replacing' has the same meaning as 'If we replace'; '-ing' clauses can go at the beginning of a sentence and are a dependent clause. |
+| Hence we get $x<0$, **contradicts to** (1). | {::nomarkdown}<ul><li>{:/} Hence we get $x<0$, **which contradicts** (1). {::nomarkdown}</li><li>{:/} Hence we get $x<0$, **which is a contradiction to** (1). {::nomarkdown}</li></ul>{:/} | The verb form 'contradict' does not have a dependent preposition, i.e. 'contradict something'. The noun form 'contradiction' does have a dependent preposition 'to'. The relevant phrase is 'which is a contradiction to'. |
+| Thus **contradiction** | {::nomarkdown}<ul><li>{:/} Thus **a contradiction occurs**. {::nomarkdown}</li><li>{:/} Thus **there is a contradiction**. {::nomarkdown}</li></ul>{:/} | |
 
 ### Verb-to-be and verb-to-do
 
