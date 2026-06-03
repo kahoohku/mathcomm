@@ -235,7 +235,7 @@ will be dealt with in the later section on [the use of terminology](#s:term).
 | Wrong | Correct | Comments |
 | --- | --- | --- |
 | A prime number is a natural number that has no positive factors other than 1 and itself. **For instance**, if $k$ is a natural number and $k=pq$, where both $p,q>1$, then $k$ is not a prime number. | A prime number is a natural number that has no positive factors other than 1 and itself (**for instance**, 2 is a prime number). **In other words**, if $k$ is a natural number and $k=pq$ with $p,q> 1$, then $k$ is not a prime. | 'In other words' is used to introduce an explanation or clarification of an idea or concept. 'For instance' is used to give an example of the idea or concept. |
-| {::nomarkdown}<ul><li>{:/} Therefore $x$ is rational, **e.g.** $x=\dfrac{p}{q}$ for some integers $p$ and $q$. {::nomarkdown}</li><li>{:/} Let $\lceil x \rceil$ be the least integer greater than or equal to $x$, **i.e.** $\lceil \pi \rceil=4$. {::nomarkdown}</li></ul>{:/} | {::nomarkdown}<ul><li>{:/} Therefore $x$ is rational, **i.e.** $x=\dfrac{p}{q}$ for some integers $p$ and $q$. {::nomarkdown}</li><li>{:/} Let $\lceil x \rceil$ be the least integer greater than or equal to $x$, **e.g.** $\lceil \pi \rceil=4$. {::nomarkdown}</li></ul>{:/} | 'e.g.' (from the Latin phrase *exempli gratia*) means 'for example'; whereas 'i.e.' (from the Latin phrase *id est*) means 'that is'. The former uses an example to illustrate a concept, while the latter gives an alternative explanation. |
+| {::nomarkdown}<ul><li>{:/} Therefore $x$ is rational, **e.g.** $x=p/q$ for some integers $p$ and $q$. {::nomarkdown}</li><li>{:/} Let $\lceil x \rceil$ be the least integer greater than or equal to $x$, **i.e.** $\lceil \pi \rceil=4$. {::nomarkdown}</li></ul>{:/} | {::nomarkdown}<ul><li>{:/} Therefore $x$ is rational, **i.e.** $x=p/q$ for some integers $p$ and $q$. {::nomarkdown}</li><li>{:/} Let $\lceil x \rceil$ be the least integer greater than or equal to $x$, **e.g.** $\lceil \pi \rceil=4$. {::nomarkdown}</li></ul>{:/} | 'e.g.' (from the Latin phrase *exempli gratia*) means 'for example'; whereas 'i.e.' (from the Latin phrase *id est*) means 'that is'. The former uses an example to illustrate a concept, while the latter gives an alternative explanation. |
 
 ### Other lexical errors
 
@@ -278,6 +278,11 @@ Some words are often misused in mathematical writing.
 
 | Wrong | Correct | Comments |
 | --- | --- | --- |
+| Rotate $\triangle ABC$ **clockwisely** by $90^\circ$. | Rotate $\triangle ABC$ **clockwise** by $90^\circ$. | 'Clockwise' is already an adverb. The word 'clockwisely' does not exist. |
+| The numbers $a$, $b$ and $c$ are **pairwisely** different. | The numbers $a$, $b$ and $c$ are **pairwise** different. | Again, the word 'pairwisely' does not exist. |
+| Here is a **counter example**. | Here is a **counterexample**. | Here 'counter' is not a word, but rather a prefix attached to 'example' meaning 'the opposite'. |
+| Let $x$ be a **non zero** number. | Let $x$ be a **nonzero** number. | Again, 'non' is not a word, but rather a prefix attached to 'zero' meaning 'not'. |
+| From this we **deduct** that the equation has no solution. | From this we **deduce** that the equation has no solution. | Although 'deduction' is the noun for both the verbs 'deduct' and 'deduce', the two verbs have different meanings. 'Deduct' means 'subtract', while 'deduce' means 'draw a logical conclusion'. |
 
 ### Use of linking verbs and punctuation
 
@@ -291,6 +296,11 @@ properly link the phrases together.
 
 | Wrong | Correct | Comments |
 | --- | --- | --- |
+| If $x>0$**.Then** $2x>0$. | If $x>0$**, then** $2x>0$. | When using 'if' for assumption, always follow it up with something in the same sentence. 'If $x>0$' is not a complete sentence. |
+| When $x>0$**.Then** $2x>0$. | When $x>0$**, ** $2x>0$. | Same as using 'if', when using 'when' for assumption, always follow it up with something in the same sentence. 'When $x>0$' is not a complete sentence. |
+| Since $x$ is non-negative**.We** have $x+1>0$. | Since $x$ is non-negative**, we** have $x+1>0$. | 'Since' is used to join dependent clauses to independent clauses and therefore must go in sentences which have two clauses. 'Since $x$ is non-negative' is not a complete sentence. |
+| Let $x$ be non-negative**, then** $x+1>0$. | Let $x$ be non-negative**. Then** $x+1>0$. | When using 'let' and 'then' to list steps of proofs use two sentences, one for each step. |
+| Suppose $x$ is non-negative**, then** have $x+1>0$. | Suppose $x$ is non-negative**. Then** have $x+1>0$. | When using 'suppose' and 'then' to list steps of proofs use two sentences. |
 
 ### Spelling
 
