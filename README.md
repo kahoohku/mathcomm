@@ -48,7 +48,7 @@ divided into several sentences. Each sentence is a *complete sentence*.
 There can be equations and mathematical symbols, but still they form a
 complete sentence when properly read. Some examples are as follows.
 
-| | How it is read as a complete sentence |
+| Sentence containing equations and mathematical symbols | How it is read as a complete sentence |
 | --- | --- |
 | Hence $x+1>3$. | Hence $x$ plus 1 is greater than 3. |
 | Since $x>2$, it follows that $x^2+3x>2^2+3(2)=10$. | Since $x$ is greater than 2, it follows that $x$ squared plus three $x$ is greater than two squared plus three times two which is equal to 10. |
