@@ -296,11 +296,11 @@ properly link the phrases together.
 
 | Wrong | Correct | Comments |
 | --- | --- | --- |
-| If $x>0$**.Then** $2x>0$. | If $x>0$**, then** $2x>0$. | When using 'if' for assumption, always follow it up with something in the same sentence. 'If $x>0$' is not a complete sentence. |
-| When $x>0$**.Then** $2x>0$. | When $x>0$**, ** $2x>0$. | Same as using 'if', when using 'when' for assumption, always follow it up with something in the same sentence. 'When $x>0$' is not a complete sentence. |
-| Since $x$ is non-negative**.We** have $x+1>0$. | Since $x$ is non-negative**, we** have $x+1>0$. | 'Since' is used to join dependent clauses to independent clauses and therefore must go in sentences which have two clauses. 'Since $x$ is non-negative' is not a complete sentence. |
+| If $x>0$**. Then** $2x>0$. | If $x>0$**, then** $2x>0$. | When using 'if' for assumption, always follow it up with something in the same sentence. 'If $x>0$' is not a complete sentence. |
+| When $x>0$**. Then** $2x>0$. | When $x>0$**,** $2x>0$. | Same as using 'if', when using 'when' for assumption, always follow it up with something in the same sentence. 'When $x>0$' is not a complete sentence. |
+| Since $x$ is non-negative**. We** have $x+1>0$. | Since $x$ is non-negative**, we** have $x+1>0$. | 'Since' is used to join dependent clauses to independent clauses and therefore must go in sentences which have two clauses. 'Since $x$ is non-negative' is not a complete sentence. |
 | Let $x$ be non-negative**, then** $x+1>0$. | Let $x$ be non-negative**. Then** $x+1>0$. | When using 'let' and 'then' to list steps of proofs use two sentences, one for each step. |
-| Suppose $x$ is non-negative**, then** have $x+1>0$. | Suppose $x$ is non-negative**. Then** have $x+1>0$. | When using 'suppose' and 'then' to list steps of proofs use two sentences. |
+| Suppose $x$ is non-negative**, then** we have $x+1>0$. | Suppose $x$ is non-negative**. Then** we have $x+1>0$. | When using 'suppose' and 'then' to list steps of proofs use two sentences. |
 
 ### Spelling
 
