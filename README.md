@@ -332,6 +332,7 @@ sides are indeed equal.
 
 | Wrong | Correct | Comments |
 | --- | --- | --- |
+| By first principles, the derivative of $x^2$ is $$\begin{align*} \lim_{h\to0} \frac{f(x+h)-f(x)}h \\ \boldsymbol{={}}& \boldsymbol{\lim_{h\to0} \frac{(x^2+2xh+h^2) - x^2}h} \\ ={}& 2x. \end{align*}$$ | By first principles, the derivative of $x^2$ is $$\begin{align*} \lim_{h\to0} \frac{f(x+h)-f(x)}h \\ \boldsymbol{={}}& \boldsymbol{\lim_{h\to0} \frac{(x^2+2xh+h^2) - x^2}h} \\ ={}& 2x. \end{align*}$$ | The answer is correct but it is wrong to omit the limits in the working out. As the argument stands Line 1 and Line 2 in the wrong example are surely not equal (neither do Line 2 and Line 3). |
 
 ### Non-transitivity of $\ne$
 
