@@ -183,6 +183,9 @@ in English as well as mathematical writing.
 
 | Wrong | Correct | Comments |
 | --- | --- | --- |
+| {::nomarkdown}<ul><li>{:/} **It is** a rational number between 1 and 2. {::nomarkdown}</li><li>{:/} **There has** a rational number between 1 and 2. {::nomarkdown}</li></ul>{:/} | **There is** a rational number between 1 and 2. | The phrase 'there is' is usually used to introduce new information (which does not refer back to previous information); when we say 'it is' there should be something (in this example a rational number) introduced before. 'There has' is a grammatical mistake; always use 'there is/are' (the verb-to-be). |
+| A real number $x$ whose square is negative **is not exist**. | A real number $x$ whose square is negative **does not exist**. | Use the auxiliary verb 'do' to form the negative. |
+| This sequence **is not converge**. | {::nomarkdown}<ul><li>{:/} This sequence **does not converge**. {::nomarkdown}</li><li>{:/} This sequence **is not convergent**. {::nomarkdown}</li></ul>{:/} | {::nomarkdown}<ul><li>{:/} Use the auxiliary verb 'do' to form the negative. {::nomarkdown}</li><li>{:/} Use the adjective form (convergent) when using the verb-to-be. {::nomarkdown}</li></ul>{:/} |
 
 ### Converting between different word forms
 
