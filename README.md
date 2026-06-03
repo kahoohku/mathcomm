@@ -153,91 +153,10 @@ corresponding quantity. If there are more than one object, the plural
 form is required; whereas the singular form is used if there is only
 one.
 
-::: center
-+--------------------------------------+----------------------------------------+-------------------------------+
-|                                      |                                        |                      Comments |
-+:=====================================+:=======================================+:==============================+
-|                                      |                                        |                      Comments |
-+--------------------------------------+----------------------------------------+-------------------------------+
-| Throwing two fair                    | Throwing two fair                      | The singular form is 'die',   |
-| ***[dices]{style="color: red"}***    | ***[dice]{style="color: red"}*** once, | the plural form is 'dice'     |
-| once, we have $6 \times 6 = 36$      | we have $6 \times 6 = 36$ different    | (without 's'). In modern      |
-| different possible outcomes.         | possible outcomes.                     | English sometimes 'dice' is   |
-|                                      |                                        | also accepted as the singular |
-|                                      |                                        | form.                         |
-+--------------------------------------+----------------------------------------+-------------------------------+
-| ***[Every square are                 | 1.  Every square ***[is a              | 1.  Every + singular form of  |
-| rectangles]{style="color: red"}***.  |     rectangle]{style="color: red"}***. |     noun.                     |
-|                                      |                                        |                               |
-|                                      | 2.  ***[All                            | 2.  All + plural form of      |
-|                                      |     squares]{style="color: red"}***    |     noun.                     |
-|                                      |     are rectangles.                    |                               |
-+--------------------------------------+----------------------------------------+-------------------------------+
-| Assume $P(k)$ is true for some       | Assume $P(k)$ is true for some         | There is only one integer     |
-| positive                             | positive                               | here (namely $k$); therefore  |
-| ***[integers]{style="color: red"}*** | ***[integer]{style="color: red"}***    | it should be in singular      |
-| $k$, i.e. $k(k+1)$ is divisible by   | $k$, i.e. $k(k+1)$ is divisible by 2.  | form.                         |
-| 2.                                   |                                        |                               |
-+--------------------------------------+----------------------------------------+-------------------------------+
-| Let $A$ be a square                  | Let $A$ be a square                    | 'Matrices' is the plural form |
-| ***[matrice]{style="color: red"}***. | ***[matrix]{style="color: red"}***.    | of 'matrix'.                  |
-+--------------------------------------+----------------------------------------+-------------------------------+
-| Let $A$ be the                       | Let $A$ be the                         | 'Vertices' is the plural form |
-| ***[vertice]{style="color: red"}***  | ***[vertex]{style="color: red"}*** of  | of 'vertex'.                  |
-| of the pyramid.                      | the pyramid.                           |                               |
-+--------------------------------------+----------------------------------------+-------------------------------+
-| $(0,0)$ is the only local            | $(0,0)$ is the only local              | 'Maxima' is the plural form   |
-| ***[maxima]{style="color: red"}***.  | ***[maximum]{style="color: red"}***.   | of 'maximum'.                 |
-+--------------------------------------+----------------------------------------+-------------------------------+
-:::
-
 ### The different verb forms
 
 Similar to nouns, most verbs have more than one forms, and you need to
 be aware of which ones are correct and which ones are wrong.
-
-::: center
-+--------------------------------------------+--------------------------------------------+-------------------------------+
-|                                            |                                            |                      Comments |
-+:===========================================+:===========================================+:==============================+
-|                                            |                                            |                      Comments |
-+--------------------------------------------+--------------------------------------------+-------------------------------+
-| 1.  There                                  | 1.  There                                  | Make sure the subject agrees  |
-|     ***[exists]{style="color: red"}***     |     ***[exist]{style="color: red"}*** real | with the verb. Whether to use |
-|     real numbers $m$ and $n$ such that     |     numbers $m$ and $n$ such that $m>n$.   | 'exists' or 'exist' depends   |
-|     $m>n$.                                 |                                            | on whether the noun that      |
-|                                            | 2.  There                                  | follows is in singular or     |
-| 2.  There                                  |     ***[exists]{style="color: red"}*** a   | plural form.                  |
-|     ***[exist]{style="color: red"}*** a    |     real number $m$ such that $m>1$.       |                               |
-|     real number $m$ such that $m>1$.       |                                            |                               |
-+--------------------------------------------+--------------------------------------------+-------------------------------+
-| There ***[exist]{style="color: red"}*** no | There ***[exists]{style="color: red"}***   | 'Integer' in this example is  |
-| integer $k$ such that $3k=2$.              | no integer $k$ such that $3k=2$.           | singular.                     |
-+--------------------------------------------+--------------------------------------------+-------------------------------+
-| ***[Replace]{style="color: red"}*** $a$ by | 1.  ***[Replacing]{style="color: red"}***  | 'Replacing' has the same      |
-| $-a$, we have $f(-a)=(-a)^2=a^2=f(a)$.     |     $a$ by $-a$, we have                   | meaning as 'If we replace';   |
-|                                            |     $f(-a)=(-a)^2=a^2=f(a)$.               | '-ing' clauses can go at the  |
-|                                            |                                            | beginning of a sentence and   |
-|                                            | 2.  ***[If we                              | are a dependent clause.       |
-|                                            |     replace]{style="color: red"}*** $a$ by |                               |
-|                                            |     $-a$, we have $f(-a)=(-a)^2=a^2=f(a)$. |                               |
-+--------------------------------------------+--------------------------------------------+-------------------------------+
-| Hence we get $x<0$, ***[contradicts        | 1.  Hence we get $x<0$, ***[which          | The verb form 'contradict'    |
-| to]{style="color: red"}*** (1).            |     contradicts]{style="color: red"}***    | does not have a dependent     |
-|                                            |     (1).                                   | preposition, i.e. 'contradict |
-|                                            |                                            | something'. The noun form     |
-|                                            | 2.  Hence we get $x<0$, ***[which is a     | 'contradiction' does have a   |
-|                                            |     contradiction                          | dependent preposition 'to'.   |
-|                                            |     to]{style="color: red"}*** (1).        | The relevant phrase is 'which |
-|                                            |                                            | is a contradiction to'.       |
-+--------------------------------------------+--------------------------------------------+-------------------------------+
-| Thus                                       | 1.  Thus ***[a contradiction               | In the wrong version there is |
-| ***[contradiction]{style="color: red"}***. |     occurs]{style="color: red"}***.        | no verb form in the sentence. |
-|                                            |                                            | The two correct sentences     |
-|                                            | 2.  Thus ***[there is a                    | contain a verb.               |
-|                                            |     contradiction]{style="color: red"}***. |                               |
-+--------------------------------------------+--------------------------------------------+-------------------------------+
-:::
 
 ### Verb-to-be and verb-to-do
 
@@ -245,113 +164,11 @@ Two of the most frequently used verbs in English are the verb-to-be and
 the verb-to-do. They are also two of the most frequently misused verbs
 in English as well as mathematical writing.
 
-::: center
-+-----------------------------------+-----------------------------------------+-------------------------------+
-|                                   |                                         |                      Comments |
-+:==================================+:========================================+:==============================+
-| 1.  ***[It                        | ***[There is]{style="color: red"}*** a  | The phrase 'there is' is      |
-|     is]{style="color: red"}*** a  | rational number between 1 and 2.        | usually used to introduce new |
-|     rational number between 1 and |                                         | information (which does not   |
-|     2.                            |                                         | refer back to previous        |
-|                                   |                                         | information); when we say 'it |
-| 2.  ***[There                     |                                         | is' there should be something |
-|     has]{style="color: red"}*** a |                                         | (in this example a rational   |
-|     rational number between 1 and |                                         | number) introduced before.    |
-|     2.                            |                                         | 'There has' is a grammatical  |
-|                                   |                                         | mistake; always use 'there    |
-|                                   |                                         | is/are' (the verb-to-be).     |
-+-----------------------------------+-----------------------------------------+-------------------------------+
-| A real number $x$ whose square is | A real number $x$ whose square is       | Use the auxiliary verb 'do'   |
-| negative ***[is not               | negative ***[does not                   | to form the negative.         |
-| exist]{style="color: red"}***.    | exist]{style="color: red"}***.          |                               |
-+-----------------------------------+-----------------------------------------+-------------------------------+
-| This sequence ***[is not          | 1.  This sequence ***[does not          | 1.  Use the auxiliary verb    |
-| converge]{style="color: red"}***. |     converge]{style="color: red"}***.   |     'do' to form the          |
-|                                   |                                         |     negative.                 |
-|                                   | 2.  This sequence ***[is not            |                               |
-|                                   |     convergent]{style="color: red"}***. | 2.  Use the adjective form    |
-|                                   |                                         |     (convergent) when using   |
-|                                   |                                         |     the verb-to-be.           |
-+-----------------------------------+-----------------------------------------+-------------------------------+
-:::
-
- \
-
 ### Converting between different word forms
 
 Most words can be changed slightly to convert from one word form to
 another, such as *converge* (verb) and *convergent* (adjective). You
 have to be aware of the differences between the different word forms.
-
-::: center
-+----------------------------------------------+---------------------------------------------+-------------------------------+
-|                                              |                                             |                      Comments |
-+:=============================================+:============================================+:==============================+
-|                                              |                                             |                      Comments |
-+----------------------------------------------+---------------------------------------------+-------------------------------+
-| 1.  ***[Besides from]{style="color: red"}*** | ***[Besides]{style="color: red"}***         | In this sentence 'besides' is |
-|     completing the square, we can use        | completing the square, we can use           | used in a dependent clause,   |
-|     differentiation to find the minimum      | differentiation to find the minimum value   | and should be followed by the |
-|     value of $x^2-4x+8$.                     | of $x^2-4x+8$.                              | â-ing form of the verb.       |
-|                                              |                                             |                               |
-| 2.  ***[Beside]{style="color: red"}***       |                                             |                               |
-|     completing the square, we can use        |                                             |                               |
-|     differentiation to find the minimum      |                                             |                               |
-|     value of $x^2-4x+8$.                     |                                             |                               |
-+----------------------------------------------+---------------------------------------------+-------------------------------+
-| 1.  The total                                | 1.  The total                               | The noun form and the verb    |
-|     ***[increasement]{style="color: red"}*** |     ***[increase]{style="color: red"}*** in | form are the same             |
-|     in surface area is 6 cm$^2$.             |     surface area is 6 cm$^2$.               | ('increase'), albeit          |
-|                                              |                                             | pronounced differently. The   |
-| 2.  The surface area                         | 2.  The surface area ***[increases          | word 'increasement' does not  |
-|     ***[increases]{style="color: red"}*** 6  |     by]{style="color: red"}*** 6 cm$^2$.    | exist. But in the verb form   |
-|     cm$^2$.                                  |                                             | 'increase' is followed by the |
-|                                              |                                             | dependent preposition 'by',   |
-|                                              |                                             | i.e. 'increase by an amount'. |
-+----------------------------------------------+---------------------------------------------+-------------------------------+
-| The ***[maximal]{style="color: red"}***      | The                                         | The adjective form of the     |
-| possible value of $f(x)$ is 3.               | ***[maximum/largest]{style="color: red"}*** | noun 'maximum' is the same    |
-|                                              | possible value of $f(x)$ is 3.              | (maximum). In this example    |
-|                                              |                                             | the superlative 'largest' can |
-|                                              |                                             | also be used'. 'Maximal' has  |
-|                                              |                                             | a slightly different meaning  |
-|                                              |                                             | in mathematics.               |
-+----------------------------------------------+---------------------------------------------+-------------------------------+
-| The ***[slanted]{style="color: red"}***      | The ***[slant]{style="color: red"}***       | 'Slant height' is a compound  |
-| height of the cone is 10 cm.                 | height of the cone is 10 cm.                | noun (two nouns combined)     |
-|                                              |                                             | like 'traffic light'.         |
-+----------------------------------------------+---------------------------------------------+-------------------------------+
-| The function $y=x^2$                         | The function $y=x^2$ ***[is                 | 'Concave' is an adjective     |
-| ***[concaves]{style="color: red"}*** upward. | concave]{style="color: red"}*** upward.     | rather than a verb.           |
-+----------------------------------------------+---------------------------------------------+-------------------------------+
-| ***[For every]{style="color: red"}***        | ***[Every]{style="color: red"}*** rational  | When using this phrase only   |
-| rational number $x$, ***[can                 | number $x$ ***[can                          | use one clause. The phrase    |
-| be]{style="color: red"}*** written as        | be]{style="color: red"}*** written as       | 'every rational number $x$'   |
-| $x=\dfrac{p}{q}$.                            | $x=\dfrac{p}{q}$.                           | is the subject of this        |
-|                                              |                                             | clause.                       |
-+----------------------------------------------+---------------------------------------------+-------------------------------+
-| One plus one ***[equals                      | 1.  One plus one                            | This is a confusion between   |
-| to]{style="color: red"}*** two.              |     ***[equals]{style="color: red"}*** two. | the verb form and adjective   |
-|                                              |                                             | form. The verb form does not  |
-|                                              | 2.  One plus one ***[is equal               | have a dependent preposition. |
-|                                              |     to]{style="color: red"}*** two.         |                               |
-+----------------------------------------------+---------------------------------------------+-------------------------------+
-| 1.  The                                      | 1.  The ***[following                       | 'The following' is used in    |
-|     ***[followings]{style="color: red"}***   |     statements]{style="color: red"}*** are  | phrases such as 'we have the  |
-|     are equivalent.                          |     equivalent.                             | following'. 'As follows' is   |
-|                                              |                                             | used in phrases such as 'the  |
-| 2.  The possible values of $x$ are ***[as    | 2.  The possible values of $x$ are ***[as   | properties/values/results are |
-|     follow]{style="color: red"}***:          |     follows]{style="color: red"}***:        | as follows'. In the incorrect |
-|                                              |                                             | example 'follow' is used in   |
-| 3.  The result ***[is                        | 3.  The result                              | passive voice which means     |
-|     followed]{style="color: red"}***.        |     ***[follows]{style="color: red"}***.    | followed by something. In the |
-|                                              |                                             | correct examples 'follow' is  |
-|                                              |                                             | used in the active voice      |
-|                                              |                                             | because after this expression |
-|                                              |                                             | comes the evidence for the    |
-|                                              |                                             | result(s).                    |
-+----------------------------------------------+---------------------------------------------+-------------------------------+
-:::
 
 ## Lexical Errors
 
@@ -364,127 +181,18 @@ not mean exactly what the author wants to convey.\
 The wordings in the following examples can be slightly revised so that
 it reads more smoothly.
 
-::: center
-+--------------------------------------+----------------------------------------+-------------------------------+
-|                                      |                                        |                      Comments |
-+:=====================================+:=======================================+:==============================+
-|                                      |                                        |                      Comments |
-+--------------------------------------+----------------------------------------+-------------------------------+
-| 1.  Let $x$                          | 1.  Let $x$                            | 'Let' is used with a bare     |
-|     ***[is]{style="color: red"}***   |     ***[be]{style="color: red"}***     | infinitive form of a verb in  |
-|     non-negative.                    |     non-negative.                      | the first example. In the     |
-|                                      |                                        | second and third examples the |
-| 2.  Let ***[a prime number be        | 2.  Let ***[x be a prime               | convention is 'let + $x, y,$  |
-|     x]{style="color: red"}***.       |     number]{style="color: red"}***.    | etc + be + the value which is |
-|                                      |                                        | assigned to $x,y$, etc' .     |
-| 3.  Let ***[the width of the         | 3.  Let ***[y be the width of the      |                               |
-|     rectangle be                     |     rectangle]{style="color: red"}***. |                               |
-|     y]{style="color: red"}***.       |                                        |                               |
-+--------------------------------------+----------------------------------------+-------------------------------+
-| Since the divisor $(x-1)(x-2)$ is of | Since the divisor $(x-1)(x-2)$ is of   | The description of the value  |
-| degree 2, ***[1 is the maximum       | degree 2, ***[the maximum degree of    | (the terminology) goes first  |
-| degree of the                        | the remainder is                       | in a clause, the value/figure |
-| remainder]{style="color: red"}***.   | 1]{style="color: red"}***.             | goes last.                    |
-+--------------------------------------+----------------------------------------+-------------------------------+
-| The smallest value of $x^2$          | The smallest                           | The word order is             |
-| ***[possible]{style="color: red"}*** | ***[possible]{style="color: red"}***   | 'smallest/largest +           |
-| is 0.                                | value of $x^2$ is 0.                   | possible + value'.            |
-+--------------------------------------+----------------------------------------+-------------------------------+
-| Let $x$ be ***[a real positive       | Let $x$ be ***[a positive real         | The word order should be :    |
-| number]{style="color: red"}***.      | number]{style="color: red"}***.        | 'positive/negative + real +   |
-|                                      |                                        | number'.                      |
-+--------------------------------------+----------------------------------------+-------------------------------+
-| For all even numbers $N$, ***[we     | ***[We will show                       | The phrase 'we will show      |
-| will show                            | that]{style="color: red"}*** $3+N$ is  | that' usually begins a        |
-| that]{style="color: red"}*** $3+N$   | odd for every even number $N$.         | sentence, although the other  |
-| is odd.                              |                                        | way round is not wrong.       |
-+--------------------------------------+----------------------------------------+-------------------------------+
-| If $f$ is a ***[strictly continuous  | A ***[strictly increasing              | Keep the words 'strictly' and |
-| increasing]{style="color: red"}***   | continuous]{style="color: red"}***     | 'increasing' together when    |
-| function, \...                       | function, \...                         | describing a function.        |
-+--------------------------------------+----------------------------------------+-------------------------------+
-:::
-
 ### Choice of words
 
 A common type of problems in mathematical writing is the use of wrong
 words. In this part we look at some general examples of such in English.
 The wrong usage of mathematical terminology in a particular subject area
-will be dealt with in Section [5](#s:term){reference-type="ref"
-reference="s:term"}.
-
-::: center
-+--------------------------------------+--------------------------------------+-------------------------------+
-|                                      |                                      |                      Comments |
-+:=====================================+:=====================================+:==============================+
-|                                      |                                      |                      Comments |
-+--------------------------------------+--------------------------------------+-------------------------------+
-| A prime number is a natural number   | A prime number is a natural number   | 'In other words' is used to   |
-| that has no positive factors other   | that has no positive factors other   | introduce an explanation or   |
-| than 1 and itself. ***[For           | than 1 and itself (***[for           | clarification of an idea or   |
-| instance]{style="color: red"}***, if | instance]{style="color: red"}***, 2  | concept. 'For instance' is    |
-| $k$ is a natural number and $k=pq$,  | is a prime number). ***[In other     | used to give an example of    |
-| where both $p,q>1$, then $k$ is not  | words]{style="color: red"}***, if    | the idea or concept.          |
-| a prime number.                      | $k$ is a natural number and $k=pq$   |                               |
-|                                      | with $p,q> 1$, then $k$ is not a     |                               |
-|                                      | prime.                               |                               |
-+--------------------------------------+--------------------------------------+-------------------------------+
-| 1.  Therefore $x$ is rational,       | 1.  Therefore $x$ is rational,       | 'e.g.' (from the Latin phrase |
-|     ***[e.g.]{style="color: red"}*** |     ***[i.e.]{style="color: red"}*** | *exempli gratia*) means 'for  |
-|     $x=\dfrac{p}{q}$ for some        |     $x=\dfrac{p}{q}$ for some        | example'; whereas 'i.e.'      |
-|     integers $p$ and $q$.            |     integers $p$ and $q$.            | (from the Latin phrase *id    |
-|                                      |                                      | est*) means 'that is'. The    |
-| 2.  Let $\lceil x \rceil$ be the     | 2.  Let $\lceil x \rceil$ be the     | former uses an example to     |
-|     least integer greater than or    |     least integer greater than or    | illustrate a concept, while   |
-|     equal to $x$,                    |     equal to $x$,                    | the latter gives an           |
-|     ***[i.e.]{style="color: red"}*** |     ***[e.g.]{style="color: red"}*** | alternative explanation.      |
-|     $\lceil \pi \rceil=4$.           |     $\lceil \pi \rceil=4$.           |                               |
-+--------------------------------------+--------------------------------------+-------------------------------+
-:::
+will be dealt with in the later section on [the use of terminology](#s:term).
 
 ### Other lexical errors
 
 There are often more than one grammatically correct way to express
 something, but sometimes some choices of wordsings are more suitable
 than the others.
-
-::: center
-+--------------------------------------+-------------------------------------------+-------------------------------+
-|                                      |                                           |                      Comments |
-+:=====================================+:==========================================+:==============================+
-|                                      |                                           |                      Comments |
-+--------------------------------------+-------------------------------------------+-------------------------------+
-| Assume ***[the                       | 1.  Assume ***[on the                     | 'On the contrary' is used as  |
-| contrary]{style="color: red"}***     |     contrary]{style="color: red"}*** that | an adverb phrase with the     |
-| that not all of them are zeros.      |     not all of them are zeros.            | verb assume. On the other     |
-|                                      |                                           | hand, 'the contrary' is a     |
-|                                      | 2.  Assume ***[the contrary,              | noun and the object of the    |
-|                                      |     i.e. ]{style="color: red"}*** not all | verb 'assume'. In this case   |
-|                                      |     of them are zeros.                    | add another clause which      |
-|                                      |                                           | gives information about the   |
-|                                      |                                           | assumption.                   |
-+--------------------------------------+-------------------------------------------+-------------------------------+
-| Let $m$ and $n$ be ***[odd and       | 1.  Let $m$ and $n$ be ***[odd and even   | The wrong example is          |
-| even]{style="color: red"}***.        |     respectively]{style="color: red"}***. | ambiguous because it does not |
-|                                      |                                           | precisely state which is odd  |
-|                                      | 2.  Let ***[m be odd and n be             | and which is even. The two    |
-|                                      |     even]{style="color: red"}***.         | corrected examples show two   |
-|                                      |                                           | possible variations which are |
-|                                      |                                           | much clearer.                 |
-+--------------------------------------+-------------------------------------------+-------------------------------+
-| This equation has                    | 1.  This equation has ***[finitely        | Here 'finite' is used to      |
-| ***[finite]{style="color: red"}***   |     many]{style="color: red"}***          | describe the *number* of      |
-| solutions.                           |     solutions.                            | solutions, rather than the    |
-|                                      |                                           | solutions themselves.         |
-|                                      | 2.  This equation has ***[a finite number |                               |
-|                                      |     of]{style="color: red"}*** solutions. |                               |
-+--------------------------------------+-------------------------------------------+-------------------------------+
-| The equation $x+3=2x+4-x-1$ has      | The equation $x+3=2x+4-x-1$ has           | Again, 'infinite' refers to   |
-| ***[infinite]{style="color: red"}*** | ***[infinitely                            | the number of solutions       |
-| solutions.                           | many]{style="color: red"}*** solutions.   | rather than the solutions     |
-|                                      |                                           | themselves.                   |
-+--------------------------------------+-------------------------------------------+-------------------------------+
-:::
 
 ## Other Issues
 
@@ -502,49 +210,9 @@ written language.
 Some words sound the same (or similar) when pronounced, but are in fact
 spelt differently, and may have different meanings.
 
-::: center
-+----------------------------------------+----------------------------------------+-------------------------------+
-|                                        |                                        |                      Comments |
-+:=======================================+:=======================================+:==============================+
-|                                        |                                        |                      Comments |
-+----------------------------------------+----------------------------------------+-------------------------------+
-| The number $x$ ***[can                 | The number $x$                         | 'Cannot' and 'can not' have   |
-| not]{style="color: red"}*** be         | ***[cannot]{style="color: red"}*** be  | different meanings. For       |
-| rational.                              | rational.                              | example 'he cannot do it'     |
-|                                        |                                        | means he does not have the    |
-|                                        |                                        | ability to do it, while 'he   |
-|                                        |                                        | can not do it' usually        |
-|                                        |                                        | implies he has the ability to |
-|                                        |                                        | do it but also has the option |
-|                                        |                                        | of not doing it.              |
-+----------------------------------------+----------------------------------------+-------------------------------+
-| Without                                | Without                                | The noun form 'loss' is used  |
-| ***[lost]{style="color: red"}*** of    | ***[loss]{style="color: red"}*** of    | in this context.              |
-| generality, we have\...                | generality, we have\...                |                               |
-+----------------------------------------+----------------------------------------+-------------------------------+
-| 1.  This                               | 1.  This                               | 'Proof' is a noun whereas     |
-|     ***[proofs]{style="color: red"}*** |     ***[proves]{style="color: red"}*** | 'prove' is the corresponding  |
-|     that $x>0$.                        |     that $x>0$.                        | verb.                         |
-|                                        |                                        |                               |
-| 2.  This completes the                 | 2.  This completes the                 |                               |
-|     ***[prove]{style="color: red"}***. |     ***[proof]{style="color: red"}***. |                               |
-+----------------------------------------+----------------------------------------+-------------------------------+
-:::
-
 ### Frequently confused words {#ss:confuse}
 
 Some words are often misused in mathematical writing.
-
-::: center
-                                                                                                                                                                                                 Comments
-  ------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                                                                                                                                                                                                 Comments
-  Rotate $\triangle ABC$ ***[clockwisely]{style="color: red"}*** by $90^\circ$.        Rotate $\triangle ABC$ ***[clockwise]{style="color: red"}*** by $90^\circ$.          'Clockwise' is already an adverb. The word 'clockwisely' does not exist.
-  The numbers $a$, $b$ and $c$ are ***[pairwisely]{style="color: red"}*** different.   The numbers $a$, $b$ and $c$ are ***[pairwise]{style="color: red"}*** different.     Again, the word 'pairwisely' does not exist.
-  Here is a ***[counter example]{style="color: red"}***.                               Here is a ***[counterexample]{style="color: red"}***.                                Here 'counter' is not a word, but rather a prefix attached to 'example' meaning 'the opposite'.
-  Let $x$ be a ***[non zero]{style="color: red"}*** number.                            Let $x$ be a ***[nonzero]{style="color: red"}*** number.                             Again, 'non' is not a word, but rather a prefix attached to 'zero' meaning 'not'.
-  From this we ***[deduct]{style="color: red"}*** that the equation has no solution.   From this we ***[deduce]{style="color: red"}*** that the equation has no solution.   Although 'deduction' is the noun for both the verbs 'deduct' and 'deduce', the two verbs have different meanings. 'Deduct' means 'subtract', while 'deduce' means 'draw a logical conclusion'.
-:::
 
 ### Use of linking verbs and punctuation
 
@@ -556,28 +224,15 @@ Note also that there should only be one verb in a simple sentence. When
 there is more than one verb, we need a conjunction (e.g. 'and') to
 properly link the phrases together.
 
-::: center
-                                                                                                                                                                                   Comments
-  ----------------------------------------------------------------------------- ----------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                                                                                                                                                                                   Comments
-  If $x>0$***[.Then]{style="color: red"}*** $2x>0$.                             If $x>0$***[, then]{style="color: red"}*** $2x>0$.                            When using 'if' for assumption, always follow it up with something in the same sentence. 'If $x>0$' is not a complete sentence.
-  When $x>0$***[.Then]{style="color: red"}*** $2x>0$.                           When $x>0$***[, ]{style="color: red"}*** $2x>0$.                              Same as using 'if', when using 'when' for assumption, always follow it up with something in the same sentence. 'When $x>0$' is not a complete sentence.
-  Since $x$ is non-negative***[.We]{style="color: red"}*** have $x+1>0$.        Since $x$ is non-negative***[, we]{style="color: red"}*** have $x+1>0$.       'Since' is used to join dependent clauses to independent clauses and therefore must go in sentences which have two clauses. 'Since $x$ is non-negative' is not a complete sentence.
-  Let $x$ be non-negative***[, then]{style="color: red"}*** $x+1>0$.            Let $x$ be non-negative***[. Then]{style="color: red"}*** $x+1>0$.            When using 'let' and 'then' to list steps of proofs use two sentences, one for each step.
-  Suppose $x$ is non-negative***[, then]{style="color: red"}*** have $x+1>0$.   Suppose $x$ is non-negative***[. Then]{style="color: red"}*** have $x+1>0$.   When using 'suppose' and 'then' to list steps of proofs use two sentences.
-:::
-
 ### Spelling
 
 Make sure that you spell the words correctly. Apart from those mentioned
-in Sections [3.3.1](#ss:pronun){reference-type="ref"
-reference="ss:pronun"} and [3.3.2](#ss:confuse){reference-type="ref"
-reference="ss:confuse"}, some words tend to be misspelt a lot.
-Surprisingly, it is not uncommon for students to misspell *true* as
-*ture* and *false* as *flase*, two words which occur a lot in
-mathematical writing.
+in the [pronunciation](#ss:pronun) and [frequently confused words](#ss:confuse)
+sections, some words tend to be misspelt a lot.  Surprisingly, it is not
+uncommon for students to misspell *true* as *ture* and *false* as *flase*, two
+words which occur a lot in mathematical writing.
 
-# The Use of Symbols {#s:symbol}
+# The Use of Symbols
 
 Equations are essentially made up from symbols -- numbers, equality
 sign, variables and so on. There are many other symbols in mathematics
@@ -597,24 +252,6 @@ two sides are not equal, and we have to be careful about its usage too.
 When using the equal sign, make sure that the expressions on the two
 sides are indeed equal.
 
-::: center
-                                                                                                                                                                                                                                                                                                                                                                                                    Comments
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                                                                                                                                                                                                                                                                                                                                                                                                    Comments
-  By first principles, the derivative of $x^2$ is $$\begin{align*}                                                                                                          By first principles, the derivative of $x^2$ is $$\begin{align*}                                                                                                                                   The answer is correct but it is wrong to omit the limits in the working out. As the argument stands Line 1 and Line 2 in the wrong example are surely not equal (neither do Line 2 and Line 3).
-      &\lim_{h\to 0}\frac{f(x+h)-f(x)}{h}\\                                                                                                                                     &\ \lim_{h\to 0}\frac{f(x+h)-f(x)}{h}\\                                                                                                                                                        
-      \textcolor{red}{\pmb{=}} &\  \textcolor{red}{\pmb{\frac{(x^2+2xh+h^2)-x^2}{h}}} \\                                                                                        \textcolor{red}{\pmb{=}} & \ \textcolor{red}{\pmb{\lim_{h\to 0}\frac{(x^2+2xh+h^2)-x^2}{h}}}\\                                                                                                 
-       = & \ 2x                                                                                                                                                                 = & \ 2x                                                                                                                                                                                       
-  \end{align*}$$                                                                                                                                                            \end{align*}$$                                                                                                                                                                                     
-  To find the third derivative of $xe^x$, we have $$\begin{align*}                                                                                                          To find the third derivative of $xe^x$, we have $$\begin{align*}                                                                                                                                   In the first (wrong) example, the expressions are clearly not equal.
-      \textcolor{red}{\pmb{xe^x}}&\textcolor{red}{\pmb{=xe^x+e^x}}\\                                                                                                            \textcolor{red}{\pmb{\frac{d^3}{dx^3}~(xe^x)}}&\textcolor{red}{\pmb{=\frac{d^2}{dx^2}(xe^x+e^x)}}\\                                                                                            
-      &\textcolor{red}{\pmb{=xe^x+2e^x}}\\                                                                                                                                      &\textcolor{red}{\pmb{=\frac{d}{dx}(xe^x+2e^x)}}\\                                                                                                                                             
-      &=xe^x+3e^x                                                                                                                                                               &=xe^x+3e^x                                                                                                                                                                                    
-  \end{align*}$$                                                                                                                                                            \end{align*}$$                                                                                                                                                                                     
-  Since the derivative is $2x$, the slope of the tangent at $(2,5)$ is 4. Hence the equation of the tangent is $$\frac{y-5}{x-2}=4 \ \textcolor{red}{\pmb{=}} \ y=4x-3.$$   Since the derivative is $2x$, the slope of the tangent at $(2,5)$ is 4. Hence the equation of the tangent is $$\frac{y-5}{x-2}=4,$$ **[*which is the same as*]{style="color: red"} $$y=4x-3.$$**   What the wrong example intended to say was that the equation '$\dfrac{y-5}{x-2}=4$' is 'equal' to the equation '$y=4x-3$'. But as it stands it says much more than that ------ for example the middle equality reads $4=y$, which does not make sense.
-  We row reduce the matrix to find $$\begin{bmatrix}1&0\\2&4\end{bmatrix}\textcolor{red}{\pmb{=}}\begin{bmatrix}1&0\\0&1\end{bmatrix}~.$$ Hence it is invertible.           We row reduce the matrix to find $$\begin{bmatrix}1&0\\2&4\end{bmatrix}\textcolor{red}{\pmb{\rightarrow}}\begin{bmatrix}1&0\\0&1\end{bmatrix}~.$$ Hence it is invertible.                          The matrices are row equivalent but not equal (we say two matrices are equal if and only if all their entries are the same). The proper way is to use an arrow; usually we also indicate the operations carried out, for example, $\xrightarrow{-2R_1+R_2}$ means we add $-2$ times row 1 to row 2.
-:::
-
 ### Non-transitivity of $\ne$
 
 The symbols '$=$' and '$\ne$', like many others, are used to describe
@@ -624,85 +261,11 @@ e.g. $1<2<3$, but only when the symbol is *transitive* --- in this
 example '$<$' is transitive since if $1<2$ and $2<3$, then we must have
 $1<3$. Likewise, '$=$' is transitive. However, '$\ne$' is not.
 
-::: center
-+-------------------------+--------------------------------------+-------------------------------+
-|                         |                                      |                      Comments |
-+:========================+:=====================================+:==============================+
-| Since                   | 1.  Since []{style="color: red"}     | The wrong example intended to |
-| []{style="color: red"}, |     []{style="color: red"} [**and**  | mean that all three values    |
-| we have\...             |     ]{style="color: red"}            | $a,b$ and $c$ are different   |
-|                         |     []{style="color: red"}, we       | but with the way it is        |
-|                         |     have\...                         | written, $a$ and $c$ could be |
-|                         |                                      | equal (for example consider   |
-|                         | 2.  Since **[ are pairwise           | $1\neq 2\neq1$).              |
-|                         |     distinct]{style="color: red"}**, |                               |
-|                         |     we have\...                      |                               |
-+-------------------------+--------------------------------------+-------------------------------+
-:::
-
 ### Proper order
 
 As previously mentioned, '$=$' is transitive and so we can equate three
 or more expressions in a single chain of equalities. However, we have to
 be careful about the order.
-
-::: center
-                                                                                                                                                                                                                                                               Comments
-  ------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Since $\dfrac{x^4y^4}8=2$, we have $\textcolor{red}{\pmb{x^4y^4=(xy)^4}}=8\times2=16$ and so $xy=\sqrt[4]{16}=2$.   Since $\dfrac{x^4y^4}8=2$, we have $\textcolor{red}{\pmb{(xy)^4=x^4y^4}}=8\times2=16$ and so $xy=\sqrt[4]{16}=2$.   When studying a chain of equalities, one naturally tries to figure out why each equality sign holds. In the wrong example, one can understand why $x^4y^4=(xy)^4$, but then for the second inequality $(xy)^4=8\times2$, one gets stuck. In fact it is $x^4y^4$ that is equal to $8\times2$, so switching the order makes it much easier to follow.
-:::
-
-## The Symbols '$\Rightarrow$' and '$\Leftrightarrow$'
-
-The first symbol means 'implies' and the second symbol means 'is
-equivalent to' (or 'if and only if'). They are used to relate different
-statements and are some of the most frequently used symbols. Yet, they
-are also some of the most commonly misused symbols.
-
-::: center
-+-----------------------------------------------------+-----------------------------------+-----------------------------------------+
-|                                                     |                                   |                      Comments           |
-+:====================================================+:==================================+:========================================+
-|                                                     |                                   |                      Comments           |
-+-----------------------------------------------------+-----------------------------------+-----------------------------------------+
-| [If ]{style="color: red"}[]{style="color: red"}     | 1.  If $x=1$[**,                  | The easiest way to see what is wrong is |
-| $x+1=2$.                                            |     then**]{style="color: red"}   | to convert back to English. The wrong   |
-|                                                     |     $x+1=2$.                      | example reads 'if $x$ equals 1, implies |
-|                                                     |                                   | $x+1$ equals 2', which clearly does not |
-|                                                     | 2.  []{style="color: red"}        | seem correct. Note that the correct     |
-|                                                     |     $x+1=2$.                      | example reads '$x$ equals 1 implies     |
-|                                                     |                                   | $x+1$ equals 2', which is perfectly     |
-|                                                     |                                   | fine.                                   |
-+-----------------------------------------------------+-----------------------------------+-----------------------------------------+
-| Hence we have                                       | Hence we have $x+1=5$***[, which  | The problem in the wrong example is     |
-| $$x+1=5\ \pmb{\textcolor{red}{\Rightarrow}}\ x=4.$$ | implies]{style="color: red"}***   | that the statement                      |
-|                                                     | $x=4$.                            | '$x+1=5\Rightarrow x=4$' is true        |
-|                                                     |                                   | regardless to what happens before,      |
-|                                                     |                                   | contrary to what we expect by the use   |
-|                                                     |                                   | of the connective 'hence'. The intended |
-|                                                     |                                   | meaning was that the previous argument  |
-|                                                     |                                   | implies that $x+1=5$, which then        |
-|                                                     |                                   | implies $x=4$.\                         |
-|                                                     |                                   | Note that one may try to interpret the  |
-|                                                     |                                   | wrong example as $$\begin{align*}       |
-|                                                     |                                   |     &\ (\text{Hence we have} \ x+1=5)\\ |
-|                                                     |                                   |     \Rightarrow &\  (x=4)               |
-|                                                     |                                   | \end{align*}$$but this is not correct   |
-|                                                     |                                   | either since 'hence we have $x+1=5$' is |
-|                                                     |                                   | not a statement (while '$x+1=5$' is).   |
-+-----------------------------------------------------+-----------------------------------+-----------------------------------------+
-| The quadratic function has a critical point at      | The quadratic function has a      | In general try not to use a symbol in   |
-| $(2,3)$. From this we see that the point $(2,3)$    | critical point at $(2,3)$. From   | the middle of nowhere. In the wrong     |
-| must be a maximum.                                  | this we see that the point        | example it is unclear which statement   |
-| $$\pmb{\textcolor{red}{\Rightarrow}}\ x=2~.$$       | $(2,3)$ must be a maximum ***[and | implies $x=2$. Note that                |
-|                                                     | therefore]{style="color: red"}*** | '$\Rightarrow x=2$' is an incomplete    |
-|                                                     | $x=2$.                            | sentence and it must be preceded by a   |
-|                                                     |                                   | statement. While 'the point $(2,3)$     |
-|                                                     |                                   | must be a maximum' is a statement,      |
-|                                                     |                                   | 'from this we see that the point        |
-|                                                     |                                   | $(2,3)$ must be a maximum' is not.      |
-+-----------------------------------------------------+-----------------------------------+-----------------------------------------+
-:::
 
 ## The Symbols '$\forall$' and '$\exists$'
 
@@ -712,51 +275,6 @@ symbols are used correctly, the easiest way to read the sentence to see
 if it is a grammatically correct complete sentence and if it makes
 sense.
 
-::: center
-+------------------------------------------------------------------------+------------------------------------------------------------------------+-------------------------------+
-|                                                                        |                                                                        |                      Comments |
-+:=======================================================================+:=======================================================================+:==============================+
-|                                                                        |                                                                        |                      Comments |
-+------------------------------------------------------------------------+------------------------------------------------------------------------+-------------------------------+
-| 1.  Let $A$ be the set of positive odd numbers. Then                   | 1.  Let $A$ be the set of positive odd numbers. Then                   | The wrong examples mixed up   |
-|     $2 | a+1\ \textcolor{red}{\pmb{\exists}}\ a \in A.$                |     $2 | a+1\ \textcolor{red}{\pmb{\forall}}\ a \in A.$                | the meaning of the symbols    |
-|                                                                        |                                                                        | '$\forall$' and '$\exists$'.  |
-| 2.  If $f(0) <0$, $f(1)>0$ and $f$ is continuous, then                 | 2.  If $f(0) <0$, $f(1)>0$ and $f$ is continuous, then                 |                               |
-|     $\textcolor{red}{\pmb{\forall}} ~c \in [0,1]\text{ s.t. } f(c)=0.$ |     $\textcolor{red}{\pmb{\exists}}\ c \in [0,1]\text{ s.t. } f(c)=0.$ |                               |
-+------------------------------------------------------------------------+------------------------------------------------------------------------+-------------------------------+
-| $f(c)=0\ \textcolor{red}{\pmb{\exists}}\  c\in [0,1]$                  | 1.  $\textcolor{red}{\pmb{\exists~ c \in [0,1]\text{ s.t. }}} f(c)=0$  | '$\exists$' means 'there      |
-|                                                                        |                                                                        | exists' rather than 'for      |
-|                                                                        | 2.  $f(c)=0$ [***for some***]{style="color: red"} $c\in [0,1]$         | some'. Note there is no       |
-|                                                                        |                                                                        | proper symbol for 'for some'. |
-+------------------------------------------------------------------------+------------------------------------------------------------------------+-------------------------------+
-| $\exists ~x \in \mathbb{R}\ \textcolor{red}{\pmb{\forall}}\ x>1000$    | $\exists ~x \in \mathbb{R}$ ***[s.t.]{style="color: red"}*** $x>1000$  | '$\forall$' means 'for all',  |
-|                                                                        |                                                                        | not 'such that'.              |
-+------------------------------------------------------------------------+------------------------------------------------------------------------+-------------------------------+
-| Since $\max S=1$, we have $x\le1$                                      | Since $\max S=1$, we have                                              | '$\forall$' reads 'for all',  |
-| [***for***]{style="color: 1.00,0.00,0.00"}                             | $x\le1\ \textcolor{red}{\pmb{\forall}}\ x\in A.$                       | so 'for $\forall$' would read |
-| $\textcolor{red}{\pmb{\forall}}\ x\in A.$                              |                                                                        | 'for for all' which is wrong. |
-+------------------------------------------------------------------------+------------------------------------------------------------------------+-------------------------------+
-| $\textcolor{red}{\pmb{\forall}}\ x\in\mathbb{R}$                       | $x^2\ge0\ \textcolor{red}{\pmb{\forall}}\ x\in\mathbb{R}$              | '$\forall ~x\in\mathbb{R}$    |
-| ***[s.t.]{style="color: red"}*** $x^2\ge0$                             |                                                                        | s.t. $x^2\ge0$' is not even a |
-|                                                                        |                                                                        | complete sentence (try to     |
-|                                                                        |                                                                        | read it). When 'such that'    |
-|                                                                        |                                                                        | follows 'for all', we do not  |
-|                                                                        |                                                                        | really mean 'for all', bur    |
-|                                                                        |                                                                        | rather 'for those which       |
-|                                                                        |                                                                        | satisfy the subsequent        |
-|                                                                        |                                                                        | condition'. For example, 'for |
-|                                                                        |                                                                        | all positive even integers    |
-|                                                                        |                                                                        | $n$ such that $n>6$, we can   |
-|                                                                        |                                                                        | write $n$ as the sum of two   |
-|                                                                        |                                                                        | odd primes' --- here we do    |
-|                                                                        |                                                                        | not really mean 'for all      |
-|                                                                        |                                                                        | positive even integers $n$',  |
-|                                                                        |                                                                        | but only those which satisfy  |
-|                                                                        |                                                                        | the subsequent condition      |
-|                                                                        |                                                                        | described after 'such that',  |
-|                                                                        |                                                                        | i.e. $n>6$.                   |
-+------------------------------------------------------------------------+------------------------------------------------------------------------+-------------------------------+
-:::
 
 ## The Symbols '$\in$' and '$\subseteq$'
 
@@ -767,20 +285,6 @@ example $2\in \mathbb{N}$ or $\pi \in \mathbb{R}$. The second one means
 in a certain set, for example
 $\mathbb{Z}\subseteq \mathbb{Q}\subseteq \mathbb{R}$.
 
-::: center
-+----------------------------+----------------------------+-------------------------------+
-|                            |                            |                      Comments |
-+:===========================+:===========================+:==============================+
-| 1.  $(0,1)$                | 1.  $(0,1)$                | An interval is a subset of    |
-|     []{style="color: red"} |     []{style="color: red"} | $\mathbb{R}$, and so the      |
-|     $\mathbb{R}$           |     $\mathbb{R}$           | subset symbol '$\subseteq$'   |
-|                            |                            | should be used. In the second |
-| 2.  If $x=5$, then $x$     | 2.  If $x=5$, then $x$     | example $x$ is a real number, |
-|     []{style="color: red"} |     []{style="color: red"} | so the set membership symbol  |
-|     $\mathbb{R}$.          |     $\mathbb{R}$.          | '$\in$' should be used.       |
-+----------------------------+----------------------------+-------------------------------+
-:::
-
 ## Overusing Symbols
 
 We conclude this section with a warning on using symbols. While using
@@ -789,7 +293,7 @@ concisely as we have shown throughout this section, there is always a
 danger of overusing them. For example, consider the following definition
 of a function $f(x)$ being continuous at the point $a$:
 
-- $\forall \varepsilon>0~ \exists \delta>0 \text{ s.t. } \left|x-a \right|<\delta \Rightarrow \left|f(x)-f(a)\right|<\varepsilon .$
+- $\forall \varepsilon>0\ \exists \delta>0 \text{ s.t. } \left|x-a \right|<\delta \Rightarrow \left|f(x)-f(a)\right|<\varepsilon$.
 
 While it is perfectly sound and correct, it is a bit difficult to read.
 Reducing the use of symbols would give
@@ -1168,13 +672,16 @@ two possible ways to connect these equations together are as follows:
 
 If you are still not convinced of the importance of avoiding isolated
 equations, consider the following (wrong) demonstration:
+
 $$\begin{align*}
   \sqrt{x-2} &=x-4 \\
   x-2 &=x^2-8x+16\\
   x^2-9x+18&=0\\
   (x-3)(x-6)&=0\\
   x&=3\text{ or }6
-\end{align*}$$ Yet if we plug $x=3$ into the original equation, the two
+\end{align*}$$
+
+Yet if we plug $x=3$ into the original equation, the two
 sides are not equal. Some would argue that *since we have squared both
 sides*, it is necessary that we check the 'solutions' obtained at the
 end. However this explanation is neither complete nor convincing ---
@@ -1186,11 +693,14 @@ that matters.
 
 The above can be rewritten as follows:
 
-- To solve the equation $\sqrt{x-2}=x-4$, we note that $$\begin{align*}
+- To solve the equation $\sqrt{x-2}=x-4$, we note that
+
+  $$\begin{align*}
       \sqrt{x-2}=x-4\ &\Longrightarrow\ x-2 =x^2-8x+16 \\
       &\Longrightarrow\ x^2-9x+18=0\\
-      &\Longrightarrow\ (x-3)(x-6)=0
-  \end{align*}$$ Hence the only possible values of $x$ are 3 and 6. When
+      &\Longrightarrow\ (x-3)(x-6)=0 \end{align*}$$
+
+  Hence the only possible values of $x$ are 3 and 6. When
   $x=3$, the left hand side of the equation is 1 while the right hand
   side is $-1$; when $x=6$ both sides are equal to 2. Thus we conclude
   that $x=6$ is the only solution.
