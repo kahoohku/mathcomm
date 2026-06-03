@@ -153,10 +153,16 @@ corresponding quantity. If there are more than one object, the plural
 form is required; whereas the singular form is used if there is only
 one.
 
+| Wrong | Correct | Comments |
+| --- | --- | --- |
+
 ### The different verb forms
 
 Similar to nouns, most verbs have more than one forms, and you need to
 be aware of which ones are correct and which ones are wrong.
+
+| Wrong | Correct | Comments |
+| --- | --- | --- |
 
 ### Verb-to-be and verb-to-do
 
@@ -164,7 +170,13 @@ Two of the most frequently used verbs in English are the verb-to-be and
 the verb-to-do. They are also two of the most frequently misused verbs
 in English as well as mathematical writing.
 
+| Wrong | Correct | Comments |
+| --- | --- | --- |
+
 ### Converting between different word forms
+
+| Wrong | Correct | Comments |
+| --- | --- | --- |
 
 Most words can be changed slightly to convert from one word form to
 another, such as *converge* (verb) and *convergent* (adjective). You
@@ -181,6 +193,9 @@ not mean exactly what the author wants to convey.\
 The wordings in the following examples can be slightly revised so that
 it reads more smoothly.
 
+| Wrong | Correct | Comments |
+| --- | --- | --- |
+
 ### Choice of words
 
 A common type of problems in mathematical writing is the use of wrong
@@ -188,11 +203,17 @@ words. In this part we look at some general examples of such in English.
 The wrong usage of mathematical terminology in a particular subject area
 will be dealt with in the later section on [the use of terminology](#s:term).
 
+| Wrong | Correct | Comments |
+| --- | --- | --- |
+
 ### Other lexical errors
 
 There are often more than one grammatically correct way to express
 something, but sometimes some choices of wordsings are more suitable
 than the others.
+
+| Wrong | Correct | Comments |
+| --- | --- | --- |
 
 ## Other Issues
 
@@ -210,9 +231,15 @@ written language.
 Some words sound the same (or similar) when pronounced, but are in fact
 spelt differently, and may have different meanings.
 
+| Wrong | Correct | Comments |
+| --- | --- | --- |
+
 ### Frequently confused words {#ss:confuse}
 
 Some words are often misused in mathematical writing.
+
+| Wrong | Correct | Comments |
+| --- | --- | --- |
 
 ### Use of linking verbs and punctuation
 
@@ -223,6 +250,9 @@ conventions and rules on the use of such words.
 Note also that there should only be one verb in a simple sentence. When
 there is more than one verb, we need a conjunction (e.g. 'and') to
 properly link the phrases together.
+
+| Wrong | Correct | Comments |
+| --- | --- | --- |
 
 ### Spelling
 
@@ -239,9 +269,9 @@ sign, variables and so on. There are many other symbols in mathematics
 as well. It is important that symbols be used properly, for otherwise
 the resulting sentence may deviate from the intended meaning.
 
-## The Symbols '=' and '$\neq$'
+## The Symbols '$=$' and '$\neq$'
 
-The symbol '=' is probably one of the very first mathematical symbols
+The symbol '$=$' is probably one of the very first mathematical symbols
 one learns. It means the expressions on its two sides are the same. This
 symbol is also one of the most misused symbols, as people abuse it in
 various situations. The symbol '$\neq$', on the other hand, means the
@@ -252,6 +282,9 @@ two sides are not equal, and we have to be careful about its usage too.
 When using the equal sign, make sure that the expressions on the two
 sides are indeed equal.
 
+| Wrong | Correct | Comments |
+| --- | --- | --- |
+
 ### Non-transitivity of $\ne$
 
 The symbols '$=$' and '$\ne$', like many others, are used to describe
@@ -261,11 +294,17 @@ e.g. $1<2<3$, but only when the symbol is *transitive* --- in this
 example '$<$' is transitive since if $1<2$ and $2<3$, then we must have
 $1<3$. Likewise, '$=$' is transitive. However, '$\ne$' is not.
 
+| Wrong | Correct | Comments |
+| --- | --- | --- |
+
 ### Proper order
 
 As previously mentioned, '$=$' is transitive and so we can equate three
 or more expressions in a single chain of equalities. However, we have to
 be careful about the order.
+
+| Wrong | Correct | Comments |
+| --- | --- | --- |
 
 ## The Symbols '$\forall$' and '$\exists$'
 
@@ -275,6 +314,9 @@ symbols are used correctly, the easiest way to read the sentence to see
 if it is a grammatically correct complete sentence and if it makes
 sense.
 
+| Wrong | Correct | Comments |
+| --- | --- | --- |
+
 ## The Symbols '$\in$' and '$\subseteq$'
 
 The first symbol is set membership and simply reads 'in' or 'belongs to'
@@ -283,6 +325,9 @@ example $2\in \mathbb{N}$ or $\pi \in \mathbb{R}$. The second one means
 'subset' and we use it to denote that a collection of elements all lie
 in a certain set, for example
 $\mathbb{Z}\subseteq \mathbb{Q}\subseteq \mathbb{R}$.
+
+| Wrong | Correct | Comments |
+| --- | --- | --- |
 
 ## Overusing Symbols
 
@@ -321,10 +366,16 @@ Here we refer to things such as functions, polynomials and so on (as
 opposed to abstract algebra), which most secondary school students
 should know.
 
+| Wrong | Correct | Comments |
+| --- | --- | --- |
+
 ## Geometry
 
 Plane geometry is another popular topic in the mathematics syllabus of
 secondary school.
+
+| Wrong | Correct | Comments |
+| --- | --- | --- |
 
 ## Mathematical Induction
 
@@ -334,10 +385,24 @@ all the problems in it?
 
 There are close to ten errors in the proof. How many can you find?
 
+| Wrong | Correct | Comments |
+| --- | --- | --- |
+
+## Functions and Calculus
+
+These errors are specific to the use of terminology in the concepts of
+functions, limits, differentiation and integration.
+
+| Wrong | Correct | Comments |
+| --- | --- | --- |
+
 ## Linear Algebra
 
 These errors are specific to the use of terminology in the theory of
 matrices and vector spaces.
+
+| Wrong | Correct | Comments |
+| --- | --- | --- |
 
 # Miscellaneous
 
@@ -346,13 +411,13 @@ matrices and vector spaces.
 It is important to write in a neat and legible manner. The following
 lists some frequently confused characters:
 
-- '$t$' vs '+'
-- '1' vs '$l$' vs 'I'  (in particular the natural logarithm is '$\ln$',
+- '$t$' vs '$+$'
+- '$1$' vs '$l$' vs '$I$'  (in particular the natural logarithm is '$\ln$',
   not '$\mathrm{In}$'!)
 - '$x$' vs '$\times$'
 - '$p$' vs '$\rho$'
-- '$a$' vs '$\alpha$' vs '2'
-- '0' vs '6' vs '$\sigma$'
+- '$a$' vs '$\alpha$' vs '$2$'
+- '$0$' vs '$6$' vs '$\sigma$'
 
 On a side note, Greek letters are extensively used by mathematicians (26
 English letters are often insufficient!). One should learn all the Greek
@@ -380,11 +445,14 @@ used in mathematical writing. We conclude it by saying that complete
 *paragraphs* should be used. In short, this means we should avoid
 writing a few isolated equations without explaining the logical
 relationship between them. For example, consider the following:
+
 $$\begin{align*}
   5x+1 &=16 \\
   5x &=15\\
   x&=3
-\end{align*}$$ This is probably how primary and secondary school
+\end{align*}$$
+
+This is probably how primary and secondary school
 students 'write mathematics'. Indeed these can be considered as complete
 sentences. (Try to read them: '5 times $x$ plus 1 is equal to 16. 5
 times $x$ is equal to 15. $x$ is equal to 3.' Three complete sentences!)
