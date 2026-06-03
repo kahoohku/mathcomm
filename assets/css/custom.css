@@ -4,12 +4,12 @@ body {
   color: black;
 }
 section {
-  width:80%;
-  float:right;
-  padding-bottom:50px;
+  width: calc(100% - 270px);
+  float: right;
+  padding-bottom: 50px;
 }
 .wrapper {
   max-width: 1200px
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
