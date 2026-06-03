@@ -156,7 +156,7 @@ one.
 | Wrong | Correct | Comments |
 | --- | --- | --- |
 | Throwing two fair **dices** once, we have $6 \times 6 = 36$ different possible outcomes. | Throwing two fair **dice** once, we have $6 \times 6 = 36$ different possible outcomes. | The singular form is 'die', the plural form is 'dice' (without 's'). In modern English sometimes 'dice' is also accepted as the singular form. |
-| **Every square are rectangles** | {::nomarkdown}<ul><li>{:/} Every square **is a rectangle**. {::nomarkdown}</li><li>{:/} **All squares** are rectangles. {::nomarkdown}</li></ul>{:/} | {::nomarkdown}<ul><li>{:/} Every $+$ singular form of noun. {::nomarkdown}</li><li>{:/} All $+$ plural form of noun. {::nomarkdown}</li></ul>{:/} |
+| **Every square are rectangles** | {::nomarkdown}<ul><li>{:/} Every square **is a rectangle**. {::nomarkdown}</li><li>{:/} **All squares** are rectangles. {::nomarkdown}</li></ul>{:/} | {::nomarkdown}<ul><li>{:/} Every + singular form of noun. {::nomarkdown}</li><li>{:/} All + plural form of noun. {::nomarkdown}</li></ul>{:/} |
 | Assume $P(k)$ is true for some positive **integers** $k$, i.e. $k(k+1)$ is divisible by 2. | Assume $P(k)$ is true for some positive **integer** $k$, i.e. $k(k+1)$ is divisible by 2. | There is only one integer here (namely $k$); therefore it should be in singular form. |
 | Let $A$ be a square **matrice**. | Let $A$ be a square **matrix**. | 'Matrices' is the plural form of 'matrix'. |
 | Let $A$ be the **vertice** of the pyramid. | Let $A$ be the **vertex** of the pyramid. | 'Vertices' is the plural form of 'vertex'. |
@@ -196,7 +196,7 @@ in English as well as mathematical writing.
 | The **maximal** possible value of $f(x)$ is 3. | The **maximum/largest** possible value of $f(x)$ is 3. | The adjective form of the noun 'maximum' is the same (maximum). In this example the superlative 'largest' can also be used'. 'Maximal' has a slightly different meaning in mathematics. |
 | The **slanted** height of the cone is 10 cm. | The **slant** height of the cone is 10 cm. | 'Slant height' is a compound noun (two nouns combined) like 'traffic light'. |
 | The function $y=x^2$ **concaves** upward. | The function $y=x^2$ **is concave** upward. | 'Concave' is an adjective rather than a verb. |
-| **For every** rational number $x$, **can be** written as $x=\dfrac{p}{q}$. | **Every** rational number $x$ **can be** written as $x=\dfrac{p}{q}$. | When using this phrase only use one clause. The phrase 'every rational number $x$' is the subject of this clause. |
+| **For every** rational number $x$, **can be** written as $x=p/q$. | **Every** rational number $x$ **can be** written as $x=p/q$. | When using this phrase only use one clause. The phrase 'every rational number $x$' is the subject of this clause. |
 | One plus one **equals to** two. | {::nomarkdown}<ul><li>{:/} One plus one **equals** two. {::nomarkdown}</li><li>{:/} One plus one **is equal to** two. {::nomarkdown}</li></ul>{:/} | This is a confusion between the verb form and adjective form. The verb form does not have a dependent preposition. |
 | {::nomarkdown}<ul><li>{:/} The **followings** are equivalent. {::nomarkdown}</li><li>{:/} The possible values of $x$ are **as follow**: {::nomarkdown}</li><li>{:/} The result **is followed**. {::nomarkdown}</li></ul>{:/} | {::nomarkdown}<ul><li>{:/} The **following statements** are equivalent. {::nomarkdown}</li><li>{:/} The possible values of $x$ are **as follows**: {::nomarkdown}</li><li>{:/} The result **follows**. {::nomarkdown}</li></ul>{:/} | 'The following' is used in phrases such as 'we have the following'. 'As follows' is used in phrases such as 'the properties/values/results are as follows'. In the incorrect example 'follow' is used in passive voice which means followed by something. In the correct examples 'follow' is used in the active voice because after this expression comes the evidence for the result(s). |
 
@@ -208,7 +208,7 @@ have to be aware of the differences between the different word forms.
 
 A lexical error is making the wrong choice of word for the stylistic
 context. The sentence is not necessarily grammatically wrong, but does
-not mean exactly what the author wants to convey.\
+not mean exactly what the author wants to convey.
 
 ### The order of words
 
@@ -217,6 +217,13 @@ it reads more smoothly.
 
 | Wrong | Correct | Comments |
 | --- | --- | --- |
+| {::nomarkdown}<ul><li>{:/} Let $x$ **is** non-negative. {::nomarkdown}</li><li>{:/} Let **a prime number be x**. {::nomarkdown}</li><li>{:/} Let **the width of the rectangle be y**. {::nomarkdown}</li></ul>{:/} | {::nomarkdown}<ul><li>{:/} Let $x$ **be** non-negative. {::nomarkdown}</li><li>{:/} Let **x be a prime number**. {::nomarkdown}</li><li>{:/} Let **y be the width of the rectangle**. {::nomarkdown}</li></ul>{:/} | 'Let' is used with a bare infinitive form of a verb in the first example. In the second and third examples the convention is 'let + $x, y,$ etc + be + the value which is assigned to $x,y$, etc. |
+| Since the divisor $(x-1)(x-2)$ is of degree 2, **1 is the maximum degree of the remainder**. | Since the divisor $(x-1)(x-2)$ is of degree 2, **the maximum degree of the remainder is 1**. | The description of the value (the terminology) goes first in a clause, the value/figure goes last. |
+| The smallest value of $x^2$ **possible** is 0. | The smallest **possible**  value of $x^2$ is 0. | The word order is 'smallest/largest + possible + value'. |
+| Let $x$ be **a real positive number**. | Let $x$ be **a positive real number**. | The word order should be: 'positive/negative + real + number'. |
+| For all even numbers $N$, **we will show that** $3+N$ is odd. | **We will show that** $3+N$ is odd for every even number $N$. | The phrase 'we will show that' usually begins a sentence, although the other way round is not wrong. |
+| If $f$ is a **strictly continuous increasing** function, ... | A **strictly increasing continuous** function, ... | Keep the words 'strictly' and 'increasing' together when describing a function. |
+
 
 ### Choice of words
 
