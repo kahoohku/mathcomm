@@ -4,8 +4,9 @@ body {
   color: black;
 }
 section {
-  width: 100%;
-  margin: 0 auto;
+  width:80%;
+  float:right;
+  padding-bottom:50px;
 }
 .wrapper {
   max-width: 1200px
