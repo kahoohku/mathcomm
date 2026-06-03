@@ -234,6 +234,8 @@ will be dealt with in the later section on [the use of terminology](#s:term).
 
 | Wrong | Correct | Comments |
 | --- | --- | --- |
+| A prime number is a natural number that has no positive factors other than 1 and itself. **For instance**, if $k$ is a natural number and $k=pq$, where both $p,q>1$, then $k$ is not a prime number. | A prime number is a natural number that has no positive factors other than 1 and itself (**for instance**, 2 is a prime number). **In other words**, if $k$ is a natural number and $k=pq$ with $p,q> 1$, then $k$ is not a prime. | 'In other words' is used to introduce an explanation or clarification of an idea or concept. 'For instance' is used to give an example of the idea or concept. |
+| {::nomarkdown}<ul><li>{:/} Therefore $x$ is rational, **e.g.** $x=\dfrac{p}{q}$ for some integers $p$ and $q$. {::nomarkdown}</li><li>{:/} Let $\lceil x \rceil$ be the least integer greater than or equal to $x$, **i.e.** $\lceil \pi \rceil=4$. {::nomarkdown}</li></ul>{:/} | {::nomarkdown}<ul><li>{:/} Therefore $x$ is rational, **i.e.** $x=\dfrac{p}{q}$ for some integers $p$ and $q$. {::nomarkdown}</li><li>{:/} Let $\lceil x \rceil$ be the least integer greater than or equal to $x$, **e.g.** $\lceil \pi \rceil=4$. {::nomarkdown}</li></ul>{:/} | 'e.g.' (from the Latin phrase *exempli gratia*) means 'for example'; whereas 'i.e.' (from the Latin phrase *id est*) means 'that is'. The former uses an example to illustrate a concept, while the latter gives an alternative explanation. |
 
 ### Other lexical errors
 
@@ -243,6 +245,10 @@ than the others.
 
 | Wrong | Correct | Comments |
 | --- | --- | --- |
+| Assume **the contrary** that not all of them are zeros. | {::nomarkdown}<ul><li>{:/} Assume **on the contrary** that not all of them are zeros. {::nomarkdown}</li><li>{:/} Assume **the contrary, i.e.**  not all of them are zeros. {::nomarkdown}</li></ul>{:/} | 'On the contrary' is used as an adverb phrase with the verb assume. On the other hand, 'the contrary' is a noun and the object of the verb 'assume'. In this case add another clause which gives information about the assumption. |
+| Let $m$ and $n$ be **odd and even**. | {::nomarkdown}<ul><li>{:/} Let $m$ and $n$ be **odd and even respectively**. {::nomarkdown}</li><li>{:/} Let **m be odd and n be even**. {::nomarkdown}</li></ul>{:/} | The wrong example is ambiguous because it does not precisely state which is odd and which is even. The two corrected examples show two possible variations which are much clearer. |
+| This equation has **finite** solutions. | {::nomarkdown}<ul><li>{:/} This equation has **finitely many** solutions. {::nomarkdown}</li><li>{:/} This equation has **a finite number of** solutions. {::nomarkdown}</li></ul>{:/} | Here 'finite' is used to describe the *number* of solutions, rather than the solutions themselves. |
+| The equation $x+3=2x+4-x-1$ has **infinite** solutions. | The equation $x+3=2x+4-x-1$ has **infinitely many** solutions. | Again, 'infinite' refers to the number of solutions rather than the solutions themselves. |
 
 ## Other Issues
 
@@ -262,6 +268,9 @@ spelt differently, and may have different meanings.
 
 | Wrong | Correct | Comments |
 | --- | --- | --- |
+| The number $x$ **can not** be rational. | The number $x$ **cannot** be rational. | 'Cannot' and 'can not' have different meanings. For example 'he cannot do it' means he does not have the ability to do it, while 'he can not do it' usually implies he has the ability to do it but also has the option of not doing it. |
+| Without **lost** of generality, we have... | Without **loss** of generality, we have... | The noun form 'loss' is used in this context. |
+| {::nomarkdown}<ul><li>{:/} This **proofs** that $x>0$. {::nomarkdown}</li><li>{:/} This completes the  **prove**. {::nomarkdown}</li></ul>{:/} | {::nomarkdown}<ul><li>{:/} This **proves** that $x>0$. {::nomarkdown}</li><li>{:/} This completes the  **proof**. {::nomarkdown}</li></ul>{:/} | 'Proof' is a noun whereas 'prove' is the corresponding verb. |
 
 ### Frequently confused words {#ss:confuse}
 
