@@ -1,3 +1,5 @@
+{:toc}
+
 # Preface
 
 This guide is developed under the Teaching Development Grant (TDG)
