@@ -1,42 +1,3 @@
-# Test
-
-## Riesz Representation Theorems
-
-**Riesz Representation Theorem.**
-Suppose $V$ is a finite-dimensional inner-product space and $\varphi$ is a linear functional on $V$.
-Then there is a unique vector $v \in V$ such that
-
-$$ \varphi u = \langle u, v \rangle, \qquad \text{for all } u \in V. $$
-
-**Riesz Representation Theorem.**
-Let $H$ be a Hilbert space.
-For every continuous linear functional $\varphi \in H^*$, there is a unique vector $v \in H$ such that
-
-$$ \varphi u = \langle u, v \rangle, \qquad \text{for all } u \in H. $$
-
-Moreover, $\norm v = \norm\varphi$.
-
-**Riesz Representation Theorem.**
-Suppose $X$ is a $\sigma$-compact LCH space and $I$ is a positive linear functional on $C_c(X)$.
-Then there is a unique regular Borel measure $\mu$ on $X$ such that $I(f) = \int f\, d\mu$ for all $f \in C_c(X)$.
-Moreover, $\mu$ satisfies
-
-$$ \mu(U) = \sup\{ I(f) : f \in C_c(U), 0 \leq f \leq 1 \} $$
-
-and
-
-$$ \mu(K) = \inf\{ I(f) : f \in C_c(X), f \geq \chi_K \} $$
-
-for all open $U$ and compact $K$.
-
-**Riesz Representation Theorem.**
-Suppose $\mu$ is $\sigma$-finite, $1 \leq p < \infty$, and $p$, $q$ are conjugate exponents.
-The map $\varphi \colon L^q \to (L^p)^*$ given by
-
-$$ g \mapsto \varphi_g, \quad \varphi_g(f) = \int fg\, d\mu $$
-
-is a bijective isometry. In particular, $L^p$ is reflexive for $1 < p < \infty$.
-
 # Preface
 
 This guide is developed under the Teaching Development Grant (TDG)
@@ -87,22 +48,18 @@ divided into several sentences. Each sentence is a *complete sentence*.
 There can be equations and mathematical symbols, but still they form a
 complete sentence when properly read. Some examples are as follows.
 
-::: center
-                                                              How it is read as a complete sentence
-  ---------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------
-  Hence $x+1>3$.                                       Hence $x$ plus 1 is greater than 3.
-  Since $x>2$, it follows that $x^2+3x>2^2+3(2)=10$.   Since $x$ is greater than 2, it follows that $x$ squared plus three $x$ is greater than two squared plus three times two which is equal to 10.
-  Thus $n\ne0\ \forall n\in A$.                        Thus $n$ is not equal to 0 for all $n$ that belongs to $A$.
-:::
+| | How it is read as a complete sentence |
+| --- | --- |
+| Hence $x+1>3$. | Hence $x$ plus 1 is greater than 3. |
+| Since $x>2$, it follows that $x^2+3x>2^2+3(2)=10$. | Since $x$ is greater than 2, it follows that $x$ squared plus three $x$ is greater than two squared plus three times two which is equal to 10. |
+| Thus $n\ne0\ \forall n\in A$. | Thus $n$ is not equal to 0 for all $n$ that belongs to $A$. |
 
 On the other hand, the following lists some examples which are *not*
 complete sentences and hence should not appear in a piece of
 mathematical writing.
 
 - Since $x$ is positive.
-
 - If this is not true.
-
 - When two triangles are similar.
 
 ## Starting Sentences with Capital Letters
@@ -113,22 +70,12 @@ be tempted to start a sentence with a small letter because it is a
 symbol or a variable with which we want to use to start the sentence.
 Here are a couple of examples, and how they may be modified:
 
-::: center
-+----------------------------------+----------------------------------+
-| ::: center                       | ::: center                       |
-| Sentence starting with a small   | How it may be modified           |
-| letter                           | :::                              |
-| :::                              |                                  |
-+:=================================+:=================================+
-| $p$ is not a prime number if it  | If the number $p$ is divisible   |
-| is divisible by 3 and greater    | by 3 and greater than 3, then it |
-| than 3.                          | is not a prime number.           |
-+----------------------------------+----------------------------------+
+| Sentence starting with a small letter | How it may be modified |
+| --- | --- |
+| $p$ is not a prime number if it is divisible by 3 and greater than 3. | If the number $p$ is divisible by 3 and greater than 3, then it is not a prime number. |
 | $x^2+x+1=0$ has no real root     | The equation $x^2+x+1=0$ has no  |
 | since its discriminant is        | real root since its discriminant |
 | negative.                        | is negative                      |
-+----------------------------------+----------------------------------+
-:::
 
 Some even suggest that we should never start a sentence with a symbol or
 a variable, even if that is in capital letter. In that case similar
