@@ -18,15 +18,18 @@ table {
   width:100%;
   border-collapse:collapse;
 }
-
 th {
-  text-align:left;
-  padding:5px 10px;
-  border-bottom:3px solid #888888;
+  text-align: left;
+  padding: 5px 10px;
+  border-bottom: 3px solid #888888;
 }
 
-th {
-  text-align:left;
-  padding:5px 10px;
-  border-bottom:1.5px solid #e5e5e5;
+td {
+  text-align: left;
+  padding: 5px 10px;
+  border-bottom: 1.5px solid #e5e5e5;
+}
+
+tr:last-child td {
+  border-bottom: none;
 }
