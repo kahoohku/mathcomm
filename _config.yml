@@ -6,3 +6,4 @@ plugins:
 - jekyll-remote-theme
 kramdown:
   parse_block_html: true
+  disable_indented_code_blocks: true
