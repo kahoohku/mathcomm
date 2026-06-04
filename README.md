@@ -248,7 +248,7 @@ be aware of which ones are correct and which ones are wrong.
 - There **exist** real numbers $m$ and $n$ such that $m>n$.
 - There **exists** a real number $m$ such that $m>1$.
 {::nomarkdown}</td> <td markdown="block">{:/}
-Make sure the subject agrees with the verb. Whether to use 'exists' or 'exist' depends on whether the noun that follows is in singular or plural form.\\ \hline
+Make sure the subject agrees with the verb. Whether to use 'exists' or 'exist' depends on whether the noun that follows is in singular or plural form.
 {::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
 There **exist** no integer $k$ such that $3k=2$.
 {::nomarkdown}</td> <td markdown="block">{:/}
@@ -356,9 +356,9 @@ The function $y=x^2$ **is concave** upward.
 {::nomarkdown}</td> <td markdown="block">{:/}
 'Concave' is an adjective rather than a verb.
 {::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
-**For every** rational number $x$, **can be** written as $x=\dfrac{p}{q}$.
+**For every** rational number $x$, **can be** written as $x=p/q$.
 {::nomarkdown}</td> <td markdown="block">{:/}
-**Every** rational number $x$ **can be** written as $x=\dfrac{p}{q}$.
+**Every** rational number $x$ **can be** written as $x=p/q$.
 {::nomarkdown}</td> <td markdown="block">{:/}
 When using this phrase only use one clause. The phrase 'every rational number $x$' is the subject of this clause.
 {::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
@@ -437,7 +437,7 @@ The phrase 'we will show that' usually begins a sentence, although the other way
 {::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
 If $f$ is a **strictly continuous increasing** function, ...
 {::nomarkdown}</td> <td markdown="block">{:/}
-A **strictly increasing continuous** function, ...
+If $f$ is a **strictly increasing continuous** function, ...
 {::nomarkdown}</td> <td markdown="block">{:/}
 Keep the words 'strictly' and 'increasing' together when describing a function.
 {::nomarkdown}</tr> </tbody> </table>{:/}
@@ -463,15 +463,15 @@ then $k$ is not a prime.
 'In other words' is used to introduce an explanation or clarification of an idea or concept.
 'For instance' is used to give an example of the idea or concept.
 {::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
-- Therefore $x$ is rational, **e.g.** $x=\dfrac{p}{q}$ for some integers $p$ and $q$.
+- Therefore $x$ is rational, **e.g.** $x=p/q$ for some integers $p$ and $q$.
 - Let $\lceil x \rceil$ be the least integer greater than or equal to $x$, **i.e.** $\lceil \pi \rceil=4$.
 {::nomarkdown}</td> <td markdown="block">{:/}
-- Therefore $x$ is rational, **i.e.** $x=\dfrac{p}{q}$ for some integers $p$ and $q$.
+- Therefore $x$ is rational, **i.e.** $x=p/q$ for some integers $p$ and $q$.
 - Let $\lceil x \rceil$ be the least integer greater than or equal to $x$, **e.g.**
 $\lceil \pi \rceil=4$.
 {::nomarkdown}</td> <td markdown="block">{:/}
-'e.g.' (from the Latin phrase \textit{exempli gratia}) means 'for example';
-whereas 'i.e.' (from the Latin phrase \textit{id est}) means 'that is'. The
+'e.g.' (from the Latin phrase *exempli gratia*) means 'for example';
+whereas 'i.e.' (from the Latin phrase *id est*) means 'that is'. The
 former uses an example to illustrate a concept, while the latter gives an
 alternative explanation.
 {::nomarkdown}</tr> </tbody> </table>{:/}
@@ -868,13 +868,13 @@ $\mathbb{Z}\subseteq \mathbb{Q}\subseteq \mathbb{R}$.
 <table class="demo" cellpadding="8" cellspacing="0" markdown="block">
 <thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
 <tbody> <tr> <td markdown="block">
-- $(0,1) \boldsymbol\in \R$
-- If $x=5$, then $x \boldsymbol\subseteq $\R$.
+- $(0,1) \boldsymbol\in \mathbb R$
+- If $x=5$, then $x \boldsymbol\subseteq $\mathbb R$.
 {::nomarkdown}</td> <td markdown="block">{:/}
-- $(0,1) \boldsymbol\subseteq \R$
-- If $x=5$, then $x \boldsymbol\in $\R$.
+- $(0,1) \boldsymbol\subseteq \mathbb R$
+- If $x=5$, then $x \boldsymbol\in $\mathbb R$.
 {::nomarkdown}</td> <td markdown="block">{:/}
-An interval is a subset of $\R$, and so the subset symbol '$\subseteq$' should
+An interval is a subset of $\mathbb R$, and so the subset symbol '$\subseteq$' should
 be used. In the second example $x$ is a real number, so the set membership
 symbol '$\in$' should be used.
 {::nomarkdown}</tr> </tbody> </table>{:/}
