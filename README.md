@@ -482,7 +482,36 @@ There are often more than one grammatically correct way to express
 something, but sometimes some choices of wordsings are more suitable
 than the others.
 
-8
+<table cellpadding="8" cellspacing="0" markdown="block">
+<thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
+<tbody> <tr> <td markdown="block">
+Assume **the contrary** that not all of them are zeros.
+{::nomarkdown}</td> <td markdown="block">{:/}
+- Assume **on the contrary** that not all of them are zeros.
+- Assume **the contrary, i.e.\ **  not all of them are zeros.
+{::nomarkdown}</td> <td markdown="block">{:/}
+'On the contrary' is used as an adverb phrase with the verb assume. On the other hand, 'the contrary' is a noun and the object of the verb 'assume'. In this case add another clause which gives information about the assumption.
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+Let $m$ and $n$ be **odd and even**.
+{::nomarkdown}</td> <td markdown="block">{:/}
+- Let $m$ and $n$ be **odd and even respectively**.
+- Let **m be odd and n be even**.
+{::nomarkdown}</td> <td markdown="block">{:/}
+The wrong example is ambiguous because it does not precisely state which is odd and which is even. The two corrected examples show two possible variations which are much clearer.
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+This equation has **finite** solutions.
+{::nomarkdown}</td> <td markdown="block">{:/}
+- This equation has **finitely many** solutions.
+- This equation has **a finite number of** solutions.
+{::nomarkdown}</td> <td markdown="block">{:/}
+Here 'finite' is used to describe the \emph{number} of solutions, rather than the solutions themselves.
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+The equation $x+3=2x+4-x-1$ has **infinite** solutions.
+{::nomarkdown}</td> <td markdown="block">{:/}
+The equation $x+3=2x+4-x-1$ has **infinitely many** solutions.
+{::nomarkdown}</td> <td markdown="block">{:/}
+Again, 'infinite' refers to the number of solutions rather than the solutions themselves.
+{::nomarkdown}</tr> </tbody> </table>{:/}
 
 ## Other Issues
 
@@ -500,23 +529,67 @@ written language.
 Some words sound the same (or similar) when pronounced, but are in fact
 spelt differently, and may have different meanings.
 
-| Wrong | Correct | Comments |
-| --- | --- | --- |
-| The number $x$ **can not** be rational. | The number $x$ **cannot** be rational. | 'Cannot' and 'can not' have different meanings. For example 'he cannot do it' means he does not have the ability to do it, while 'he can not do it' usually implies he has the ability to do it but also has the option of not doing it. |
-| Without **lost** of generality, we have... | Without **loss** of generality, we have... | The noun form 'loss' is used in this context. |
-| {::nomarkdown}<ul><li>{:/} This **proofs** that $x>0$. {::nomarkdown}</li><li>{:/} This completes the  **prove**. {::nomarkdown}</li></ul>{:/} | {::nomarkdown}<ul><li>{:/} This **proves** that $x>0$. {::nomarkdown}</li><li>{:/} This completes the  **proof**. {::nomarkdown}</li></ul>{:/} | 'Proof' is a noun whereas 'prove' is the corresponding verb. |
+<table cellpadding="8" cellspacing="0" markdown="block">
+<thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
+<tbody> <tr> <td markdown="block">
+The number $x$ **can not** be rational.
+{::nomarkdown}</td> <td markdown="block">{:/}
+The number $x$ **cannot** be rational.
+{::nomarkdown}</td> <td markdown="block">{:/}
+'Cannot' and 'can not' have different meanings. For example 'he cannot do it' means he does not have the ability to do it, while 'he can not do it' usually implies he has the ability to do it but also has the option of not doing it.
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+Without **lost** of generality, we have...
+{::nomarkdown}</td> <td markdown="block">{:/}
+Without **loss** of generality, we have...
+{::nomarkdown}</td> <td markdown="block">{:/}
+The noun form 'loss' is used in this context.
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+- This **proofs** that $x>0$.
+- This completes the **prove**.
+{::nomarkdown}</td> <td markdown="block">{:/}
+- This **proves** that $x>0$.
+- This completes the  **proof**.
+{::nomarkdown}</td> <td markdown="block">{:/}
+'Proof' is a noun whereas 'prove' is the corresponding verb.
+{::nomarkdown}</tr> </tbody> </table>{:/}
 
 ### Frequently confused words {#ss:confuse}
 
 Some words are often misused in mathematical writing.
 
-| Wrong | Correct | Comments |
-| --- | --- | --- |
-| Rotate $\triangle ABC$ **clockwisely** by $90^\circ$. | Rotate $\triangle ABC$ **clockwise** by $90^\circ$. | 'Clockwise' is already an adverb. The word 'clockwisely' does not exist. |
-| The numbers $a$, $b$ and $c$ are **pairwisely** different. | The numbers $a$, $b$ and $c$ are **pairwise** different. | Again, the word 'pairwisely' does not exist. |
-| Here is a **counter example**. | Here is a **counterexample**. | Here 'counter' is not a word, but rather a prefix attached to 'example' meaning 'the opposite'. |
-| Let $x$ be a **non zero** number. | Let $x$ be a **nonzero** number. | Again, 'non' is not a word, but rather a prefix attached to 'zero' meaning 'not'. |
-| From this we **deduct** that the equation has no solution. | From this we **deduce** that the equation has no solution. | Although 'deduction' is the noun for both the verbs 'deduct' and 'deduce', the two verbs have different meanings. 'Deduct' means 'subtract', while 'deduce' means 'draw a logical conclusion'. |
+<table cellpadding="8" cellspacing="0" markdown="block">
+<thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
+<tbody> <tr> <td markdown="block">
+Rotate $\triangle ABC$ **clockwisely** by $90^\circ$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+Rotate $\triangle ABC$ **clockwise** by $90^\circ$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+'Clockwise' is already an adverb. The word 'clockwisely' does not exist.
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+The numbers $a$, $b$ and $c$ are **pairwisely** different.
+{::nomarkdown}</td> <td markdown="block">{:/}
+The numbers $a$, $b$ and $c$ are **pairwise** different.
+{::nomarkdown}</td> <td markdown="block">{:/}
+Again, the word 'pairwisely' does not exist.
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+Here is a **counter example**.
+{::nomarkdown}</td> <td markdown="block">{:/}
+Here is a **counterexample**.
+{::nomarkdown}</td> <td markdown="block">{:/}
+Here 'counter' is not a word, but rather a prefix attached to 'example' meaning 'the opposite'.
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+Let $x$ be a **non zero** number.
+{::nomarkdown}</td> <td markdown="block">{:/}
+Let $x$ be a **nonzero** number.
+{::nomarkdown}</td> <td markdown="block">{:/}
+Again, 'non' is not a word, but rather a prefix attached to 'zero' meaning 'not'.
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+From this we **deduct** that the equation has no solution.
+{::nomarkdown}</td> <td markdown="block">{:/}
+From this we **deduce** that the equation has no solution.
+{::nomarkdown}</td> <td markdown="block">{:/}
+Although 'deduction' is the noun for both the verbs 'deduct' and 'deduce', the two verbs have different meanings. 'Deduct' means 'subtract', while 'deduce' means 'draw a logical conclusion'.
+{::nomarkdown}</tr> </tbody> </table>{:/}
 
 ### Use of linking verbs and punctuation
 
@@ -528,13 +601,39 @@ Note also that there should only be one verb in a simple sentence. When
 there is more than one verb, we need a conjunction (e.g. 'and') to
 properly link the phrases together.
 
-| Wrong | Correct | Comments |
-| --- | --- | --- |
-| If $x>0$**. Then** $2x>0$. | If $x>0$**, then** $2x>0$. | When using 'if' for assumption, always follow it up with something in the same sentence. 'If $x>0$' is not a complete sentence. |
-| When $x>0$**. Then** $2x>0$. | When $x>0$**,** $2x>0$. | Same as using 'if', when using 'when' for assumption, always follow it up with something in the same sentence. 'When $x>0$' is not a complete sentence. |
-| Since $x$ is non-negative**. We** have $x+1>0$. | Since $x$ is non-negative**, we** have $x+1>0$. | 'Since' is used to join dependent clauses to independent clauses and therefore must go in sentences which have two clauses. 'Since $x$ is non-negative' is not a complete sentence. |
-| Let $x$ be non-negative**, then** $x+1>0$. | Let $x$ be non-negative**. Then** $x+1>0$. | When using 'let' and 'then' to list steps of proofs use two sentences, one for each step. |
-| Suppose $x$ is non-negative**, then** we have $x+1>0$. | Suppose $x$ is non-negative**. Then** we have $x+1>0$. | When using 'suppose' and 'then' to list steps of proofs use two sentences. |
+<table cellpadding="8" cellspacing="0" markdown="block">
+<thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
+<tbody> <tr> <td markdown="block">
+If $x>0$**. Then** $2x>0$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+If $x>0$**, then** $2x>0$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+When using 'if' for assumption, always follow it up with something in the same sentence. 'If $x>0$' is not a complete sentence.
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+When $x>0$**. Then** $2x>0$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+When $x>0$**,** $2x>0$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+Same as using 'if', when using 'when' for assumption, always follow it up with something in the same sentence. 'When $x>0$' is not a complete sentence.
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+Since $x$ is non-negative**. We** have $x+1>0$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+Since $x$ is non-negative**, we** have $x+1>0$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+'Since' is used to join dependent clauses to independent clauses and therefore must go in sentences which have two clauses. 'Since $x$ is non-negative' is not a complete sentence.
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+Let $x$ be non-negative**, then** $x+1>0$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+Let $x$ be non-negative**. Then** $x+1>0$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+When using 'let' and 'then' to list steps of proofs use two sentences, one for each step.
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+Suppose $x$ is non-negative**, then** we have $x+1>0$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+Suppose $x$ is non-negative**. Then** we have $x+1>0$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+When using 'suppose' and 'then' to list steps of proofs use two sentences.
+{::nomarkdown}</tr> </tbody> </table>{:/}
 
 ### Spelling
 
@@ -564,12 +663,94 @@ two sides are not equal, and we have to be careful about its usage too.
 When using the equal sign, make sure that the expressions on the two
 sides are indeed equal.
 
-| Wrong | Correct | Comments |
-| --- | --- | --- |
-| By first principles, the derivative of $x^2$ is $$\begin{align*} &\lim_{h\to0} \frac{f(x+h)-f(x)}h \\ \boldsymbol{={}}& \boldsymbol{\frac{(x^2+2xh+h^2) - x^2}h} \\ ={}& 2x. \end{align*}$$ | By first principles, the derivative of $x^2$ is $$\begin{align*} &\lim_{h\to0} \frac{f(x+h)-f(x)}h \\ \boldsymbol{={}}& \boldsymbol{\lim_{h\to0} \frac{(x^2+2xh+h^2) - x^2}h} \\ ={}& 2x. \end{align*}$$ | The answer is correct but it is wrong to omit the limits in the working out. As the argument stands Line 1 and Line 2 in the wrong example are surely not equal (neither are Lines 2 and 3). |
-| To find the third derivative of $xe^x$, we have $$\begin{align*} \boldsymbol{xe^x} &\boldsymbol{= xe^x + e^x} \\ &\boldsymbol{= xe^x + 2e^x} \\ &= xe^x + 3e^x. \end{align*}$$ | To find the third derivative of $xe^x$, we have $$\begin{align*} \boldsymbol{\frac{d^3}{dx^3}(xe^x)} &\boldsymbol{= \frac{d^2}{dx^2}(xe^x + e^x)} \\ &\boldsymbol{= \frac{d}{dx}(xe^x + 2e^x)} \\ &= xe^x + 3e^x. \end{align*}$$ | In the first (wrong) example, the expressions are clearly not equal. |
-| Since the derivative is $2x$, the slope of the tangent at $(2,5)$ is 4. Hence the equation of the tangent is $$\begin{align*} \frac{y-5}{x-2}=4 \enspace \boldsymbol= \enspace y=4x-3. \end{align*}$$ | Since the derivative is $2x$, the slope of the tangent at $(2,5)$ is 4. Hence the equation of the tangent is $$\begin{align*} \frac{y-5}{x-2}=4, \end{align*}$$ **which is the same as** $$\begin{align*} y = 4x-3. \end{align*}$$ | What the wrong example intended to say was that the equation '$\dfrac{y-5}{x-2}=4$' is 'equal' to the equation '$y=4x-3$'. But as it stands it says much more than that --- for example the middle equality reads $4=y$, which does not make sense. |
-| We row reduce the matrix to find $$\begin{align*} \begin{bmatrix} 1&0 \\ 2&4 \end{bmatrix} \boldsymbol = \begin{bmatrix} 1&0 \\ 0&1 \end{bmatrix}. \end{align*}$$ Hence it is invertible. | We row reduce the matrix to find $$\begin{align*} \begin{bmatrix} 1&0 \\ 2&4 \end{bmatrix} \boldsymbol\to \begin{bmatrix} 1&0 \\ 0&1 \end{bmatrix}. \end{align*}$$ Hence it is invertible. | The matrices are row equivalent but not equal (we say two matrices are equal if and only if all their entries are the same). The proper way is to use an arrow; usually we also indicate the operations carried out, for example, $\xrightarrow{-2R_1+R_2}$ means we add $-2$ times row 1 to row 2. |
+<table cellpadding="8" cellspacing="0" markdown="block">
+<thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
+<tbody> <tr> <td markdown="block">
+By first principles, the derivative of $x^2$ is
+
+$$\begin{align*}
+    &\lim_{h\to0} \frac{f(x+h)-f(x)}h \\
+    \boldsymbol{={}}& \boldsymbol{\frac{(x^2+2xh+h^2) - x^2}h} \\
+    ={}& 2x.
+\end{align*}$$
+{::nomarkdown}</td> <td markdown="block">{:/}
+By first principles, the derivative of $x^2$ is
+
+$$\begin{align*}
+    &\lim_{h\to0} \frac{f(x+h)-f(x)}h \\
+    \boldsymbol{={}}& \boldsymbol{\lim_{h\to0} \frac{(x^2+2xh+h^2) - x^2}h} \\
+    ={}& 2x.
+\end{align*}$$
+{::nomarkdown}</td> <td markdown="block">{:/}
+The answer is correct but it is wrong to omit the limits in the working out. As
+the argument stands Line 1 and Line 2 in the wrong example are surely not equal
+(neither are Lines 2 and 3).
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+To find the third derivative of $xe^x$, we have
+
+$$\begin{align*}
+    \boldsymbol{xe^x} &\boldsymbol{= xe^x + e^x} \\
+    &\boldsymbol{= xe^x + 2e^x} \\
+    &= xe^x + 3e^x.
+\end{align*}$$
+{::nomarkdown}</td> <td markdown="block">{:/}
+To find the third derivative of $xe^x$, we have
+
+$$\begin{align*}
+    \boldsymbol{\frac{d^3}{dx^3}(xe^x)} &\boldsymbol{= \frac{d^2}{dx^2}(xe^x + e^x)} \\
+    &\boldsymbol{= \frac{d}{dx}(xe^x + 2e^x)} \\
+    &= xe^x + 3e^x.
+\end{align*}$$
+{::nomarkdown}</td> <td markdown="block">{:/}
+In the first (wrong) example, the expressions are clearly not equal.
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+Since the derivative is $2x$, the slope of the tangent at $(2,5)$ is 4.
+Hence the equation of the tangent is
+
+$$\begin{align*}
+    \frac{y-5}{x-2}=4 \enspace \boldsymbol= \enspace y=4x-3.
+\end{align*}$$
+{::nomarkdown}</td> <td markdown="block">{:/}
+Since the derivative is $2x$, the slope of the tangent at $(2,5)$ is 4.
+Hence the equation of the tangent is
+
+$$\begin{align*}
+    \frac{y-5}{x-2}=4,
+\end{align*}$$
+
+**which is the same as**
+
+$$\begin{align*}
+    y = 4x-3.
+\end{align*}$$
+{::nomarkdown}</td> <td markdown="block">{:/}
+What the wrong example intended to say was that the equation '$\dfrac{y-5}{x-2}=4$' is 'equal' to the equation '$y=4x-3$'. But as it stands it says much more than that --- for example the middle equality reads $4=y$, which does not make sense.
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+We row reduce the matrix to find
+
+$$\begin{align*}
+    \begin{bmatrix} 1&0 \\ 2&4 \end{bmatrix}
+    \boldsymbol=
+    \begin{bmatrix} 1&0 \\ 0&1 \end{bmatrix}.
+\end{align*}$$
+
+Hence it is invertible.
+{::nomarkdown}</td> <td markdown="block">{:/}
+We row reduce the matrix to find
+
+$$\begin{align*}
+    \begin{bmatrix} 1&0 \\ 2&4 \end{bmatrix}
+    \boldsymbol\to
+    \begin{bmatrix} 1&0 \\ 0&1 \end{bmatrix}.
+\end{align*}$$
+
+Hence it is invertible.
+{::nomarkdown}</td> <td markdown="block">{:/}
+The matrices are row equivalent but not equal (we say two matrices are equal if
+and only if all their entries are the same). The proper way is to use an arrow;
+usually we also indicate the operations carried out, for example,
+$\xrightarrow{-2R_1+R_2}$ means we add $-2$ times row 1 to row 2.
+{::nomarkdown}</tr> </tbody> </table>{:/}
 
 ### Non-transitivity of $\ne$
 

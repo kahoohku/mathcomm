@@ -1,0 +1,16 @@
+#!/bin/sh
+
+input=$1
+
+printf '%s\n%s\n%s\n' \
+	'<table cellpadding="8" cellspacing="0" markdown="block">' \
+	'<thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>' \
+	'<tbody> <tr> <td markdown="block">'
+
+cat "$input" |
+	sed '/^\s*$/{ N; /\n[[:space:]]*%/ { s/\n//; }; }' |
+	sed 's|^%1|{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}|' |
+	sed 's|^%[23]|{::nomarkdown}</td> <td markdown="block">{:/}|' |
+	sed '1d'
+
+printf '%s\n' '{::nomarkdown}</tr> </tbody> </table>{:/}'
