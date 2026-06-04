@@ -155,11 +155,11 @@ following it.
     </tr>
     <!-- Row 2 -->
     <tr>
-      <td markdown="span">
+      <td markdown="block">
 - By **binomial theorem**, we have...
 - By **the Pythagoras' Theorem**, $ABC$ is a right-angled triangle.
       </td>
-      <td markdown="span">
+      <td markdown="block">
 - By **the binomial theorem**, we have...
 - By **Pythagoras' Theorem**, $ABC$ is a right-angled triangle.
       </td>
