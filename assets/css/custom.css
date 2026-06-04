@@ -35,4 +35,6 @@ tr:last-child td {
 
 table.demo td:nth-child(3) {
   font-size: smaller;
+  width: 100px;
+  max-width: 150px;
 }
