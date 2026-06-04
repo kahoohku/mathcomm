@@ -138,7 +138,7 @@ indefinite article 'a/an' should be used instead. Whether 'a' or 'an'
 should be used depends on the pronunciation of the word or letter
 following it.
 
-<table border="1" cellpadding="8" cellspacing="0">
+<table cellpadding="8" cellspacing="0">
   <thead>
     <tr>
       <th>Wrong</th>
@@ -156,12 +156,12 @@ following it.
     <!-- Row 2 -->
     <tr>
       <td markdown="span">
-- By **binomial theorem**, we have...
-- By **the Pythagoras' Theorem**, $ABC$ is a right-angled triangle.
+        - By **binomial theorem**, we have...
+        - By **the Pythagoras' Theorem**, $ABC$ is a right-angled triangle.
       </td>
       <td markdown="span">
-- By **the binomial theorem**, we have...
-- By **Pythagoras' Theorem**, $ABC$ is a right-angled triangle.
+        - By **the binomial theorem**, we have...
+        - By **Pythagoras' Theorem**, $ABC$ is a right-angled triangle.
       </td>
       <td markdown="span">When referring to a specific theorem (e.g. the Fundamental Theorem of Calculus) use 'the' (the definite article). However, when referring to a theorem from a named person use the zero article.</td>
     </tr>
@@ -169,16 +169,16 @@ following it.
     <tr>
       <td markdown="span">By (a), **the $g$** is continuous.</td>
       <td markdown="span">
-- By (a), **$g$** is continuous.
-- By (a), **the function $g$** is continuous.
+        - By (a), **$g$** is continuous.
+        - By (a), **the function $g$** is continuous.
       </td>
       <td markdown="span">When naming something with a letter (e.g. $g$) use the zero article. When using the noun function use the definite article (e.g. the function $g$).</td>
     </tr>
     <!-- Row 4 -->
     <tr>
       <td markdown="span">
-- Let $x$ be **non-negative number**.
-- Let $x$ be **the non-negative number**.
+        - Let $x$ be **non-negative number**.
+        - Let $x$ be **the non-negative number**.
       </td>
       <td markdown="span">
 - Let $x$ be **a non-negative number**.
