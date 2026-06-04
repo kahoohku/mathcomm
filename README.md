@@ -158,12 +158,14 @@ following it.
       <td markdown="block">
 - By **binomial theorem**, we have...
 - By **the Pythagoras' Theorem**, $ABC$ is a right-angled triangle.
-      </td>
-      <td markdown="block">
+      {::nomarkdown}</td><td markdown="block">{:/}
 - By **the binomial theorem**, we have...
 - By **Pythagoras' Theorem**, $ABC$ is a right-angled triangle.
+      {::nomarkdown}</td><td markdown="block">{:/}
+        When referring to a specific theorem (e.g. the Fundamental Theorem of
+        Calculus) use 'the' (the definite article). However, when referring to
+        a theorem from a named person use the zero article.
       </td>
-      <td markdown="span">When referring to a specific theorem (e.g. the Fundamental Theorem of Calculus) use 'the' (the definite article). However, when referring to a theorem from a named person use the zero article.</td>
     </tr>
     <!-- Row 3 -->
     <tr>
