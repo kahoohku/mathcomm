@@ -488,7 +488,7 @@ than the others.
 Assume **the contrary** that not all of them are zeros.
 {::nomarkdown}</td> <td markdown="block">{:/}
 - Assume **on the contrary** that not all of them are zeros.
-- Assume **the contrary, i.e.\ **  not all of them are zeros.
+- Assume **the contrary, i.e.**  not all of them are zeros.
 {::nomarkdown}</td> <td markdown="block">{:/}
 'On the contrary' is used as an adverb phrase with the verb assume. On the other hand, 'the contrary' is a noun and the object of the verb 'assume'. In this case add another clause which gives information about the assumption.
 {::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
@@ -761,9 +761,16 @@ e.g. $1<2<3$, but only when the symbol is *transitive* --- in this
 example '$<$' is transitive since if $1<2$ and $2<3$, then we must have
 $1<3$. Likewise, '$=$' is transitive. However, '$\ne$' is not.
 
-| Wrong | Correct | Comments |
-| --- | --- | --- |
-| Since $\boldsymbol{a \neq b \neq c}$, we have... | {::nomarkdown}<ul><li>{:/} Since **$\boldsymbol{a \neq b}$, $\boldsymbol{b \neq c}$, and $\boldsymbol{a \neq c}$**, we have...{::nomarkdown}</li><li>{:/} Since **$\boldsymbol{a, b, c}$ are pairwise distinct**, we have... {::nomarkdown}</li></ul>{:/} | The wrong example intended to mean that all three values $a,b$ and $c$ are different but with the way it is written, $a$ and $c$ could be equal (for example consider $1\neq 2\neq1$). |
+<table cellpadding="8" cellspacing="0" markdown="block">
+<thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
+<tbody> <tr> <td markdown="block">
+Since $\boldsymbol{a \neq b \neq c}$, we have...
+{::nomarkdown}</td> <td markdown="block">{:/}
+- Since **$\boldsymbol{a \neq b}$, $\boldsymbol{b \neq c}$, and $\boldsymbol{a \neq c}$**, we have...
+- Since **$\boldsymbol{a, b, c}$ are pairwise distinct**, we have...
+{::nomarkdown}</td> <td markdown="block">{:/}
+The wrong example intended to mean that all three values $a,b$ and $c$ are different but with the way it is written, $a$ and $c$ could be equal (for example consider $1\neq 2\neq1$).
+{::nomarkdown}</tr> </tbody> </table>{:/}
 
 ### Proper order
 
@@ -771,8 +778,72 @@ As previously mentioned, '$=$' is transitive and so we can equate three
 or more expressions in a single chain of equalities. However, we have to
 be careful about the order.
 
-| Wrong | Correct | Comments |
-| --- | --- | --- |
+<table cellpadding="8" cellspacing="0" markdown="block">
+<thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
+<tbody> <tr> <td markdown="block">
+Since $\dfrac{x^4y^4}8=2$, we have $\boldsymbol{x^4y^4=(xy)^4}=8\times2=16$ and so $xy=\sqrt[4]{16}=2$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+Since $\dfrac{x^4y^4}8=2$, we have $\boldsymbol{(xy)^4=x^4y^4}=8\times2=16$ and so $xy=\sqrt[4]{16}=2$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+When studying a chain of equalities, one naturally tries to figure out why each
+equality sign holds. In the wrong example, one can understand why
+$x^4y^4=(xy)^4$, but then for the second inequality $(xy)^4=8\times2$, one gets
+stuck. In fact it is $x^4y^4$ that is equal to $8\times2$, so switching the
+order makes it much easier to follow.
+{::nomarkdown}</tr> </tbody> </table>{:/}
+
+## The Symbols '$\Rightarrow$' and '$\Leftrightarrow$'
+The first symbol means 'implies' and the second symbol means 'is equivalent to' (or 'if and only if'). They are used to relate different statements and are some of the most frequently used symbols. Yet, they are also some of the most commonly misused symbols.
+
+<table cellpadding="8" cellspacing="0" markdown="block">
+<thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
+<tbody> <tr> <td markdown="block">
+**If** $\boldsymbol{x=1}$ $\boldsymbol\Rightarrow$ $x+1=2$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+- If $x=1$**, then** $x+1=2$.
+- $\boldsymbol{x=1\Rightarrow}$ $x+1=2$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+The easiest way to see what is wrong is to convert back to English. The wrong
+example reads 'if $x$ equals 1, implies $x+1$ equals 2', which clearly does not
+seem correct.
+Note that the correct example reads '$x$ equals 1 implies $x+1$ equals 2',
+which is perfectly fine.
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+Hence we have
+
+$$ x+1=5\ \boldsymbol{\Rightarrow}\ x=4. $$
+{::nomarkdown}</td> <td markdown="block">{:/}
+Hence we have $x+1=5$**, which implies** $x=4$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+The problem in the wrong example is that the statement '$x+1=5\Rightarrow x=4$'
+is true regardless to what happens before, contrary to what we expect by the
+use of the connective 'hence'. The intended meaning was that the previous
+argument implies that $x+1=5$, which then implies $x=4$.
+
+Note that one
+may try to interpret the wrong example as
+
+$$\begin{align*}
+	& (\text{Hence we have}\ x+1=5)\\
+	\Rightarrow {} & (x=4).
+\end{align*}$$
+
+but this is not correct either since 'hence we have $x+1=5$' is not a statement
+(while '$x+1=5$' is).
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+The quadratic function has a critical point at $(2,3)$. From this we see that the point $(2,3)$ must be a maximum.
+
+$$ \boldsymbol{\Rightarrow}\ x=2. $$
+{::nomarkdown}</td> <td markdown="block">{:/}
+The quadratic function has a critical point at $(2,3)$. From this we see that the point $(2,3)$ must be a maximum
+**and therefore** $x=2$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+In general try not to use a symbol in the middle of nowhere. In the wrong
+example it is unclear which statement implies $x=2$. Note that '$\Rightarrow
+x=2$' is an incomplete sentence and it must be preceded by a statement. While
+'the point $(2,3)$ must be a maximum' is a statement, 'from this we see that
+the point $(2,3)$ must be a maximum' is not.
+{::nomarkdown}</tr> </tbody> </table>{:/}
 
 ## The Symbols '$\forall$' and '$\exists$'
 
