@@ -241,28 +241,46 @@ $(0,0)$ is the only local **maximum**.
 Similar to nouns, most verbs have more than one forms, and you need to
 be aware of which ones are correct and which ones are wrong.
 
-<table cellpadding="8" cellspacing="0" markdown="block">
-  <thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
-  <tbody>
-    <tr> <td markdown="block">
-{::nomarkdown}<ul><li>{:/} **It is** a rational number between 1 and 2. {::nomarkdown}</li><li>{:/} **There has** a rational number between 1 and 2. {::nomarkdown}</li></ul>{:/}
-      {::nomarkdown}</td><td markdown="block">{:/}
-**There is** a rational number between 1 and 2.
-      {::nomarkdown}</td><td markdown="block">{:/}
-The phrase 'there is' is usually used to introduce new information (which does not refer back to previous information); when we say 'it is' there should be something (in this example a rational number) introduced before. 'There has' is a grammatical mistake; always use 'there is/are' (the verb-to-be).
-    {::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
-A real number $x$ whose square is negative **is not exist**.
-      {::nomarkdown}</td><td markdown="block">{:/}
-A real number $x$ whose square is negative **does not exist**.
-      {::nomarkdown}</td><td markdown="block">{:/}
-Use the auxiliary verb 'do' to form the negative.
-    {::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
-This sequence **is not converge**.
-      {::nomarkdown}</td><td markdown="block">{:/}
-{::nomarkdown}<ul><li>{:/} This sequence **does not converge**. {::nomarkdown}</li><li>{:/} This sequence **is not convergent**. {::nomarkdown}</li></ul>{:/}
-      {::nomarkdown}</td><td markdown="block">{:/}
-{::nomarkdown}<ul><li>{:/} Use the auxiliary verb 'do' to form the negative. {::nomarkdown}</li><li>{:/} Use the adjective form (convergent) when using the verb-to-be. {::nomarkdown}</li></ul>{:/}
-{::nomarkdown}</tr> </tbody> </table>{:/}
+			<table cellpadding="8" cellspacing="0" markdown="block">
+			<thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
+			<tbody> <tr> <td markdown="block">
+- There **exists** real numbers $m$ and $n$ such that $m>n$.
+- There **exist** a real number $m$ such that $m>1$.
+			{::nomarkdown}</td> <td markdown="block">{:/}
+- There **exist** real numbers $m$ and $n$ such that $m>n$.
+- There **exists** a real number $m$ such that $m>1$.
+			{::nomarkdown}</td> <td markdown="block">{:/}
+Make sure the subject agrees with the verb. Whether to use 'exists' or 'exist' depends on whether the noun that follows is in singular or plural form.\\ \hline
+			{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+There **exist** no integer $k$ such that $3k=2$.
+			{::nomarkdown}</td> <td markdown="block">{:/}
+There **exists** no integer $k$ such that $3k=2$.
+			{::nomarkdown}</td> <td markdown="block">{:/}
+'Integer' in this example is singular.
+			{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+**Replace** $a$ by $-a$, we have $f(-a)=(-a)^2=a^2=f(a)$.&
+			{::nomarkdown}</td> <td markdown="block">{:/}
+- **Replacing** $a$ by $-a$, we have $f(-a)=(-a)^2=a^2=f(a)$.
+- If we replace** $a$ by $-a$, we have $f(-a)=(-a)^2=a^2=f(a)$.
+			{::nomarkdown}</td> <td markdown="block">{:/}
+'Replacing' has the same meaning as 'If we replace'; '-ing' clauses can go at the beginning of a sentence and are a dependent clause.
+			{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+Hence we get $x<0$, **contradicts to** (1).
+			{::nomarkdown}</td> <td markdown="block">{:/}
+- Hence we get $x<0$, **which contradicts** (1).
+- Hence we get $x<0$, **which is a contradiction to** (1).
+			{::nomarkdown}</td> <td markdown="block">{:/}
+The verb form 'contradict' does not have a dependent preposition, i.e. 'contradict something'. The noun form 'contradiction' does have a dependent preposition 'to'.
+The relevant phrase is 'which is a contradiction to'.
+			{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+Thus **contradiction**.
+			{::nomarkdown}</td> <td markdown="block">{:/}
+- Thus **a contradiction occurs**.
+- Thus **there is a contradiction**.
+			{::nomarkdown}</td> <td markdown="block">{:/}
+In the wrong version there is no verb form in the sentence. The two correct sentences contain a verb.
+			{::nomarkdown}</tr> </tbody> </table>{:/}
+
 
 ### Verb-to-be and verb-to-do
 
