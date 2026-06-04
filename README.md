@@ -184,9 +184,7 @@ then use the zero article.
 Let $x$ be **positive**
       {::nomarkdown}</td><td markdown="block">{:/}
 Use the adjective form and not the noun form.
-    {::nomarkdown}</tr>
-  </tbody>
-</table>{:/}
+{::nomarkdown}</tr> </tbody> </table>{:/}
 
 | Wrong | Correct | Comments |
 | --- | --- | --- |
