@@ -1,0 +1,48 @@
+%1
+**If** $\boldsymbol{x=1}$ $\boldsymbol\Rightarrow$ $x+1=2$.
+%2
+- If $x=1$**, then** $x+1=2$.
+- $\boldsymbol{x=1\Rightarrow}$ $x+1=2$.
+%3
+The easiest way to see what is wrong is to convert back to English. The wrong
+example reads 'if $x$ equals 1, implies $x+1$ equals 2', which clearly does not
+seem correct.
+Note that the correct example reads '$x$ equals 1 implies $x+1$ equals 2',
+which is perfectly fine.
+
+%1
+Hence we have
+
+$$ x+1=5\ \boldsymbol{\Rightarrow}\ x=4. $$
+%2
+Hence we have $x+1=5$**, which implies** $x=4$.
+%3
+The problem in the wrong example is that the statement '$x+1=5\Rightarrow x=4$'
+is true regardless to what happens before, contrary to what we expect by the
+use of the connective 'hence'. The intended meaning was that the previous
+argument implies that $x+1=5$, which then implies $x=4$.
+
+Note that one
+may try to interpret the wrong example as
+
+$$\begin{align*}
+	& (\text{Hence we have}\ x+1=5)\\
+	\Rightarrow {} & (x=4).
+\end{align*}$$
+
+but this is not correct either since 'hence we have $x+1=5$' is not a statement
+(while '$x+1=5$' is).
+
+%1
+The quadratic function has a critical point at $(2,3)$. From this we see that the point $(2,3)$ must be a maximum.
+
+$$ \boldsymbol{\Rightarrow}\ x=2. $$
+%2
+The quadratic function has a critical point at $(2,3)$. From this we see that the point $(2,3)$ must be a maximum
+**and therefore** $x=2$.
+%3
+In general try not to use a symbol in the middle of nowhere. In the wrong
+example it is unclear which statement implies $x=2$. Note that '$\Rightarrow
+x=2$' is an incomplete sentence and it must be preceded by a statement. While
+'the point $(2,3)$ must be a maximum' is a statement, 'from this we see that
+the point $(2,3)$ must be a maximum' is not.

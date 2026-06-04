@@ -1,0 +1,10 @@
+%1
+Since $\dfrac{x^4y^4}8=2$, we have $\boldsymbol{x^4y^4=(xy)^4}=8\times2=16$ and so $xy=\sqrt[4]{16}=2$.
+%2
+Since $\dfrac{x^4y^4}8=2$, we have $\boldsymbol{(xy)^4=x^4y^4}=8\times2=16$ and so $xy=\sqrt[4]{16}=2$.
+%3
+When studying a chain of equalities, one naturally tries to figure out why each
+equality sign holds. In the wrong example, one can understand why
+$x^4y^4=(xy)^4$, but then for the second inequality $(xy)^4=8\times2$, one gets
+stuck. In fact it is $x^4y^4$ that is equal to $8\times2$, so switching the
+order makes it much easier to follow.

@@ -869,10 +869,10 @@ $\mathbb{Z}\subseteq \mathbb{Q}\subseteq \mathbb{R}$.
 <thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
 <tbody> <tr> <td markdown="block">
 - $(0,1) \boldsymbol\in \mathbb R$
-- If $x=5$, then $x \boldsymbol\subseteq $\mathbb R$.
+- If $x=5$, then $x \boldsymbol\subseteq \mathbb R$.
 {::nomarkdown}</td> <td markdown="block">{:/}
 - $(0,1) \boldsymbol\subseteq \mathbb R$
-- If $x=5$, then $x \boldsymbol\in $\mathbb R$.
+- If $x=5$, then $x \boldsymbol\in \mathbb R$.
 {::nomarkdown}</td> <td markdown="block">{:/}
 An interval is a subset of $\mathbb R$, and so the subset symbol '$\subseteq$' should
 be used. In the second example $x$ is a real number, so the set membership

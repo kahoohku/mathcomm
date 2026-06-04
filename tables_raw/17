@@ -1,0 +1,10 @@
+%1
+- $(0,1) \boldsymbol\in \R$
+- If $x=5$, then $x \boldsymbol\subseteq \mathbb R$.
+%2
+- $(0,1) \boldsymbol\subseteq \mathbb R$
+- If $x=5$, then $x \boldsymbol\in \mathbb R$.
+%3
+An interval is a subset of $\R$, and so the subset symbol '$\subseteq$' should
+be used. In the second example $x$ is a real number, so the set membership
+symbol '$\in$' should be used.
