@@ -186,14 +186,6 @@ Let $x$ be **positive**
 Use the adjective form and not the noun form.
 {::nomarkdown}</tr> </tbody> </table>{:/}
 
-| Wrong | Correct | Comments |
-| --- | --- | --- |
-| Construct **a** $m \times n$ table. | Construct **an** $m \times n$ table | When the letters $m$ and $n$ are pronounced there is actually a vowel sound /e/ at the beginning of each letter. This means that the article 'an' should be used. |
-| {::nomarkdown}<ul><li>{:/} By **binomial theorem**, we have... {::nomarkdown}</li><li>{:/} By **the Pythagoras' Theorem**, $ABC$ is a right-angled triangle. {::nomarkdown}</li></ul>{:/} | {::nomarkdown}<ul><li>{:/} By **the binomial theorem**, we have... {::nomarkdown}</li><li>{:/} By **Pythagoras' Theorem**, $ABC$ is a right-angled triangle. {::nomarkdown}</li></ul>{:/} | When referring to a specific theorem (e.g. the Fundamental Theorem of Calculus) use 'the' (the definite article).  However, when referring to a theorem from a named person use the zero article. |
-| By (a), **the $g$** is continuous. | {::nomarkdown}<ul><li>{:/} By (a), **$g$** is continuous. {::nomarkdown}</li><li>{:/} By (a), **the function $g$** is continuous. {::nomarkdown}</li></ul>{:/} | When naming something with a letter (e.g. $g$) use the zero article. When using the noun function use the definite article (e.g. the function $g$). |
-| {::nomarkdown}<ul><li>{:/} Let $x$ be **non-negative number**. {::nomarkdown}</li><li>{:/} Let $x$ be **the non-negative number**. {::nomarkdown}</li></ul>{:/} | {::nomarkdown}<ul><li>{:/} Let $x$ be **a non-negative number**. {::nomarkdown}</li><li>{:/} Let $x$ be **non-negative**. {::nomarkdown}</li></ul>{:/} | When using the phrase 'negative' or 'non-negative number', use the indefinite article because 'a' means any number. When using 'non-negative' as an adjective then use the zero article. |
-| Let $x$ be **a positive** | Let $x$ be **positive** | Use the adjective form and not the noun form. |
-
 ### The difference between singular and plural
 
 In general, most nouns have more than one form depending on the
@@ -201,14 +193,48 @@ corresponding quantity. If there are more than one object, the plural
 form is required; whereas the singular form is used if there is only
 one.
 
-| Wrong | Correct | Comments |
-| --- | --- | --- |
-| Throwing two fair **dices** once, we have $6 \times 6 = 36$ different possible outcomes. | Throwing two fair **dice** once, we have $6 \times 6 = 36$ different possible outcomes. | The singular form is 'die', the plural form is 'dice' (without 's'). In modern English sometimes 'dice' is also accepted as the singular form. |
-| **Every square are rectangles** | {::nomarkdown}<ul><li>{:/} Every square **is a rectangle**. {::nomarkdown}</li><li>{:/} **All squares** are rectangles. {::nomarkdown}</li></ul>{:/} | {::nomarkdown}<ul><li>{:/} Every + singular form of noun. {::nomarkdown}</li><li>{:/} All + plural form of noun. {::nomarkdown}</li></ul>{:/} |
-| Assume $P(k)$ is true for some positive **integers** $k$, i.e. $k(k+1)$ is divisible by 2. | Assume $P(k)$ is true for some positive **integer** $k$, i.e. $k(k+1)$ is divisible by 2. | There is only one integer here (namely $k$); therefore it should be in singular form. |
-| Let $A$ be a square **matrice**. | Let $A$ be a square **matrix**. | 'Matrices' is the plural form of 'matrix'. |
-| Let $A$ be the **vertice** of the pyramid. | Let $A$ be the **vertex** of the pyramid. | 'Vertices' is the plural form of 'vertex'. |
-| $(0,0)$ is the only local **maxima**. | $(0,0)$ is the only local **maximum**. | 'Maxima' is the plural form of 'maximum'. |
+<table cellpadding="8" cellspacing="0" markdown="block">
+  <thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
+  <tbody>
+    <tr> <td markdown="block">
+Throwing two fair **dices** once, we have $6 \times 6 = 36$ different possible outcomes.
+      {::nomarkdown}</td><td markdown="block">{:/}
+Throwing two fair **dice** once, we have $6 \times 6 = 36$ different possible outcomes.
+      {::nomarkdown}</td><td markdown="block">{:/}
+The singular form is 'die', the plural form is 'dice' (without 's'). In modern English sometimes 'dice' is also accepted as the singular form. |
+    {::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+**Every square are rectangles**
+      {::nomarkdown}</td><td markdown="block">{:/}
+- Every square **is a rectangle**. 
+- **All squares** are rectangles.
+      {::nomarkdown}</td><td markdown="block">{:/}
+- Every + singular form of noun.
+- All + plural form of noun.
+    {::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+Assume $P(k)$ is true for some positive **integers** $k$, i.e. $k(k+1)$ is divisible by 2.
+      {::nomarkdown}</td><td markdown="block">{:/}
+Assume $P(k)$ is true for some positive **integer** $k$, i.e. $k(k+1)$ is divisible by 2.
+      {::nomarkdown}</td><td markdown="block">{:/}
+There is only one integer here (namely $k$); therefore it should be in singular form.
+    {::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+Let $A$ be a square **matrice**.
+      {::nomarkdown}</td><td markdown="block">{:/}
+Let $A$ be a square **matrix**.
+      {::nomarkdown}</td><td markdown="block">{:/}
+'Matrices' is the plural form of 'matrix'.
+    {::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+Let $A$ be the **vertice** of the pyramid.
+      {::nomarkdown}</td><td markdown="block">{:/}
+Let $A$ be the **vertex** of the pyramid.
+      {::nomarkdown}</td><td markdown="block">{:/}
+'Vertices' is the plural form of 'vertex'.
+    {::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+$(0,0)$ is the only local **maxima**.
+      {::nomarkdown}</td><td markdown="block">{:/}
+$(0,0)$ is the only local **maximum**.
+      {::nomarkdown}</td><td markdown="block">{:/}
+'Maxima' is the plural form of 'maximum'.
+{::nomarkdown}</tr> </tbody> </table>{:/}
 
 ### The different verb forms
 
