@@ -141,52 +141,52 @@ following it.
 <table cellpadding="8" cellspacing="0" markdown="block">
   <thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
   <tbody>
-    <tr> <td markdown="block">
+    <tr> <td>
 Construct **a** $m \times n$ table.
-      {::nomarkdown}</td><td markdown="block">{:/}
+      {::nomarkdown}</td><td>{:/}
 Construct **an** $m \times n$ table.
-      {::nomarkdown}</td><td markdown="block">{:/}
+      {::nomarkdown}</td><td>{:/}
 When the letters $m$ and $n$ are pronounced there is actually a vowel sound /e/
 at the beginning of each letter. This means that the article 'an' should be
 used.
-    {::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+    {::nomarkdown}</td> </tr> <tr> <td>{:/}
 - By **binomial theorem**, we have...
 - By **the Pythagoras' Theorem**, $ABC$ is a right-angled triangle.
-      {::nomarkdown}</td><td markdown="block">{:/}
+      {::nomarkdown}</td><td>{:/}
 - By **the binomial theorem**, we have...
 - By **Pythagoras' Theorem**, $ABC$ is a right-angled triangle.
-      {::nomarkdown}</td><td markdown="block">{:/}
+      {::nomarkdown}</td><td>{:/}
 When referring to a specific theorem (e.g. the Fundamental Theorem of Calculus)
 use 'the' (the definite article). However, when referring to a theorem from a
 named person use the zero article.
-    {::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+    {::nomarkdown}</td> </tr> <tr> <td>{:/}
 By (a), **the $g$** is continuous.
-      {::nomarkdown}</td><td markdown="block">{:/}
+      {::nomarkdown}</td><td>{:/}
 - By (a), **$g$** is continuous.
 - By (a), **the function $g$** is continuous.
-      {::nomarkdown}</td><td markdown="block">{:/}
+      {::nomarkdown}</td><td>{:/}
 When naming something with a letter (e.g. $g$) use the zero article. When using
 the noun function use the definite article (e.g. the function $g$).
-    {::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+    {::nomarkdown}</td> </tr> <tr> <td>{:/}
 - Let $x$ be **non-negative number**.
 - Let $x$ be **the non-negative number**.
-      {::nomarkdown}</td><td markdown="block">{:/}
+      {::nomarkdown}</td><td>{:/}
 - Let $x$ be **a non-negative number**.
 - Let $x$ be **non-negative**.
-      {::nomarkdown}</td><td markdown="block">{:/}
+      {::nomarkdown}</td><td>{:/}
 When using the phrase 'negative' or 'non-negative number', use the indefinite
 article because 'a' means any number. When using 'non-negative' as an adjective
 then use the zero article.
-    {::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+    {::nomarkdown}</td> </tr> <tr> <td>{:/}
 - Let $x$ be **non-negative number**.
 - Let $x$ be **a positive**
-      {::nomarkdown}</td><td markdown="block">{:/}
+      {::nomarkdown}</td><td>{:/}
 Let $x$ be **positive**
-      {::nomarkdown}</td><td markdown="block">{:/}
+      {::nomarkdown}</td><td>{:/}
 Use the adjective form and not the noun form.
-    {::nomarkdown}</tr>{:/}
+    {::nomarkdown}</tr>
   </tbody>
-</table>
+</table>{:/}
 
 | Wrong | Correct | Comments |
 | --- | --- | --- |
