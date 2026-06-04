@@ -138,6 +138,63 @@ indefinite article 'a/an' should be used instead. Whether 'a' or 'an'
 should be used depends on the pronunciation of the word or letter
 following it.
 
+<table border="1" cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Wrong</th>
+      <th>Correct</th>
+      <th>Comments</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Row 1 -->
+    <tr>
+      <td markdown="span">Construct **a** $m \times n$ table.</td>
+      <td markdown="span">Construct **an** $m \times n$ table</td>
+      <td markdown="span">When the letters $m$ and $n$ are pronounced there is actually a vowel sound /e/ at the beginning of each letter. This means that the article 'an' should be used.</td>
+    </tr>
+    <!-- Row 2 -->
+    <tr>
+      <td markdown="span">
+- By **binomial theorem**, we have...
+- By **the Pythagoras' Theorem**, $ABC$ is a right-angled triangle.
+      </td>
+      <td markdown="span">
+- By **the binomial theorem**, we have...
+- By **Pythagoras' Theorem**, $ABC$ is a right-angled triangle.
+      </td>
+      <td markdown="span">When referring to a specific theorem (e.g. the Fundamental Theorem of Calculus) use 'the' (the definite article). However, when referring to a theorem from a named person use the zero article.</td>
+    </tr>
+    <!-- Row 3 -->
+    <tr>
+      <td markdown="span">By (a), **the $g$** is continuous.</td>
+      <td markdown="span">
+- By (a), **$g$** is continuous.
+- By (a), **the function $g$** is continuous.
+      </td>
+      <td markdown="span">When naming something with a letter (e.g. $g$) use the zero article. When using the noun function use the definite article (e.g. the function $g$).</td>
+    </tr>
+    <!-- Row 4 -->
+    <tr>
+      <td markdown="span">
+- Let $x$ be **non-negative number**.
+- Let $x$ be **the non-negative number**.
+      </td>
+      <td markdown="span">
+- Let $x$ be **a non-negative number**.
+- Let $x$ be **non-negative**.
+      </td>
+      <td markdown="span">When using the phrase 'negative' or 'non-negative number', use the indefinite article because 'a' means any number. When using 'non-negative' as an adjective then use the zero article.</td>
+    </tr>
+    <!-- Row 5 -->
+    <tr>
+      <td markdown="span">Let $x$ be **a positive**</td>
+      <td markdown="span">Let $x$ be **positive**</td>
+      <td markdown="span">Use the adjective form and not the noun form.</td>
+    </tr>
+  </tbody>
+</table>
+
 | Wrong | Correct | Comments |
 | --- | --- | --- |
 | Construct **a** $m \times n$ table. | Construct **an** $m \times n$ table | When the letters $m$ and $n$ are pronounced there is actually a vowel sound /e/ at the beginning of each letter. This means that the article 'an' should be used. |
@@ -173,7 +230,7 @@ be aware of which ones are correct and which ones are wrong.
 | There **exist** no integer $k$ such that $3k=2$. | There **exists** no integer $k$ such that $3k=2$. | 'Integer' in this example is singular. |
 | **Replace** $a$ by $-a$, we have $f(-a)=(-a)^2=a^2=f(a)$. | {::nomarkdown}<ul><li>{:/} **Replacing** $a$ by $-a$, we have $f(-a)=(-a)^2=a^2=f(a)$. {::nomarkdown}</li><li>{:/} **If we replace** $a$ by $-a$, we have $f(-a)=(-a)^2=a^2=f(a)$. {::nomarkdown}</li></ul>{:/} | 'Replacing' has the same meaning as 'If we replace'; '-ing' clauses can go at the beginning of a sentence and are a dependent clause. |
 | Hence we get $x<0$, **contradicts to** (1). | {::nomarkdown}<ul><li>{:/} Hence we get $x<0$, **which contradicts** (1). {::nomarkdown}</li><li>{:/} Hence we get $x<0$, **which is a contradiction to** (1). {::nomarkdown}</li></ul>{:/} | The verb form 'contradict' does not have a dependent preposition, i.e. 'contradict something'. The noun form 'contradiction' does have a dependent preposition 'to'. The relevant phrase is 'which is a contradiction to'. |
-| Thus **contradiction** | {::nomarkdown}<ul><li>{:/} Thus **a contradiction occurs**. {::nomarkdown}</li><li>{:/} Thus **there is a contradiction**. {::nomarkdown}</li></ul>{:/} | |
+| Thus **contradiction** | {::nomarkdown}<ul><li>{:/} Thus **a contradiction occurs**. {::nomarkdown}</li><li>{:/} Thus **there is a contradiction**. {::nomarkdown}</li></ul>{:/} | In the wrong version there is no verb form in the sentence. The two correct sentences contain a verb. |
 
 ### Verb-to-be and verb-to-do
 
