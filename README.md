@@ -138,7 +138,7 @@ indefinite article 'a/an' should be used instead. Whether 'a' or 'an'
 should be used depends on the pronunciation of the word or letter
 following it.
 
-<table cellpadding="8" cellspacing="0" markdown="block">
+<table class="demo" cellpadding="8" cellspacing="0" markdown="block">
 <thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
 <tbody> <tr> <td markdown="block">
 Construct **a** $m \times n$ table.
@@ -192,7 +192,7 @@ corresponding quantity. If there are more than one object, the plural
 form is required; whereas the singular form is used if there is only
 one.
 
-<table cellpadding="8" cellspacing="0" markdown="block">
+<table class="demo" cellpadding="8" cellspacing="0" markdown="block">
 <thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
 <tbody> <tr> <td markdown="block">
 Throwing two fair **dices** once, we have $6 \times 6 = 36$ different possible outcomes.
@@ -239,7 +239,7 @@ $(0,0)$ is the only local **maximum**.
 Similar to nouns, most verbs have more than one forms, and you need to
 be aware of which ones are correct and which ones are wrong.
 
-<table cellpadding="8" cellspacing="0" markdown="block">
+<table class="demo" cellpadding="8" cellspacing="0" markdown="block">
 <thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
 <tbody> <tr> <td markdown="block">
 - There **exists** real numbers $m$ and $n$ such that $m>n$.
@@ -285,7 +285,7 @@ Two of the most frequently used verbs in English are the verb-to-be and
 the verb-to-do. They are also two of the most frequently misused verbs
 in English as well as mathematical writing.
 
-<table cellpadding="8" cellspacing="0" markdown="block">
+<table class="demo" cellpadding="8" cellspacing="0" markdown="block">
 <thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
 <tbody> <tr> <td markdown="block">
 - **It is** a rational number between 1 and 2.
@@ -316,7 +316,7 @@ Most words can be changed slightly to convert from one word form to
 another, such as *converge* (verb) and *convergent* (adjective). You
 have to be aware of the differences between the different word forms.
 
-<table cellpadding="8" cellspacing="0" markdown="block">
+<table class="demo" cellpadding="8" cellspacing="0" markdown="block">
 <thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
 <tbody> <tr> <td markdown="block">
 - **Besides from** completing the square, we can use differentiation to find
@@ -396,7 +396,7 @@ not mean exactly what the author wants to convey.
 The wordings in the following examples can be slightly revised so that
 it reads more smoothly.
 
-<table cellpadding="8" cellspacing="0" markdown="block">
+<table class="demo" cellpadding="8" cellspacing="0" markdown="block">
 <thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
 <tbody> <tr> <td markdown="block">
 - Let $x$ **is** non-negative.
@@ -449,7 +449,7 @@ words. In this part we look at some general examples of such in English.
 The wrong usage of mathematical terminology in a particular subject area
 will be dealt with in the later section on [the use of terminology](#s:term).
 
-<table cellpadding="8" cellspacing="0" markdown="block">
+<table class="demo" cellpadding="8" cellspacing="0" markdown="block">
 <thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
 <tbody> <tr> <td markdown="block">
 A prime number is a natural number that has no positive factors other than 1 and itself.
@@ -482,7 +482,7 @@ There are often more than one grammatically correct way to express
 something, but sometimes some choices of wordsings are more suitable
 than the others.
 
-<table cellpadding="8" cellspacing="0" markdown="block">
+<table class="demo" cellpadding="8" cellspacing="0" markdown="block">
 <thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
 <tbody> <tr> <td markdown="block">
 Assume **the contrary** that not all of them are zeros.
@@ -529,7 +529,7 @@ written language.
 Some words sound the same (or similar) when pronounced, but are in fact
 spelt differently, and may have different meanings.
 
-<table cellpadding="8" cellspacing="0" markdown="block">
+<table class="demo" cellpadding="8" cellspacing="0" markdown="block">
 <thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
 <tbody> <tr> <td markdown="block">
 The number $x$ **can not** be rational.
@@ -557,7 +557,7 @@ The noun form 'loss' is used in this context.
 
 Some words are often misused in mathematical writing.
 
-<table cellpadding="8" cellspacing="0" markdown="block">
+<table class="demo" cellpadding="8" cellspacing="0" markdown="block">
 <thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
 <tbody> <tr> <td markdown="block">
 Rotate $\triangle ABC$ **clockwisely** by $90^\circ$.
@@ -601,7 +601,7 @@ Note also that there should only be one verb in a simple sentence. When
 there is more than one verb, we need a conjunction (e.g. 'and') to
 properly link the phrases together.
 
-<table cellpadding="8" cellspacing="0" markdown="block">
+<table class="demo" cellpadding="8" cellspacing="0" markdown="block">
 <thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
 <tbody> <tr> <td markdown="block">
 If $x>0$**. Then** $2x>0$.
@@ -663,7 +663,7 @@ two sides are not equal, and we have to be careful about its usage too.
 When using the equal sign, make sure that the expressions on the two
 sides are indeed equal.
 
-<table cellpadding="8" cellspacing="0" markdown="block">
+<table class="demo" cellpadding="8" cellspacing="0" markdown="block">
 <thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
 <tbody> <tr> <td markdown="block">
 By first principles, the derivative of $x^2$ is
@@ -761,7 +761,7 @@ e.g. $1<2<3$, but only when the symbol is *transitive* --- in this
 example '$<$' is transitive since if $1<2$ and $2<3$, then we must have
 $1<3$. Likewise, '$=$' is transitive. However, '$\ne$' is not.
 
-<table cellpadding="8" cellspacing="0" markdown="block">
+<table class="demo" cellpadding="8" cellspacing="0" markdown="block">
 <thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
 <tbody> <tr> <td markdown="block">
 Since $\boldsymbol{a \neq b \neq c}$, we have...
@@ -778,7 +778,7 @@ As previously mentioned, '$=$' is transitive and so we can equate three
 or more expressions in a single chain of equalities. However, we have to
 be careful about the order.
 
-<table cellpadding="8" cellspacing="0" markdown="block">
+<table class="demo" cellpadding="8" cellspacing="0" markdown="block">
 <thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
 <tbody> <tr> <td markdown="block">
 Since $\dfrac{x^4y^4}8=2$, we have $\boldsymbol{x^4y^4=(xy)^4}=8\times2=16$ and so $xy=\sqrt[4]{16}=2$.
@@ -795,7 +795,7 @@ order makes it much easier to follow.
 ## The Symbols '$\Rightarrow$' and '$\Leftrightarrow$'
 The first symbol means 'implies' and the second symbol means 'is equivalent to' (or 'if and only if'). They are used to relate different statements and are some of the most frequently used symbols. Yet, they are also some of the most commonly misused symbols.
 
-<table cellpadding="8" cellspacing="0" markdown="block">
+<table class="demo" cellpadding="8" cellspacing="0" markdown="block">
 <thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
 <tbody> <tr> <td markdown="block">
 **If** $\boldsymbol{x=1}$ $\boldsymbol\Rightarrow$ $x+1=2$.
@@ -865,8 +865,19 @@ example $2\in \mathbb{N}$ or $\pi \in \mathbb{R}$. The second one means
 in a certain set, for example
 $\mathbb{Z}\subseteq \mathbb{Q}\subseteq \mathbb{R}$.
 
-| Wrong | Correct | Comments |
-| --- | --- | --- |
+<table class="demo" cellpadding="8" cellspacing="0" markdown="block">
+<thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
+<tbody> <tr> <td markdown="block">
+- $(0,1) \boldsymbol\in \R$
+- If $x=5$, then $x \boldsymbol\subseteq $\R$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+- $(0,1) \boldsymbol\subseteq \R$
+- If $x=5$, then $x \boldsymbol\in $\R$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+An interval is a subset of $\R$, and so the subset symbol '$\subseteq$' should
+be used. In the second example $x$ is a real number, so the set membership
+symbol '$\in$' should be used.
+{::nomarkdown}</tr> </tbody> </table>{:/}
 
 ## Overusing Symbols
 
