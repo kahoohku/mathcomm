@@ -61,7 +61,7 @@ point, i.e. 3 in this example.
 - $N$ is divisible by 7 **when** $N^2$ is divisible by 7.
 - Let $f(x)=2x$. **If** $x=3$, $f(x)=6$.
 %2
-- $N$ is divisible by 7 ** if** $N^2$ is divisible by 7.
+- $N$ is divisible by 7 **if** $N^2$ is divisible by 7.
 - Let $f(x)=2x$. **When** $x=3$, $f(x)=6$.
 %3
 In mathematical proofs the convention is to use 'if' rather than 'when' for

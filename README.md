@@ -1015,7 +1015,7 @@ point, i.e. 3 in this example.
 - $N$ is divisible by 7 **when** $N^2$ is divisible by 7.
 - Let $f(x)=2x$. **If** $x=3$, $f(x)=6$.
 {::nomarkdown}</td> <td markdown="block">{:/}
-- $N$ is divisible by 7 ** if** $N^2$ is divisible by 7.
+- $N$ is divisible by 7 **if** $N^2$ is divisible by 7.
 - Let $f(x)=2x$. **When** $x=3$, $f(x)=6$.
 {::nomarkdown}</td> <td markdown="block">{:/}
 In mathematical proofs the convention is to use 'if' rather than 'when' for
@@ -1114,6 +1114,7 @@ $$ \boldsymbol{1+2+\cdots+n = \frac{n(n+1)}2} $$
 Let $S(n)$ be the statement
 
 $$ \boldsymbol{1+2+\cdots+n = \frac{n(n+1)}2}. $$
+
 {::nomarkdown}</td> <td markdown="block">{:/}
 $S(n)$ is a statement that depends on the value of $n$. We want to prove that $S(n)$ is true for all $n$.
 {::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
@@ -1131,7 +1132,7 @@ $$\begin{align*}
 {::nomarkdown}</td> <td markdown="block">{:/}
 
 $$\begin{align*}
-	\textbf{LHS} & \boldsymbol{ {}=1}
+	\textbf{LHS} & \boldsymbol{ {}=1} \\
 	\textbf{RHS} & \boldsymbol{ {}=\frac{1(1+1)}2 = 1} \\
 \end{align*}$$
 {::nomarkdown}</td> <td markdown="block">{:/}
