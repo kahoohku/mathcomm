@@ -853,8 +853,49 @@ symbols are used correctly, the easiest way to read the sentence to see
 if it is a grammatically correct complete sentence and if it makes
 sense.
 
-| Wrong | Correct | Comments |
-| --- | --- | --- |
+<table cellpadding="8" cellspacing="0" markdown="block">
+<thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
+<tbody> <tr> <td markdown="block">
+- Let $A$ be the set of positive odd numbers. Then $2 | a+1\ \boldsymbol\exists\,a \in A$.
+- If $f(0) <0$, $f(1)>0$ and $f$ is continuous, then $\boldsymbol\forall\, c \in [0,1]\text{ s.t. } f(c)=0.$
+{::nomarkdown}</td> <td markdown="block">{:/}
+- Let $A$ be the set of positive odd numbers. Then $2 | a+1\ \boldsymbol\forall\,a \in A$.
+- If $f(0) <0$, $f(1)>0$ and $f$ is continuous, then $\boldsymbol\exists\, c \in [0,1]\text{ s.t. } f(c)=0.$
+{::nomarkdown}</td> <td markdown="block">{:/}
+The wrong examples mixed up the meaning of the symbols '$\forall$' and '$\exists$'.
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+$f(c)=0\ \boldsymbol\exists\,c\in [0,1]$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+- $\boldsymbol{\exists\,c \in [0,1]}\textbf{ s.t. } f(c)=0$.
+- $f(c)=0$ **for some** $c\in [0,1]$
+{::nomarkdown}</td> <td markdown="block">{:/}
+'$\exists$' means 'there exists' rather than 'for some'. Note there is no
+proper symbol for 'for some'.
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+$\exists\,x \in \R\ \boldsymbol\forall\,x>1000$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+$\exists\,x \in \R$ **s.t.** $x>1000$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+'$\forall$' means 'for all', not 'such that'.
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+Since $\max S=1$, we have $x\le1$ **for** $\boldsymbol\forall\,x\in A.$
+{::nomarkdown}</td> <td markdown="block">{:/}
+Since $\max S=1$, we have $x\le1$ $\boldsymbol\forall\,x\in A.$
+{::nomarkdown}</td> <td markdown="block">{:/}
+'$\forall$' reads 'for all', so 'for $\forall$' would read 'for for all' which is wrong.
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+$\boldsymbol\forall\,x \in \mathbb R$ **s.t.** $x^2 \geq 0$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+$x^2 \geq 0\ \boldsymbol\forall\, x \in \mathbb R$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+'$\forall ~x\in\R$ s.t. $x^2\ge0$' is not even a complete sentence (try to read
+it). When 'such that' follows 'for all', we do not really mean 'for all', bur
+rather 'for those which satisfy the subsequent condition'. For example, 'for
+all positive even integers $n$ such that $n>6$, we can write $n$ as the sum of
+two odd primes' --- here we do not really mean 'for all positive even integers
+$n$', but only those which satisfy the subsequent condition described after
+'such that', i.e. $n>6$.
+{::nomarkdown}</tr> </tbody> </table>{:/}
 
 ## The Symbols '$\in$' and '$\subseteq$'
 
@@ -950,7 +991,9 @@ $$\begin{align*}
 \end{align*}$$
 
 - Assume $S(k)$ is true for all positive integers $k$, s.t. $1+2+\cdots+k=\dfrac{k(k+1)}2$.
+
 - When $S(k+1)$, we have
+
 $$\begin{align*}
     S(k+1) &= 1+2+\cdots+(k+1) \\
     &= \frac{k(k+1)}2+(k+1) \\
