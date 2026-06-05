@@ -1078,21 +1078,21 @@ Let $S(n)$ be the statement $1+2+\cdots+n=\dfrac{n(n+1)}2$ for all positive inte
 - $S(1)$ is true since
 
 $$\begin{align*}
-    1+2+\cdots+1=\dfrac{1(1+1)}2\\
-    1=1
+    1+2+\cdots+1 &= \dfrac{1(1+1)}2\\
+    1 &= 1
 \end{align*}$$
 
 - Assume $S(k)$ is true for all positive integers $k$, s.t. $1+2+\cdots+k=\dfrac{k(k+1)}2$.
 
 - When $S(k+1)$, we have
 
-$$\begin{align*}
-    S(k+1) &= 1+2+\cdots+(k+1) \\
-    &= \frac{k(k+1)}2+(k+1) \\
-    &= \frac{k(k+1)+2(k+1)}2 \\
-    &= \frac{(k+1)(k+2)}2 \\
-    &= \frac{(k+1)[(k+1)+1]}2
-\end{align*}$$
+  $$\begin{align*}
+      S(k+1) &= 1+2+\cdots+(k+1) \\
+      &= \frac{k(k+1)}2+(k+1) \\
+      &= \frac{k(k+1)+2(k+1)}2 \\
+      &= \frac{(k+1)(k+2)}2 \\
+      &= \frac{(k+1)[(k+1)+1]}2
+  \end{align*}$$
 
   Hence $n=k+1$ is also true.
 
@@ -1129,12 +1129,14 @@ $$\begin{align*}
 	\boldsymbol{1+2+\cdots+1} & \boldsymbol{ {}=\frac{1(1+1)}2} \\
 	\boldsymbol{1} & \boldsymbol{ {}=1}
 \end{align*}$$
+
 {::nomarkdown}</td> <td markdown="block">{:/}
 
 $$\begin{align*}
 	\textbf{LHS} & \boldsymbol{ {}=1} \\
 	\textbf{RHS} & \boldsymbol{ {}=\frac{1(1+1)}2 = 1} \\
 \end{align*}$$
+
 {::nomarkdown}</td> <td markdown="block">{:/}
 When proving an equality, we do not simplify both sides simultaneously. We may
 either start from one side and reach the other, or simplify both sides
