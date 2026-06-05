@@ -1125,14 +1125,14 @@ We start adding from 1 and end at $n$. When $n=1$, there is only one term and we
 {::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
 
 $$\begin{align*}
-	\boldsymbol{1+2+\cdots+1} & \boldsymbol{{}=\frac{1(1+1)}2} \\
-	\boldsymbol{1} & \boldsymbol{{}=1}
+	\boldsymbol{1+2+\cdots+1} & \boldsymbol{ {}=\frac{1(1+1)}2} \\
+	\boldsymbol{1} & \boldsymbol{ {}=1}
 \end{align*}$$
 {::nomarkdown}</td> <td markdown="block">{:/}
 
 $$\begin{align*}
-	\textbf{LHS} & \boldsymbol{{}=1}
-	\textbf{RHS} & \boldsymbol{{}=\frac{1(1+1)}2 = 1} \\
+	\textbf{LHS} & \boldsymbol{ {}=1}
+	\textbf{RHS} & \boldsymbol{ {}=\frac{1(1+1)}2 = 1} \\
 \end{align*}$$
 {::nomarkdown}</td> <td markdown="block">{:/}
 When proving an equality, we do not simplify both sides simultaneously. We may
@@ -1164,7 +1164,7 @@ cannot say 'when $S(k+1)$'.
 {::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
 $\boldsymbol{ S(k+1)=1+2+\cdots+(k+1) }$
 {::nomarkdown}</td> <td markdown="block">{:/}
-**LHS** $\boldsymbol{{}=1+2+\cdots+(k+1)}$
+**LHS** $\boldsymbol{ {}=1+2+\cdots+(k+1)}$
 {::nomarkdown}</td> <td markdown="block">{:/}
 $S(k+1)$ is a statement and cannot be equal to $1+2+\cdots+(k+1)$.
 {::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
