@@ -1219,7 +1219,7 @@ It is a mathematical convention to say 'on an interval' rather than 'in an inter
 {::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
 Let $f(x)=\sin x$. When $\boldsymbol{ f(0) }$, we have $\boldsymbol{ \sin\, 0=0 }$.
 {::nomarkdown}</td> <td markdown="block">{:/}
-Let $f(x)=\sin x$. When $\boldsymbol{ x=0 }$, we have $\boldsymbol{ f(0)=\sin 0=0 }$.
+Let $f(x)=\sin x$. When $\boldsymbol{ x=0 }$, we have $\boldsymbol{ f(0)=\sin\,0=0 }$.
 {::nomarkdown}</td> <td markdown="block">{:/}
 The statement $\sin 0=0$ is true regardless of what happens to $f(0)$. Also,
 there must be a condition following the word 'when'. For example, you could say
