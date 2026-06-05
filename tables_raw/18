@@ -1,0 +1,69 @@
+%1
+- Suppose $p(x)=ax+b$, where $a$ and $b$ are **constant**.
+- Hence $p(x)$ and $q(x)$ are **constants** polynomials.
+%2
+- Suppose $p(x)=ax+b$, where $a$ and $b$ are **constants**.
+- Hence $p(x)$ and $q(x)$ are **constant** polynomials.
+%3
+The word 'constant' can be used as an adjective or a noun. As an adjective, it
+is used to describe the non-varying property of functions. As a noun, it is
+used to refer to a fixed and well-defined number and has a plural form
+'constants'.
+
+%1
+Since $6=2\times 3$, so 6 **divides** 3.
+%2
+- Since $6=2\times 3$, so 6 **is divisible by** 3.
+- Since $6=2\times 3$, so **$3$ divides $6$**.
+%3
+A rule of thumb is that if $a$ divides $b$ (where $a$, $b$ are positive integers), then $a$ must be the smaller number.
+
+%1
+We can **move** the graph of $y=e^x$ to the left by 1 unit to
+obtain the graph of $y=e^{x+1}$.
+%2
+We can **translate** the graph of $y=e^x$ to the left by 1 unit to
+obtain the graph of $y=e^{x+1}$.
+%3
+When referring to moving graphs by a fixed vector the verb 'translate' is used.
+
+%1
+The **multiplication** of two positive numbers is positive.
+%2
+The **product** of two positive numbers is positive.
+%3
+The result of multiplication is 'product'.
+
+%1
+We count the number of integers between 1 and 100 which are not **prime numbers**.
+%2
+We count the number of integers between 1 and 100 which are not **prime**.
+%3
+There is redundant information in the wrong example ('integers' are 'numbers').
+The convention is to use only the adjective.
+
+%1
+The **thousand** digit of 12345 is 2.
+%2
+The **thousands** digit of 12345 is 2.
+%3
+When referring to digits use the terms 'unit digit', 'tens digit', 'hundreds digit', etc.
+
+%1
+The **tenth** digit of 12.34 is 1.
+%2
+The **tens** digit of 12.34 is 1.
+%3
+The tenth digit refers to the digit immediately to the right of the decimal
+point, i.e. 3 in this example.
+
+%1
+- $N$ is divisible by 7 **when** $N^2$ is divisible by 7.
+- Let $f(x)=2x$. **If** $x=3$, $f(x)=6$.
+%2
+- $N$ is divisible by 7 ** if** $N^2$ is divisible by 7.
+- Let $f(x)=2x$. **When** $x=3$, $f(x)=6$.
+%3
+In mathematical proofs the convention is to use 'if' rather than 'when' for
+describing a condition. But in the second example, it is more popular to use
+'when' since we are talking about a variable taking on a certain value.
