@@ -1187,8 +1187,62 @@ By the **principle** of mathematical induction, $P(n)$ is true for all $n\geq 2$
 These errors are specific to the use of terminology in the concepts of
 functions, limits, differentiation and integration.
 
-| Wrong | Correct | Comments |
-| --- | --- | --- |
+<table class="demo" cellpadding="8" cellspacing="0" markdown="block">
+<thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
+<tbody> <tr> <td markdown="block">
+$-1$ is not **the domain** of $\sqrt{x}$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+- $-1$ is not **in the domain** of $\sqrt{x}$.
+- $-1$ is not **an element of the domain** of $\sqrt{x}$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+'Domain' is a set and the intended meaning here is to clarify whether $-1$ is
+an element of this set.
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+The **differentiation** of $x^2$ is $2x$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+The **derivative** of $x^2$ is $2x$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+'Differentiation' is the process of finding the derivative.
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+To solve for the points of intersection of the graphs, we **suppose** $x+1=2x+3$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+To solve for the points of intersection of the graphs, we **set** $x+1=2x+3$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+'Suppose' is used for assumption. In this example there is no assumption;
+rather we assign two expressions to be equal to find $x$.
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+The function $f(x)=3x$ is strictly increasing **in** the interval $[0,1]$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+The function $f(x)=3x$ is strictly increasing **on** the interval $[0,1]$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+It is a mathematical convention to say 'on an interval' rather than 'in an interval'.
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+Let $f(x)=\sin x$. When $\boldsymbol{ f(0) }$, we have $\boldsymbol{ \sin 0=0 }$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+Let $f(x)=\sin x$. When $\boldsymbol{ x=0 }$, we have $\boldsymbol{ f(0)=\sin 0=0 }$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+The statement $\sin 0=0$ is true regardless of what happens to $f(0)$. Also,
+there must be a condition following the word 'when'. For example, you could say
+'when $x$ is 2, the value of $f(x)$ is 5'. But in the example, $f(0)$ is not a
+condition.
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+Note that $\ln(\sin 0)$ **has no solution**.
+{::nomarkdown}</td> <td markdown="block">{:/}
+Note that $\ln(\sin 0)$ is **undefined**.
+{::nomarkdown}</td> <td markdown="block">{:/}
+We can only say that an equation (with some sort of variable) has no solution;
+but here $\ln(\sin 0)$ is a value (although undefined).
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+The $(k+1)$-th derivative of $\sin x$ is
+
+$$ \boldsymbol{ \frac{d^kd}{dx^kx} } (\sin x) = \frac{d^k}{dx^k}(\cos x). $$
+{::nomarkdown}</td> <td markdown="block">{:/}
+The $(k+1)$-th derivative of $\sin x$ is
+
+$$ \boldsymbol{ \frac{d^k}{dx^k} } \left( \boldsymbol{ \frac{d}{dx} } (\sin x) \right) = \frac{d^k}{dx^k}(\cos x). $$
+{::nomarkdown}</td> <td markdown="block">{:/}
+The notation in the first example is wrong.
+{::nomarkdown}</tr> </tbody> </table>{:/}
 
 ## Linear Algebra
 
