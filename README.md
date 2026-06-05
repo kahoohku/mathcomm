@@ -178,9 +178,9 @@ article because 'a' means any number. When using 'non-negative' as an adjective
 then use the zero article.
 {::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
 - Let $x$ be **non-negative number**.
-- Let $x$ be **a positive**
+- Let $x$ be **a positive**.
 {::nomarkdown}</td> <td markdown="block">{:/}
-Let $x$ be **positive**
+Let $x$ be **positive**.
 {::nomarkdown}</td> <td markdown="block">{:/}
 Use the adjective form and not the noun form.
 {::nomarkdown}</tr> </tbody> </table>{:/}
@@ -1195,8 +1195,89 @@ functions, limits, differentiation and integration.
 These errors are specific to the use of terminology in the theory of
 matrices and vector spaces.
 
-| Wrong | Correct | Comments |
-| --- | --- | --- |
+<table class="demo" cellpadding="8" cellspacing="0" markdown="block">
+<thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
+<tbody> <tr> <td markdown="block">
+The **second** entry of $A$ is 2.
+{::nomarkdown}</td> <td markdown="block">{:/}
+The **(1,2)-entry** of $A$ is 2.
+{::nomarkdown}</td> <td markdown="block">{:/}
+It is unclear what the 'second' entry of a matrix is --- whether it is the
+second element in the first row or the first element in the second row.
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+Since $A$ is $3\times 4$ and $B$ is $4\times 5$, the matrix \red{\pmb{$A\times B$}} is $3\times 5$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+Since $A$ is $3\times 4$ and $B$ is $4\times 5$, the matrix \red{\pmb{$AB$}} is $3\times 5$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+Although not wrong, it is not a common practice to denote the multiplication of matrices using the '$\times$' sign. Most of the time no symbol is used at all.
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+The **matrix** $A$ **is** positive.
+{::nomarkdown}</td> <td markdown="block">{:/}
+The **entries of the matrix** $A$ **are** positive.
+{::nomarkdown}</td> <td markdown="block">{:/}
+'Positive' is used to describe real numbers.
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+**For the $\boldsymbol{(2,3)}$-entry of $\boldsymbol A$** $= 2+3 = 5$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+- **The $\boldsymbol{(2,3)}$-entry of $\boldsymbol A$** $= 2+3 = 5$.
+- For the $(2,3)$-entry of $A$**, it is equal to** $2+3=5$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+'The $(2,3)$-entry of $A$' can be equal to a number, but 'for the $(2,3)$-entry
+of $A$' is a phrase and cannot be equal to a number.
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+When $E$ is **a Type III**, ...
+{::nomarkdown}</td> <td markdown="block">{:/}
+- When $E$ is **of Type III**, ...
+- When $E$ is **a Type III elementary matrix**, ...
+{::nomarkdown}</td> <td markdown="block">{:/}
+'Type III' is an adjective, so it should be followed by a noun, or we add the preposition 'of' beforehand.
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+If **$A$ is rank $3$**, then it must be invertible.
+{::nomarkdown}</td> <td markdown="block">{:/}
+- If **$A$ has rank $3$**, then it must be invertible.
+- If **$A$ is of rank $3$**, then it must be invertible.
+- If **$\textbf{rank}\,\boldsymbol{A = 3}$**, then it must be invertible.
+{::nomarkdown}</td> <td markdown="block">{:/}
+'$A$ is rank $3$' is not a proper complete sentence.
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+We **solve** the characteristic **polynomial** of $A$ as follows.
+{::nomarkdown}</td> <td markdown="block">{:/}
+- We **find ** the characteristic polynomial of $A$ as follows.
+- We solve the characteristic **equation** of $A$ as follows.
+{::nomarkdown}</td> <td markdown="block">{:/}
+We can 'solve' an equation but not a polynomial.
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+The matrix $A$ is linearly independent and so must be invertible.
+{::nomarkdown}</td> <td markdown="block">{:/}
+The **rows** of the matrix $A$ are linearly independent and so must be invertible.
+{::nomarkdown}</td> <td markdown="block">{:/}
+Linear independence refers to elements of a vector space (e.g.\ row/column vectors). The intended meaning here is that the row vectors of $A$ (multiple objects) are linearly
+independent, not the matrix $A$ itself (a single object) being linearly independent.
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+Hence $\boldsymbol{\mathbf{x},\mathbf{y}}$ is a basis.
+{::nomarkdown}</td> <td markdown="block">{:/}
+Hence $\boldsymbol{\{\mathbf{x},\mathbf{y}\}}$ is a basis.
+{::nomarkdown}</td> <td markdown="block">{:/}
+A basis is a set of vectors in a vector space and therefore must be expressed as a set.
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+Since $A$ has rank 2, we have $\boldsymbol{ \textbf{null}\, A=3 }$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+Since $A$ has rank 2, we have $\boldsymbol{ \textbf{dim}\,(\textbf{null}\, A)=3 }$.
+{::nomarkdown}</td> <td markdown="block">{:/}
+$\operatorname{null} A$ refers to the null space of $A$ and cannot be equal to a number. What is equal to 3 is the dimension of its null space (also called its nullity).
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+Since $A$ has rank 2, the **rank** of its null space is 3.
+{::nomarkdown}</td> <td markdown="block">{:/}
+Since $A$ has rank 2, the **dimension** of its null space is 3.
+{::nomarkdown}</td> <td markdown="block">{:/}
+'Null space' is not a matrix and hence has no rank.
+{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
+If a $3\times3$ matrix is invertible, its **number of rank** is 3.
+{::nomarkdown}</td> <td markdown="block">{:/}
+If a $3\times3$ matrix is invertible, its **rank** is 3.
+{::nomarkdown}</td> <td markdown="block">{:/}
+'Rank' is already a number.
+{::nomarkdown}</tr> </tbody> </table>{:/}
 
 # Miscellaneous
 
