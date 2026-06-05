@@ -1,0 +1,91 @@
+%1
+The **second** entry of $A$ is 2.
+%2
+The **(1,2)-entry** of $A$ is 2.
+%3
+It is unclear what the 'second' entry of a matrix is --- whether it is the
+second element in the first row or the first element in the second row.
+
+%1
+Since $A$ is $3\times 4$ and $B$ is $4\times 5$, the matrix \red{\pmb{$A\times B$}} is $3\times 5$.
+%2
+Since $A$ is $3\times 4$ and $B$ is $4\times 5$, the matrix \red{\pmb{$AB$}} is $3\times 5$.
+%3
+Although not wrong, it is not a common practice to denote the multiplication of matrices using the '$\times$' sign. Most of the time no symbol is used at all.
+
+%1
+The **matrix** $A$ **is** positive.
+%2
+The **entries of the matrix** $A$ **are** positive.
+%3
+'Positive' is used to describe real numbers.	
+
+%1
+**For the $\boldsymbol{(2,3)}$-entry of $\boldsymbol A$** $= 2+3 = 5$.
+%2 
+- **The $\boldsymbol{(2,3)}$-entry of $\boldsymbol A$** $= 2+3 = 5$.
+- For the $(2,3)$-entry of $A$**, it is equal to** $2+3=5$.
+%3
+'The $(2,3)$-entry of $A$' can be equal to a number, but 'for the $(2,3)$-entry
+of $A$' is a phrase and cannot be equal to a number.
+
+%1
+When $E$ is **a Type III**, ...
+%2
+- When $E$ is **of Type III**, ...
+- When $E$ is **a Type III elementary matrix**, ...
+%3
+'Type III' is an adjective, so it should be followed by a noun, or we add the preposition 'of' beforehand.
+
+%1
+If **$A$ is rank $3$**, then it must be invertible.
+%2
+- If **$A$ has rank $3$**, then it must be invertible.
+- If **$A$ is of rank $3$**, then it must be invertible.
+- If **$\textbf{rank}\,\boldsymbol{A = 3}$**, then it must be invertible.
+%3
+'$A$ is rank $3$' is not a proper complete sentence.
+
+%1
+We **solve** the characteristic **polynomial** of $A$ as follows.
+%2
+- We **find** the characteristic polynomial of $A$ as follows.
+- We solve the characteristic **equation** of $A$ as follows.
+%3
+We can 'solve' an equation but not a polynomial.
+
+%1
+The matrix $A$ is linearly independent and so must be invertible.
+%2
+The **rows** of the matrix $A$ are linearly independent and so must be invertible.
+%3
+Linear independence refers to elements of a vector space (e.g.\ row/column vectors). The intended meaning here is that the row vectors of $A$ (multiple objects) are linearly
+independent, not the matrix $A$ itself (a single object) being linearly independent.
+
+%1
+Hence $\boldsymbol{\mathbf{x},\mathbf{y}}$ is a basis.
+%2
+Hence $\boldsymbol{\{\mathbf{x},\mathbf{y}\}}$ is a basis.
+%3
+A basis is a set of vectors in a vector space and therefore must be expressed as a set.
+
+%1
+Since $A$ has rank 2, we have $\boldsymbol{ \textbf{null}\, A=3 }$.
+%2
+Since $A$ has rank 2, we have $\boldsymbol{ \textbf{dim}\,(\textbf{null}\, A)=3 }$.
+%3
+$\operatorname{null} A$ refers to the null space of $A$ and cannot be equal to a number. What is equal to 3 is the dimension of its null space (also called its nullity).
+
+%1
+Since $A$ has rank 2, the **rank** of its null space is 3.
+%2
+Since $A$ has rank 2, the **dimension** of its null space is 3.
+%3
+'Null space' is not a matrix and hence has no rank.
+
+%1
+If a $3\times3$ matrix is invertible, its **number of rank** is 3.
+%2
+If a $3\times3$ matrix is invertible, its **rank** is 3.
+%3
+'Rank' is already a number.

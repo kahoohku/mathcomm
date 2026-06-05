@@ -1068,10 +1068,10 @@ all the problems in it?
 
 - - -
 
-**Question**.
+**Question.**
 Show that $1+2+\cdots+n=\dfrac{n(n+1)}2$ for all positive integers $n$.
 
-**Solution**
+**Solution.**
 
 Let $S(n)$ be the statement $1+2+\cdots+n=\dfrac{n(n+1)}2$ for all positive integers $n$.
 
@@ -1094,7 +1094,7 @@ $$\begin{align*}
     &= \frac{(k+1)[(k+1)+1]}2
 \end{align*}$$
 
-Hence $n=k+1$ is also true.
+  Hence $n=k+1$ is also true.
 
 By the principal of mathematical induction, $S(n)$ is true for all positive integers $n$.
 
@@ -1217,7 +1217,7 @@ The function $f(x)=3x$ is strictly increasing **on** the interval $[0,1]$.
 {::nomarkdown}</td> <td markdown="block">{:/}
 It is a mathematical convention to say 'on an interval' rather than 'in an interval'.
 {::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
-Let $f(x)=\sin x$. When $\boldsymbol{ f(0) }$, we have $\boldsymbol{ \sin 0=0 }$.
+Let $f(x)=\sin x$. When $\boldsymbol{ f(0) }$, we have $\boldsymbol{ \sin\, 0=0 }$.
 {::nomarkdown}</td> <td markdown="block">{:/}
 Let $f(x)=\sin x$. When $\boldsymbol{ x=0 }$, we have $\boldsymbol{ f(0)=\sin 0=0 }$.
 {::nomarkdown}</td> <td markdown="block">{:/}
@@ -1236,10 +1236,12 @@ but here $\ln(\sin 0)$ is a value (although undefined).
 The $(k+1)$-th derivative of $\sin x$ is
 
 $$ \boldsymbol{ \frac{d^kd}{dx^kx} } (\sin x) = \frac{d^k}{dx^k}(\cos x). $$
+
 {::nomarkdown}</td> <td markdown="block">{:/}
 The $(k+1)$-th derivative of $\sin x$ is
 
 $$ \boldsymbol{ \frac{d^k}{dx^k} } \left( \boldsymbol{ \frac{d}{dx} } (\sin x) \right) = \frac{d^k}{dx^k}(\cos x). $$
+
 {::nomarkdown}</td> <td markdown="block">{:/}
 The notation in the first example is wrong.
 {::nomarkdown}</tr> </tbody> </table>{:/}
@@ -1296,7 +1298,7 @@ If **$A$ is rank $3$**, then it must be invertible.
 {::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
 We **solve** the characteristic **polynomial** of $A$ as follows.
 {::nomarkdown}</td> <td markdown="block">{:/}
-- We **find ** the characteristic polynomial of $A$ as follows.
+- We **find** the characteristic polynomial of $A$ as follows.
 - We solve the characteristic **equation** of $A$ as follows.
 {::nomarkdown}</td> <td markdown="block">{:/}
 We can 'solve' an equation but not a polynomial.

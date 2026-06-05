@@ -8,7 +8,7 @@ printf '%s\n%s\n%s\n' \
 	'<tbody> <tr> <td markdown="block">'
 
 cat "$input" |
-	sed '/^\s*$/{ N; /\n[[:space:]]*%/ { s/\n//; }; }' |
+	sed '/^\s*$/{ N; /\n[[:space:]]*%1/ { s/\n//; }; }' |
 	sed 's|^%1|{::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}|' |
 	sed 's|^%[23]|{::nomarkdown}</td> <td markdown="block">{:/}|' |
 	sed '1d'
