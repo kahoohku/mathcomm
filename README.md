@@ -853,7 +853,7 @@ symbols are used correctly, the easiest way to read the sentence to see
 if it is a grammatically correct complete sentence and if it makes
 sense.
 
-<table cellpadding="8" cellspacing="0" markdown="block">
+<table class="demo" cellpadding="8" cellspacing="0" markdown="block">
 <thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
 <tbody> <tr> <td markdown="block">
 - Let $A$ be the set of positive odd numbers. Then $2 \vert a+1\ \boldsymbol\exists\,a \in A$.
@@ -957,7 +957,7 @@ Here we refer to things such as functions, polynomials and so on (as
 opposed to abstract algebra), which most secondary school students
 should know.
 
-<table cellpadding="8" cellspacing="0" markdown="block">
+<table class="demo" cellpadding="8" cellspacing="0" markdown="block">
 <thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
 <tbody> <tr> <td markdown="block">
 - Suppose $p(x)=ax+b$, where $a$ and $b$ are **constant**.
@@ -1028,7 +1028,7 @@ describing a condition. But in the second example, it is more popular to use
 Plane geometry is another popular topic in the mathematics syllabus of
 secondary school.
 
-<table cellpadding="8" cellspacing="0" markdown="block">
+<table class="demo" cellpadding="8" cellspacing="0" markdown="block">
 <thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
 <tbody> <tr> <td markdown="block">
 Denote the **centre of the circumcentre** of $ABC$ by $O$.
@@ -1102,7 +1102,7 @@ By the principal of mathematical induction, $S(n)$ is true for all positive inte
 
 There are close to ten errors in the proof. How many can you find?
 
-<table cellpadding="8" cellspacing="0" markdown="block">
+<table class="demo" cellpadding="8" cellspacing="0" markdown="block">
 <thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
 <tbody> <tr> <td markdown="block">
 Let $S(n)$ be the statement
