@@ -316,9 +316,9 @@ The **(1,2)-entry** of $A$ is 2.
 It is unclear what the 'second' entry of a matrix is --- whether it is the
 second element in the first row or the first element in the second row.
 {::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
-Since $A$ is $3\times 4$ and $B$ is $4\times 5$, the matrix \red{\pmb{$A\times B$}} is $3\times 5$.
+Since $A$ is $3\times 4$ and $B$ is $4\times 5$, the matrix $\boldsymbol{A\times B}$ is $3\times 5$.
 {::nomarkdown}</td> <td markdown="block">{:/}
-Since $A$ is $3\times 4$ and $B$ is $4\times 5$, the matrix \red{\pmb{$AB$}} is $3\times 5$.
+Since $A$ is $3\times 4$ and $B$ is $4\times 5$, the matrix $\boldsymbol{AB}$ is $3\times 5$.
 {::nomarkdown}</td> <td markdown="block">{:/}
 Although not wrong, it is not a common practice to denote the multiplication of matrices using the '$\times$' sign. Most of the time no symbol is used at all.
 {::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
