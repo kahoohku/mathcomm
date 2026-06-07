@@ -335,7 +335,7 @@ Keep the words 'strictly' and 'increasing' together when describing a function.
 A common type of problems in mathematical writing is the use of wrong
 words. In this part we look at some general examples of such in English.
 The wrong usage of mathematical terminology in a particular subject area
-will be dealt with in the later section on [the use of terminology](#s:term).
+will be dealt with in the later section on [the use of terminology](terminology.md).
 
 <table class="demo" cellpadding="8" cellspacing="0" markdown="block">
 <thead> <tr> <th>Wrong</th> <th>Correct</th> <th>Comments</th> </tr> </thead>
