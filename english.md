@@ -534,4 +534,4 @@ words which occur a lot in mathematical writing.
 
 - - -
 
-Next: [**The Use of Symbols**](symbols.md)
+Next: **[The Use of Symbols](symbols.md)**

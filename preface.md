@@ -24,4 +24,4 @@ English teachers.
 
 - - -
 
-Next: [**Basic Principles**](principles.md)
+Next: **[Basic Principles](principles.md)**

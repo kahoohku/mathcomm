@@ -302,4 +302,4 @@ sentences, and that the whole argument is reasonably readable.
 
 - - -
 
-Next: [**The Use of Terminology**](terminology.md)
+Next: **[The Use of Terminology](terminology.md)**

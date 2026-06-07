@@ -392,4 +392,4 @@ If a $3\times3$ matrix is invertible, its **rank** is 3.
 
 - - -
 
-Next: [**Miscellaneous**](misc.md)
+Next: **[Miscellaneous](misc.md)**
