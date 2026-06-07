@@ -532,6 +532,6 @@ uncommon for students to misspell *true* as *ture* and *false* as *flase*, two
 words which occur a lot in mathematical writing.
 
 
-* * *
+- - -
 
 Next: [**The Use of Symbols**](symbols.md)

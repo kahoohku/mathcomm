@@ -22,6 +22,6 @@ It is hoped that this guide will serve as a reference to students on how
 to write mathematics, as well as a resource for both mathematics and
 English teachers.
 
-* * *
+- - -
 
 Next: [**Basic Principles**](principles.md)

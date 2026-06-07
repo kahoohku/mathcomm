@@ -87,6 +87,6 @@ Here are two more examples. Can you rewrite them?
   $(y^2+y)^2-4y$.
 
 
-* * *
+- - -
 
 Next: [**The Use of English**](english.md)

@@ -300,6 +300,6 @@ want to use symbols to save time (e.g. in exam situations). The bottom
 line is that they are used correctly and form part of complete
 sentences, and that the whole argument is reasonably readable.
 
-* * *
+- - -
 
 Next: [**The Use of Terminology**](terminology.md)

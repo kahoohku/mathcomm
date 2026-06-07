@@ -390,6 +390,6 @@ If a $3\times3$ matrix is invertible, its **rank** is 3.
 'Rank' is already a number.
 {::nomarkdown}</tr> </tbody> </table>{:/}
 
-* * *
+- - -
 
 Next: [**Miscellaneous**](misc.md)

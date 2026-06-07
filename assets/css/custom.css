@@ -38,3 +38,9 @@ table.demo td:nth-child(3) {
   width: 300px;
   max-width: 450px;
 }
+
+a:hover, a:focus {
+  color:#069;
+  font-weight: normal;
+  text-decoration: underline;
+}
