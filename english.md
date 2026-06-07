@@ -530,3 +530,8 @@ in the [pronunciation](#ss:pronun) and [frequently confused words](#ss:confuse)
 sections, some words tend to be misspelt a lot.  Surprisingly, it is not
 uncommon for students to misspell *true* as *ture* and *false* as *flase*, two
 words which occur a lot in mathematical writing.
+
+
+* * *
+
+Next: [**The Use of Symbols**](symbols.md)

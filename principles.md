@@ -85,3 +85,8 @@ Here are two more examples. Can you rewrite them?
 
 - As a quadratic equation in $x$, $x^2y+xy^2+xy+1=0$ has discriminant
   $(y^2+y)^2-4y$.
+
+
+* * *
+
+Next: [**The Use of English**](english.md)
