@@ -65,7 +65,7 @@ independent, not the matrix $A$ itself (a single object) being linearly independ
 %1
 Hence $\boldsymbol{\mathbf{x},\mathbf{y}}$ is a basis.
 %2
-Hence $\boldsymbol{\{\mathbf{x},\mathbf{y}\}}$ is a basis.
+Hence $\boldsymbol{ \{ \mathbf{x},\mathbf{y} \} }$ is a basis.
 %3
 A basis is a set of vectors in a vector space and therefore must be expressed as a set.
 

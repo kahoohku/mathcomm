@@ -367,7 +367,7 @@ independent, not the matrix $A$ itself (a single object) being linearly independ
 {::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
 Hence $\boldsymbol{\mathbf{x},\mathbf{y}}$ is a basis.
 {::nomarkdown}</td> <td markdown="block">{:/}
-Hence $\boldsymbol{\{\mathbf{x},\mathbf{y}\}}$ is a basis.
+Hence $\boldsymbol{ \{ \mathbf{x},\mathbf{y} \} }$ is a basis.
 {::nomarkdown}</td> <td markdown="block">{:/}
 A basis is a set of vectors in a vector space and therefore must be expressed as a set.
 {::nomarkdown}</td> </tr> <tr> <td markdown="block">{:/}
