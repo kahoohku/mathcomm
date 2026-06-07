@@ -3,12 +3,6 @@ body {
   font-size: 18px;
   color: black;
 }
-header {
-  width:320px;
-  float:left;
-  position:fixed;
-  -webkit-font-smoothing:subpixel-antialiased;
-}
 section {
   width: calc(1400px - 350px)
 }
