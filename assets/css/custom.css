@@ -46,6 +46,7 @@ table.demo td:nth-child(3) {
 }
 
 a:hover, a:focus {
+  all: unset;
   color:#069;
   text-decoration: underline;
 }
