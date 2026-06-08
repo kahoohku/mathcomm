@@ -1,4 +1,4 @@
-# Using $\text{\LaTeX}$
+# Using LaTeX
 
 LaTeX's features for typesetting mathematics make it a compelling choice for
 writing technical documents. This article shows the most basic commands needed
@@ -21,5 +21,3 @@ Writing basic equations in LaTeX is straightforward, for example:
     proved to be invalid for other exponents.
     Meaning the next equation has no integer solutions:
     \[ x^n + y^n = z^n. \]
-
-$\LaTeX$ $\text{\LaTeX}$
