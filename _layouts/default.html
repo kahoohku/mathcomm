@@ -37,10 +37,6 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
-        {% endif %}
-
 		{% include toc.html html=content h_max=2 %}
       </header>
       <section>
@@ -48,7 +44,7 @@
       {{ content }}
 
       <p style="margin-top:20px;"><span style="font-size: smaller;">
-		<a href="https://plante3.github.io">Back to Home.</a>
+		<a href="https://kahoohku.github.io/mathcomm">Back to Home.</a>
 	  </span></p>
 
       </section>
