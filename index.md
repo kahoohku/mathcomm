@@ -16,4 +16,6 @@
 
 # Typesetting
 
+[Using $\text{\LaTeX}$](latex.md)
+
 - - -
