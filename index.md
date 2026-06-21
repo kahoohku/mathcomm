@@ -24,8 +24,8 @@ title: Index \| Professional Communication in Math and Statistics
 
 [Using LaTeX](latex.md)
 
-[Math Mode Commands](https://kahoohku.github.io/Communication-Intensive-Courses-in-Mathematics/typesetting_laTeX.html)
+[Math Mode Commands](latexmath.md)
 
-[Inserting Figures](https://kahoohku.github.io/Communication-Intensive-Courses-in-Mathematics/typesetting_figure.html)
+[Inserting Figures](latexfigures.md)
 
 - - -

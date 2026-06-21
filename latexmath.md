@@ -27,6 +27,8 @@ The [amsmath package](https://ctan.org/pkg/amsmath?lang=en) is loaded by adding 
 
 Here is the output produced:
 
+![latex2-1](images/latex2-1.png).
+
 #### Displaying fractions
 
 The visual appearance of fractions will change depending on whether they appear inline, as part of a paragraph, or typeset as standalone material displayed on their own line. The next example demonstrates those changes to visual appearance:
@@ -43,6 +45,8 @@ Fractions can be used inline within the paragraph text, for example \(\frac{1}{2
 ```
 
 This example produces the following output:
+
+![latex2-2](images/latex2-2.png).
 
 > **Note:** More information on inline and display versions of mathematics can be found in the Overleaf article [Display style in math mode](https://www.overleaf.com/learn/latex/Display_style_in_math_mode). Our example fraction is typeset using the `\frac` command (`\frac{1}{2}`) which has the general form `\frac{numerator}{denominator}`.
 
@@ -66,6 +70,8 @@ Without the \verb|\text{...}| command the result looks like this:
 ```
 
 This example produces the following output:
+
+![latex2-3](images/latex2-3.png).
 
 #### Size and spacing within typeset mathematics
 
@@ -97,6 +103,8 @@ Equally, you can change the style of mathematics normally typeset in display sty
 
 This example produces the following output:
 
+![latex2-4](images/latex2-4.png).
+
 #### Continued fractions
 
 Fractions can be nested to obtain more complex expressions. The second pair of fractions displayed in the following example both use the `\cfrac` command, designed specifically to produce continued fractions. To use `\cfrac` you must load the [amsmath package](https://ctan.org/pkg/amsmath?lang=en) in the document preamble.
@@ -122,6 +130,8 @@ Here is another example, derived from the \texttt{amsmath} documentation, which 
 ```
 
 This example produces the following output:
+
+![latex2-5](images/latex2-5.png).
 
 ### Matrices
 
@@ -163,6 +173,8 @@ Trying to typeset an inline matrix here: $\begin{pmatrix} a & b\\ c & d \end{pma
 ```
 
 The following image shows the output produced by the example above:
+
+![latex2-6](images/latex2-6.png).
 
 The `mathtools` package provides `psmallmatrix`, `bsmallmatrix` etc environments for convenience.
 
