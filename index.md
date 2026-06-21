@@ -1,3 +1,9 @@
+---
+title: Index | Professional Communication in Math and Statistics
+---
+
+
+
 # Writing
 
 [Basic Principles](principles.md)

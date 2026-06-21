@@ -41,13 +41,13 @@ They all work and the choice is a matter of taste, so let's see some examples.
 
 \begin{document}
 
-Standard \LaTeX{} practice is to write inline math by enclosing it between \verb|\(...\)|:
-\begin{quote}
-In physics, the mass-energy equivalence is stated by the equation \(E=mc^2\), discovered in 1905 by Albert Einstein.
-\end{quote}
-Instead if writing (enclosing) inline math between \verb|\(...\)| you can use \texttt{\$...\$} to achieve the same result:
+Standard \LaTeX{} practice is to write inline math by enclosing it between \verb|$...$|:
 \begin{quote}
 In physics, the mass-energy equivalence is stated by the equation $E=mc^2$, discovered in 1905 by Albert Einstein.
+\end{quote}
+Instead of enclosing inline math between \verb|$...$| you can use \verb|\(...\)| to achieve the same result:
+\begin{quote}
+In physics, the mass-energy equivalence is stated by the equation \(E=mc^2\), discovered in 1905 by Albert Einstein.
 \end{quote}
 Or, you can use \verb|\begin{math}...\end{math}|:
 \begin{quote}
