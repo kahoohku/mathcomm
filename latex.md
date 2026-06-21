@@ -15,7 +15,7 @@ The well known Pythagorean theorem \(x^2 + y^2 = z^2\) was proved to be invalid 
 \end{document}
 ```
 
-![latex1-1](images/latex1-1.jpg).
+![latex1-1](images/latex1-1.png).
 
 As you see, the way the equations are displayed depends on the delimiter, in this case `\[...\]` and `\(...\)`.
 
@@ -57,7 +57,7 @@ In physics, the mass-energy equivalence is stated by the equation \begin{math}E=
 \end{document}
 ```
 
-![latex1-2](images/latex1-2.jpg).
+![latex1-2](images/latex1-2.png).
 
 ### Display Math Modes
 
@@ -86,7 +86,7 @@ In natural units ($c$ = 1), the formula expresses the identity
 \end{document}
 ```
 
-![latex1-3](images/latex1-3.jpg).
+![latex1-3](images/latex1-3.png).
 
 ### Another example
 
@@ -108,7 +108,7 @@ and this: \begin{equation*} \sqrt{x^2+1}. \end{equation*}
 \end{document}
 ```
 
-![latex1-4](images/latex1-4.jpg).
+![latex1-4](images/latex1-4.png).
 
 ### Reference guide
 
