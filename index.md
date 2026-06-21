@@ -1,5 +1,5 @@
 ---
-title: Index | Professional Communication in Math and Statistics
+title: Index \| Professional Communication in Math and Statistics
 ---
 
 
