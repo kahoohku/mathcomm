@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Part 2 Typesetting documents | Communication in Math and Statistics</title>
+  <meta name="description" content="Communication in Math and Statistics textbook." />
+  <meta name="generator" content="bookdown 0.18 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Part 2 Typesetting documents | Communication in Math and Statistics" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Communication in Math and Statistics textbook." />
+  <meta name="github-repo" content="Wendyyyyyyyyyyy/Communication-Intensive-Courses-in-Mathematics" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Part 2 Typesetting documents | Communication in Math and Statistics" />
+  
+  <meta name="twitter:description" content="Communication in Math and Statistics textbook." />
+  
+
+<meta name="author" content="Ka Ho LAW" />
+
+
+<meta name="date" content="2024-06-12" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="typesetting_basic.html"/>
+<link rel="next" href="typesetting_figure.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+<style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+
+.small-table {
+  font-size: 12px; /* Smaller text size */
+}
+.small-table table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: center;
+}
+.small-table th, .small-table td {
+  border: 1px solid black;
+  padding: 5px;
+  vertical-align: top;
+}
+.small-table td:first-child {
+  padding-right: 10px;
+}
+.small-table td:last-child {
+  padding-left: 10px;
+}
+.small-table th {
+  background-color: #f2f2f2;
+}
+.red {
+      color: red;
+      font-weight: bold;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+  
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Communication in Math and Statistics</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="typesetting" class="section level1">
+<h1><span class="header-section-number">Lesson 2</span> Typesetting</h1>
+<div id="Basic" class="section level2 unnumbered">
+
+
+  <h1><span class="header-section-number">2.2</span> LaTeX</h1>
+
+
+  <h2><span class="header-section-number" id="Fractions_and_Binomials">2.2.1</span>Fractions and Binomials</h2>
+
+
+<h3><span class="header-section-number" id="Introduction">Introduction</span></h3>
+<p>This article explains how to typeset fractions and binomial coefficients, starting with the following example which uses the <a rel="nofollow" class="external text" href="https://ctan.org/pkg/amsmath?lang=en"><code>amsmath</code> package</a>:
+</p>
+<p class="mw-empty-elt"></p><div class="example">
+<div class="code">
+<div class="mw-highlight mw-highlight-lang-latex mw-content-ltr" dir="ltr"><pre><span></span><span class="k">\documentclass</span><span class="nb">{</span>article<span class="nb">}</span>
+<span class="k">\usepackage</span><span class="nb">{</span>amsmath<span class="nb">}</span>
+<span class="k">\begin</span><span class="nb">{</span>document<span class="nb">}</span>
+The binomial coefficient, <span class="s">\(</span><span class="nv">\binom</span><span class="nb">{n}{k}</span><span class="s">\)</span>, is defined by the expression:
+<span class="sb">\[</span><span class="nb"></span>
+<span class="nb">    </span><span class="nv">\binom</span><span class="nb">{n}{k} </span><span class="o">=</span><span class="nb"> </span><span class="nv">\frac</span><span class="nb">{n</span><span class="o">!</span><span class="nb">}{k</span><span class="o">!(</span><span class="nb">n</span><span class="o">-</span><span class="nb">k</span><span class="o">)!</span><span class="nb">}</span>
+<span class="s">\]</span>
+<span class="k">\end</span><span class="nb">{</span>document<span class="nb">}</span>
+</pre></div>
+</div>
+</div>
+
+<p><a class="open-in-overleaf" target="_blank" href="https://www.overleaf.com/docs?engine=pdflatex
+&amp;snip_name=Fractions+and+Binomials
+&amp;snip=%5Cdocumentclass%7Barticle%7D%0A%5Cusepackage%7Bamsmath%7D%0A%5Cbegin%7Bdocument%7D%0AThe+binomial+coefficient%2C+%5C%28%5Cbinom%7Bn%7D%7Bk%7D%5C%29%2C+is+defined+by+the+expression%3A%0A%5C%5B%0A++++%5Cbinom%7Bn%7D%7Bk%7D+%3D+%5Cfrac%7Bn%21%7D%7Bk%21%28n-k%29%21%7D%0A%5C%5D%0A%5Cend%7Bdocument%7D"><i class="fa fa-share"></i>&nbsp;Open this example in Overleaf.</a>
+</p><p class="mw-empty-elt"></p>
+<p>The <a rel="nofollow" class="external text" href="https://ctan.org/pkg/amsmath?lang=en"><code>amsmath</code> package</a> is loaded by adding the following line to the document preamble:
+</p>
+<p class="mw-empty-elt">
+</p><div class="example">
+<div class="code">
+<div class="mw-highlight mw-highlight-lang-latex mw-content-ltr" dir="ltr"><pre><span></span><span class="k">\usepackage</span><span class="nb">{</span>amsmath<span class="nb">}</span>
+</pre></div>
+</div>
+</div>
+<p class="mw-empty-elt"></p>
+<p>Here is the output produced:
+
+    <div class="example">
+        <div class="output" style="text-align: center;">
+            <img src="https://images.ctfassets.net/nrgyaltdicpt/4tTk8LCnDRrjT9oamNnbvJ/5cb600254a32214fb87e8de6ffe4ebc6/OLbinom1r.svg" alt="Image showing LaTeX typesetting of the binomial coefficient" style="width:60%;padding:20px;display: block;margin: 0 auto;"> 
+        </div>
+    </div>
+    
+
+<p class="mw-empty-elt"></p>
+<h3><span class="header-section-number" id="Displaying_fractions">Displaying fractions</span></h3>
+<p>The visual appearance of fractions will change depending on whether they appear inline, as part of a paragraph, or typeset as standalone material displayed on their own line. The next example demonstrates those changes to visual appearance:   
+</p>
+<p class="mw-empty-elt"></p><div class="example">
+<div class="code">
+<div class="mw-highlight mw-highlight-lang-latex mw-content-ltr" dir="ltr"><pre><span></span><span class="k">\documentclass</span><span class="nb">{</span>article<span class="nb">}</span>
+<span class="c">% Using the geometry package to reduce</span>
+<span class="c">% the width of help article graphics</span>
+<span class="k">\usepackage</span><span class="na">[textwidth=8cm]</span><span class="nb">{</span>geometry<span class="nb">}</span>
+<span class="k">\begin</span><span class="nb">{</span>document<span class="nb">}</span>
+Fractions can be used inline within the paragraph text, for 
+example <span class="s">\(</span><span class="nv">\frac</span><span class="nb">{</span><span class="m">1</span><span class="nb">}{</span><span class="m">2</span><span class="nb">}</span><span class="s">\)</span>, or displayed on their own line, 
+such as this:
+<span class="sb">\[</span><span class="nv">\frac</span><span class="nb">{</span><span class="m">1</span><span class="nb">}{</span><span class="m">2</span><span class="nb">}</span><span class="s">\]</span>
+<span class="k">\end</span><span class="nb">{</span>document<span class="nb">}</span>
+</pre></div>
+</div>
+</div>
+
+<p><a class="open-in-overleaf" target="_blank" href="https://www.overleaf.com/docs?engine=pdflatex
+&amp;snip_name=Inline+and+display+of+fractions+and+binomials
+&amp;snip=%5Cdocumentclass%7Barticle%7D%0A%25+Using+the+geometry+package+to+reduce%0A%25+the+width+of+help+article+graphics%0A%5Cusepackage%5Btextwidth%3D8cm%5D%7Bgeometry%7D%0A%5Cbegin%7Bdocument%7D%0AFractions+can+be+used+inline+within+the+paragraph+text%2C+for+%0Aexample+%5C%28%5Cfrac%7B1%7D%7B2%7D%5C%29%2C+or+displayed+on+their+own+line%2C+%0Asuch+as+this%3A%0A%5C%5B%5Cfrac%7B1%7D%7B2%7D%5C%5D%0A%5Cend%7Bdocument%7D"><i class="fa fa-share"></i>&nbsp;Open this example in Overleaf.</a>
+</p><p class="mw-empty-elt"></p>
+<p>This example produces the following output:
+
+    <div class="example">
+        <div class="output" style="text-align: center;">
+            <img src="https://images.ctfassets.net/nrgyaltdicpt/4SxD1wgseibqjmdTEyF40z/81f20b2d3b9ee4b4f7c64c4ecc48f3fc/OLbinom2r.svg" alt="Demonstrating inline and display math modes in LaTeX" style="width:60%;padding:20px;display: block;margin: 0 auto;"> 
+        </div>
+    </div>
+    
+
+<p class="mw-empty-elt"></p>
+<ul><li><strong>Note</strong>: More information on inline and display versions of mathematics can be found in the Overleaf article <a href="https://www.overleaf.com/learn/latex/Display_style_in_math_mode" title="Display style in math mode">Display style in math mode</a>.</li></ul>
+<p>Our example fraction is typeset using the <code>\frac</code> command (<code>\frac{1}{2}</code>) which has the general form <code>\frac{<em>numerator</em>}{<em>denominator</em>}</code>.
+</p>
+<h3><span class="header-section-number" id="Text-style_fractions">Text-style fractions</span></h3>
+<p>The following example demonstrates typesetting text-only fractions by using the <code>\text{...}</code> command provided by the <code>amsmath</code> package. The <code>\text{...}</code> command is used to prevent LaTeX typesetting the text as regular mathematical content.
+</p>
+<p class="mw-empty-elt"></p><div class="example">
+<div class="code">
+<div class="mw-highlight mw-highlight-lang-latex mw-content-ltr" dir="ltr"><pre><span></span><span class="k">\documentclass</span><span class="nb">{</span>article<span class="nb">}</span>
+<span class="c">% Using the geometry package to reduce</span>
+<span class="c">% the width of help article graphics</span>
+<span class="k">\usepackage</span><span class="na">[textwidth=8cm]</span><span class="nb">{</span>geometry<span class="nb">}</span>
+<span class="k">\usepackage</span><span class="nb">{</span>amsmath<span class="nb">}</span><span class="c">% For the \text{...} command</span>
+<span class="k">\begin</span><span class="nb">{</span>document<span class="nb">}</span>
+We use the <span class="k">\texttt</span><span class="nb">{</span>amsmath<span class="nb">}</span> package command
+<span class="k">\verb</span>|<span class="k">\text</span><span class="nb">{</span>...<span class="nb">}</span>| to create text-only fractions
+like this:
+
+<span class="sb">\[</span><span class="nv">\frac</span><span class="nb">{</span><span class="nv">\text</span><span class="nb">{numerator}}{</span><span class="nv">\text</span><span class="nb">{denominator}}</span><span class="s">\]</span>
+
+Without the <span class="k">\verb</span>|<span class="k">\text</span><span class="nb">{</span>...<span class="nb">}</span>| command the result 
+looks like this:
+
+<span class="sb">\[</span><span class="nv">\frac</span><span class="nb">{numerator}{denominator}</span><span class="s">\]</span>
+<span class="k">\end</span><span class="nb">{</span>document<span class="nb">}</span>
+</pre></div>
+</div>
+</div>
+
+<p><a class="open-in-overleaf" target="_blank" href="https://www.overleaf.com/docs?engine=pdflatex
+&amp;snip_name=Text+fractions
+&amp;snip=%5Cdocumentclass%7Barticle%7D%0A%25+Using+the+geometry+package+to+reduce%0A%25+the+width+of+help+article+graphics%0A%5Cusepackage%5Btextwidth%3D8cm%5D%7Bgeometry%7D%0A%5Cusepackage%7Bamsmath%7D%25+For+the+%5Ctext%7B...%7D+command%0A%5Cbegin%7Bdocument%7D%0AWe+use+the+%5Ctexttt%7Bamsmath%7D+package+command%0A%5Cverb%7C%5Ctext%7B...%7D%7C+to+create+text-only+fractions%0Alike+this%3A%0A%0A%5C%5B%5Cfrac%7B%5Ctext%7Bnumerator%7D%7D%7B%5Ctext%7Bdenominator%7D%7D%5C%5D%0A%0AWithout+the+%5Cverb%7C%5Ctext%7B...%7D%7C+command+the+result+%0Alooks+like+this%3A%0A%0A%5C%5B%5Cfrac%7Bnumerator%7D%7Bdenominator%7D%5C%5D%0A%5Cend%7Bdocument%7D"><i class="fa fa-share"></i>&nbsp;Open this example in Overleaf.</a>
+</p><p class="mw-empty-elt"></p>
+<p>This example produces the following output:
+    <div class="example">
+        <div class="output" style="text-align: center;">
+            <img src="https://images.ctfassets.net/nrgyaltdicpt/44axgp5QzHFxGPkKytbHlD/39081a38373bc1a2367ca4919355ceb3/OLbinom3r.svg" alt="Textual fractions" style="width:60%;padding:20px;display: block;margin: 0 auto;"> 
+        </div>
+    </div>
+    
+<p class="mw-empty-elt"></p>
+<h3><span class="header-section-number" id="Size_and_spacing_within_typeset_mathematics">Size and spacing within typeset mathematics</span></h3>
+<p>The size and spacing of mathematical material typeset by <span class="texhtml" style="font-family:'CMU Serif', cmr10, LMRoman10-Regular, 'Times New Roman', 'Nimbus Roman No9 L', Times, serif">L<span style="text-transform:uppercase;font-size:70%;margin-left:-0.36em;vertical-align:0.3em;line-height:0;margin-right:-0.15em">a</span>T<span style="text-transform:uppercase;margin-left:-0.1667em;vertical-align:-0.5ex;line-height:0;margin-right:-0.125em">e</span>X</span> is <a rel="nofollow" class="external text" href="https://tug.org/TUGboat/tb27-1/tb86jackowski.pdf">determined by algorithms</a> which apply size and positioning data contained inside the fonts used to typeset mathematics. 
+</p><p>Occasionally, it may be necessary, or desirable, to override the default mathematical styles—size and spacing of math elements—chosen by <span class="texhtml" style="font-family:'CMU Serif', cmr10, LMRoman10-Regular, 'Times New Roman', 'Nimbus Roman No9 L', Times, serif">L<span style="text-transform:uppercase;font-size:70%;margin-left:-0.36em;vertical-align:0.3em;line-height:0;margin-right:-0.15em">a</span>T<span style="text-transform:uppercase;margin-left:-0.1667em;vertical-align:-0.5ex;line-height:0;margin-right:-0.125em">e</span>X</span>, a topic discussed in the Overleaf help article <a rel="nofollow" class="external text" href="https://www.overleaf.com/learn/latex/Display_style_in_math_mode#Overriding_default_mathematical_styles">Display style in math mode</a>.
+</p><p>To summarize, the default style(s) used to typeset mathematics can be changed by the following commands:
+</p>
+<ul><li><code>\textstyle</code>: apply the style used for mathematics typeset in paragraphs;</li>
+<li><code>\displaystyle</code>: apply the style used for mathematics typeset on lines by themselves;</li>
+<li><code>\scriptstyle</code>: apply the style used for subscripts or superscripts;</li>
+<li><code>\scriptscriptstyle</code>: apply the style used for second-order subscripts or superscripts;</li></ul>
+<p>which are demonstrated in the next example.
+</p>
+<p class="mw-empty-elt"></p><div class="example">
+<div class="code">
+<div class="mw-highlight mw-highlight-lang-latex mw-content-ltr" dir="ltr"><pre><span></span><span class="k">\documentclass</span><span class="nb">{</span>article<span class="nb">}</span>
+<span class="c">% Using the geometry package to reduce</span>
+<span class="c">% the width of help article graphics</span>
+<span class="k">\usepackage</span><span class="na">[textwidth=9.5cm]</span><span class="nb">{</span>geometry<span class="nb">}</span>
+<span class="k">\begin</span><span class="nb">{</span>document<span class="nb">}</span>
+
+Fractions typeset within a paragraph typically look like this: <span class="s">\(</span><span class="nv">\frac</span><span class="nb">{</span><span class="m">3</span><span class="nb">x}{</span><span class="m">2</span><span class="nb">}</span><span class="s">\)</span>. You can force <span class="k">\LaTeX</span><span class="nb">{}</span> to use the larger display style, such as <span class="s">\(</span><span class="nb"> </span><span class="nv">\displaystyle</span><span class="nb"> </span><span class="nv">\frac</span><span class="nb">{</span><span class="m">3</span><span class="nb">x}{</span><span class="m">2</span><span class="nb">} </span><span class="s">\)</span>, which also has an effect on line spacing. The size of maths in a paragraph can also be reduced: <span class="s">\(</span><span class="nv">\scriptstyle</span><span class="nb"> </span><span class="nv">\frac</span><span class="nb">{</span><span class="m">3</span><span class="nb">x}{</span><span class="m">2</span><span class="nb">}</span><span class="s">\)</span> or <span class="s">\(</span><span class="nv">\scriptscriptstyle</span><span class="nb"> </span><span class="nv">\frac</span><span class="nb">{</span><span class="m">3</span><span class="nb">x}{</span><span class="m">2</span><span class="nb">}</span><span class="s">\)</span>. For the <span class="k">\verb</span>|<span class="k">\scriptscriptstyle</span>| example note the reduction in spacing: characters are moved closer to the <span class="k">\textit</span><span class="nb">{</span>vinculum<span class="nb">}</span> (the line separating numerator and denominator).
+
+Equally, you can change the style of mathematics normally typeset in display style:
+
+<span class="sb">\[</span><span class="nb">f</span><span class="o">(</span><span class="nb">x</span><span class="o">)=</span><span class="nv">\frac</span><span class="nb">{P</span><span class="o">(</span><span class="nb">x</span><span class="o">)</span><span class="nb">}{Q</span><span class="o">(</span><span class="nb">x</span><span class="o">)</span><span class="nb">}</span><span class="nv">\quad</span><span class="nb"> </span><span class="nv">\textrm</span><span class="nb">{and}</span><span class="nv">\quad</span><span class="nb"> </span><span class="nv">\textstyle</span><span class="nb"> f</span><span class="o">(</span><span class="nb">x</span><span class="o">)=</span><span class="nv">\frac</span><span class="nb">{P</span><span class="o">(</span><span class="nb">x</span><span class="o">)</span><span class="nb">}{Q</span><span class="o">(</span><span class="nb">x</span><span class="o">)</span><span class="nb">}</span><span class="nv">\quad</span><span class="nb"> </span><span class="nv">\textrm</span><span class="nb">{and}</span><span class="nv">\quad</span><span class="nb"> </span><span class="nv">\scriptstyle</span><span class="nb"> f</span><span class="o">(</span><span class="nb">x</span><span class="o">)=</span><span class="nv">\frac</span><span class="nb">{P</span><span class="o">(</span><span class="nb">x</span><span class="o">)</span><span class="nb">}{Q</span><span class="o">(</span><span class="nb">x</span><span class="o">)</span><span class="nb">}</span><span class="s">\]</span>
+<span class="k">\end</span><span class="nb">{</span>document<span class="nb">}</span>
+</pre></div>
+</div>
+</div>
+
+<p><a class="open-in-overleaf" target="_blank" href="https://www.overleaf.com/docs?engine=pdflatex
+&amp;snip_name=Changing+default+math+styles
+&amp;snip=%5Cdocumentclass%7Barticle%7D%0A%25+Using+the+geometry+package+to+reduce%0A%25+the+width+of+help+article+graphics%0A%5Cusepackage%5Btextwidth%3D9.5cm%5D%7Bgeometry%7D%0A%5Cbegin%7Bdocument%7D%0A%0AFractions+typeset+within+a+paragraph+typically+look+like+this%3A+%5C%28%5Cfrac%7B3x%7D%7B2%7D%5C%29.+You+can+force+%5CLaTeX%7B%7D+to+use+the+larger+display+style%2C+such+as+%5C%28+%5Cdisplaystyle+%5Cfrac%7B3x%7D%7B2%7D+%5C%29%2C+which+also+has+an+effect+on+line+spacing.+The+size+of+maths+in+a+paragraph+can+also+be+reduced%3A+%5C%28%5Cscriptstyle+%5Cfrac%7B3x%7D%7B2%7D%5C%29+or+%5C%28%5Cscriptscriptstyle+%5Cfrac%7B3x%7D%7B2%7D%5C%29.+For+the+%5Cverb%7C%5Cscriptscriptstyle%7C+example+note+the+reduction+in+spacing%3A+characters+are+moved+closer+to+the+%5Ctextit%7Bvinculum%7D+%28the+line+separating+numerator+and+denominator%29.%0A%0AEqually%2C+you+can+change+the+style+of+mathematics+normally+typeset+in+display+style%3A%0A%0A%5C%5Bf%28x%29%3D%5Cfrac%7BP%28x%29%7D%7BQ%28x%29%7D%5Cquad+%5Ctextrm%7Band%7D%5Cquad+%5Ctextstyle+f%28x%29%3D%5Cfrac%7BP%28x%29%7D%7BQ%28x%29%7D%5Cquad+%5Ctextrm%7Band%7D%5Cquad+%5Cscriptstyle+f%28x%29%3D%5Cfrac%7BP%28x%29%7D%7BQ%28x%29%7D%5C%5D%0A%5Cend%7Bdocument%7D"><i class="fa fa-share"></i>&nbsp;Open this example in Overleaf</a>
+</p><p class="mw-empty-elt"></p>
+<p>This example produces the following output:
+
+    <div class="example">
+        <div class="output" style="text-align: center;">
+            <img src="https://images.ctfassets.net/nrgyaltdicpt/3UpT5homJCcBFvKvn7thxE/eb9f8e7739455e7a7f40b77030fb17a7/OLbinom4r.svg" alt="Image showing changes to LaTeX default math styles" style="width:60%;padding:20px;display: block;margin: 0 auto;"> 
+        </div>
+    </div>
+    
+
+<p class="mw-empty-elt"></p>
+<h3><span class="header-section-number" id="Continued_fractions">Continued fractions</span></h3>
+<p>Fractions can be nested to obtain more complex expressions. The second pair of fractions displayed in the following example both use the <code>\cfrac</code> command, designed specifically to produce continued fractions. To use <code>\cfrac</code> you must load the <a rel="nofollow" class="external text" href="https://ctan.org/pkg/amsmath?lang=en"><code>amsmath</code> package</a> in the document preamble.
+</p>
+<p class="mw-empty-elt"></p><div class="example">
+<div class="code">
+<div class="mw-highlight mw-highlight-lang-latex mw-content-ltr" dir="ltr"><pre><span></span><span class="k">\documentclass</span><span class="nb">{</span>article<span class="nb">}</span>
+<span class="c">% Using the geometry package to reduce</span>
+<span class="c">% the width of help article graphics</span>
+<span class="k">\usepackage</span><span class="na">[textwidth=9.5cm]</span><span class="nb">{</span>geometry<span class="nb">}</span>
+<span class="c">% Load amsmath to access the \cfrac{...}{...} command</span>
+<span class="k">\usepackage</span><span class="nb">{</span>amsmath<span class="nb">}</span>
+<span class="k">\begin</span><span class="nb">{</span>document<span class="nb">}</span>
+Fractions can be nested but, in this example, note how the default math styles, as used in the denominator, don't produce ideal results...
+
+<span class="sb">\[</span><span class="nb"> </span><span class="nv">\frac</span><span class="nb">{</span><span class="m">1</span><span class="o">+</span><span class="nv">\frac</span><span class="nb">{a}{b}}{</span><span class="m">1</span><span class="o">+</span><span class="nv">\frac</span><span class="nb">{</span><span class="m">1</span><span class="nb">}{</span><span class="m">1</span><span class="o">+</span><span class="nv">\frac</span><span class="nb">{</span><span class="m">1</span><span class="nb">}{a}}} </span><span class="s">\]</span>
+
+<span class="k">\noindent</span> ...so we use <span class="k">\verb</span>|<span class="k">\displaystyle</span>| to improve typesetting:
+
+<span class="sb">\[</span><span class="nb"> </span><span class="nv">\frac</span><span class="nb">{</span><span class="m">1</span><span class="o">+</span><span class="nv">\frac</span><span class="nb">{a}{b}} {</span><span class="nv">\displaystyle</span><span class="nb"> </span><span class="m">1</span><span class="o">+</span><span class="nv">\frac</span><span class="nb">{</span><span class="m">1</span><span class="nb">}{</span><span class="m">1</span><span class="o">+</span><span class="nv">\frac</span><span class="nb">{</span><span class="m">1</span><span class="nb">}{a}}} </span><span class="s">\]</span>
+
+Here is an example which uses the <span class="k">\texttt</span><span class="nb">{</span>amsmath<span class="nb">}</span> <span class="k">\verb</span>|<span class="k">\cfrac</span>| command:
+
+<span class="sb">\[</span><span class="nb"></span>
+<span class="nb">  a_</span><span class="m">0</span><span class="o">+</span><span class="nv">\cfrac</span><span class="nb">{</span><span class="m">1</span><span class="nb">}{a_</span><span class="m">1</span><span class="o">+</span><span class="nv">\cfrac</span><span class="nb">{</span><span class="m">1</span><span class="nb">}{a_</span><span class="m">2</span><span class="o">+</span><span class="nv">\cfrac</span><span class="nb">{</span><span class="m">1</span><span class="nb">}{a_</span><span class="m">3</span><span class="o">+</span><span class="nv">\cdots</span><span class="nb">}}}</span>
+<span class="s">\]</span>
+
+Here is another example, derived from the <span class="k">\texttt</span><span class="nb">{</span>amsmath<span class="nb">}</span> documentation, which demonstrates left
+and right placement of the numerator using <span class="k">\verb</span>|<span class="k">\cfrac</span><span class="na">[l]</span>| and <span class="k">\verb</span>|<span class="k">\cfrac</span><span class="na">[r]</span>| respectively:
+<span class="sb">\[</span><span class="nb"></span>
+<span class="nv">\cfrac</span><span class="o">[</span><span class="nb">l</span><span class="o">]</span><span class="nb">{</span><span class="m">1</span><span class="nb">}{</span><span class="nv">\sqrt</span><span class="nb">{</span><span class="m">2</span><span class="nb">}</span><span class="o">+</span><span class="nb"></span>
+<span class="nv">\cfrac</span><span class="o">[</span><span class="nb">r</span><span class="o">]</span><span class="nb">{</span><span class="m">1</span><span class="nb">}{</span><span class="nv">\sqrt</span><span class="nb">{</span><span class="m">2</span><span class="nb">}</span><span class="o">+</span><span class="nb"></span>
+<span class="nv">\cfrac</span><span class="nb">{</span><span class="m">1</span><span class="nb">}{</span><span class="nv">\sqrt</span><span class="nb">{</span><span class="m">2</span><span class="nb">}</span><span class="o">+</span><span class="nv">\dotsb</span><span class="nb">}}}</span>
+<span class="s">\]</span>
+<span class="k">\end</span><span class="nb">{</span>document<span class="nb">}</span>
+</pre></div>
+</div>
+</div>
+
+<p><a class="open-in-overleaf" target="_blank" href="https://www.overleaf.com/docs?engine=pdflatex
+&amp;snip_name=Example+of+continued+fractions
+&amp;snip=%5Cdocumentclass%7Barticle%7D%0A%25+Using+the+geometry+package+to+reduce%0A%25+the+width+of+help+article+graphics%0A%5Cusepackage%5Btextwidth%3D9.5cm%5D%7Bgeometry%7D%0A%25+Load+amsmath+to+access+the+%5Ccfrac%7B...%7D%7B...%7D+command%0A%5Cusepackage%7Bamsmath%7D%0A%5Cbegin%7Bdocument%7D%0AFractions+can+be+nested+but%2C+in+this+example%2C+note+how+the+default+math+styles%2C+as+used+in+the+denominator%2C+don%27t+produce+ideal+results...%0A%0A%5C%5B+%5Cfrac%7B1%2B%5Cfrac%7Ba%7D%7Bb%7D%7D%7B1%2B%5Cfrac%7B1%7D%7B1%2B%5Cfrac%7B1%7D%7Ba%7D%7D%7D+%5C%5D%0A%0A%5Cnoindent+...so+we+use+%5Cverb%7C%5Cdisplaystyle%7C+to+improve+typesetting%3A%0A%0A%5C%5B+%5Cfrac%7B1%2B%5Cfrac%7Ba%7D%7Bb%7D%7D+%7B%5Cdisplaystyle+1%2B%5Cfrac%7B1%7D%7B1%2B%5Cfrac%7B1%7D%7Ba%7D%7D%7D+%5C%5D%0A%0AHere+is+an+example+which+uses+the+%5Ctexttt%7Bamsmath%7D+%5Cverb%7C%5Ccfrac%7C+command%3A%0A%0A%5C%5B%0A++a_0%2B%5Ccfrac%7B1%7D%7Ba_1%2B%5Ccfrac%7B1%7D%7Ba_2%2B%5Ccfrac%7B1%7D%7Ba_3%2B%5Ccdots%7D%7D%7D%0A%5C%5D%0A%0AHere+is+another+example%2C+derived+from+the+%5Ctexttt%7Bamsmath%7D+documentation%2C+which+demonstrates+left%0Aand+right+placement+of+the+numerator+using+%5Cverb%7C%5Ccfrac%5Bl%5D%7C+and+%5Cverb%7C%5Ccfrac%5Br%5D%7C+respectively%3A%0A%5C%5B%0A%5Ccfrac%5Bl%5D%7B1%7D%7B%5Csqrt%7B2%7D%2B%0A%5Ccfrac%5Br%5D%7B1%7D%7B%5Csqrt%7B2%7D%2B%0A%5Ccfrac%7B1%7D%7B%5Csqrt%7B2%7D%2B%5Cdotsb%7D%7D%7D%0A%5C%5D%0A%5Cend%7Bdocument%7D"><i class="fa fa-share"></i>&nbsp;Open this example in Overleaf.</a>
+</p><p class="mw-empty-elt"></p>
+<p>This example produces the following output:
+
+    <div class="example">
+        <div class="output" style="text-align: center;">
+            <img src="https://images.ctfassets.net/nrgyaltdicpt/7GhYX01I0qLol9JzJrtIt2/39230ca23e206be91fd0bc70915be3e9/OLbinom5r.svg" alt="Graphic demonstrating contained fractions typeset in LaTeX" style="width:60%;padding:20px;display: block;margin: 0 auto;"> 
+        </div>
+    </div>
+    
+
+<p class="mw-empty-elt"></p>
+
+
+
+
+<h2><span class="header-section-number" id="Matrices">2.2.2</span>Matrices</h2>
+
+
+<h3><span class="header-section-number" id="amsmath_matrix_environments">2.2.2.1<code>amsmath</code> matrix environments</span></h3>
+
+<p>The <code>amsmath</code> package provides commands to typeset matrices with different delimiters. Once you have loaded <code>\usepackage{amsmath}</code> in your preamble, you can use the following environments in your math environments:
+</p>
+<div style="text-align: center;">
+<table class="wikitable">
+<tbody><tr>
+<th>Type
+</th>
+<th><span class="texhtml" style="font-family:'CMU Serif', cmr10, LMRoman10-Regular, 'Times New Roman', 'Nimbus Roman No9 L', Times, serif">L<span style="text-transform:uppercase;font-size:70%;margin-left:-0.36em;vertical-align:0.3em;line-height:0;margin-right:-0.15em">a</span>T<span style="text-transform:uppercase;margin-left:-0.1667em;vertical-align:-0.5ex;line-height:0;margin-right:-0.125em">e</span>X</span> markup
+</th>
+<th>Renders as
+</th></tr>
+<tr>
+<td>Plain
+</td>
+<td><code>\begin{matrix}<br>1 &amp; 2 &amp; 3\\<br>a &amp; b &amp; c<br>\end{matrix}</code>
+</td>
+<td><mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" tabindex="0" ctxtmenu_counter="0" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="7.984ex" height="5.43ex" role="img" focusable="false" viewBox="0 -1450 3529 2400" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -2.149ex;"><defs><path id="MJX-1-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path><path id="MJX-1-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path><path id="MJX-1-TEX-N-33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"></path><path id="MJX-1-TEX-I-1D44E" d="M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z"></path><path id="MJX-1-TEX-I-1D44F" d="M73 647Q73 657 77 670T89 683Q90 683 161 688T234 694Q246 694 246 685T212 542Q204 508 195 472T180 418L176 399Q176 396 182 402Q231 442 283 442Q345 442 383 396T422 280Q422 169 343 79T173 -11Q123 -11 82 27T40 150V159Q40 180 48 217T97 414Q147 611 147 623T109 637Q104 637 101 637H96Q86 637 83 637T76 640T73 647ZM336 325V331Q336 405 275 405Q258 405 240 397T207 376T181 352T163 330L157 322L136 236Q114 150 114 114Q114 66 138 42Q154 26 178 26Q211 26 245 58Q270 81 285 114T318 219Q336 291 336 325Z"></path><path id="MJX-1-TEX-I-1D450" d="M34 159Q34 268 120 355T306 442Q362 442 394 418T427 355Q427 326 408 306T360 285Q341 285 330 295T319 325T330 359T352 380T366 386H367Q367 388 361 392T340 400T306 404Q276 404 249 390Q228 381 206 359Q162 315 142 235T121 119Q121 73 147 50Q169 26 205 26H209Q321 26 394 111Q403 121 406 121Q410 121 419 112T429 98T420 83T391 55T346 25T282 0T202 -11Q127 -11 81 37T34 159Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mtable"><g data-mml-node="mtr" transform="translate(0,700)"><g data-mml-node="mtd" transform="translate(14.5,0)"><g data-mml-node="mn"><use data-c="31" xlink:href="#MJX-1-TEX-N-31"></use></g></g><g data-mml-node="mtd" transform="translate(1529,0)"><g data-mml-node="mn"><use data-c="32" xlink:href="#MJX-1-TEX-N-32"></use></g></g><g data-mml-node="mtd" transform="translate(3029,0)"><g data-mml-node="mn"><use data-c="33" xlink:href="#MJX-1-TEX-N-33"></use></g></g></g><g data-mml-node="mtr" transform="translate(0,-700)"><g data-mml-node="mtd"><g data-mml-node="mi"><use data-c="1D44E" xlink:href="#MJX-1-TEX-I-1D44E"></use></g></g><g data-mml-node="mtd" transform="translate(1564.5,0)"><g data-mml-node="mi"><use data-c="1D44F" xlink:href="#MJX-1-TEX-I-1D44F"></use></g></g><g data-mml-node="mtd" transform="translate(3062.5,0)"><g data-mml-node="mi"><use data-c="1D450" xlink:href="#MJX-1-TEX-I-1D450"></use></g></g></g></g></g></g></svg><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="1em" rowspacing="4pt"><mtr><mtd><mn>1</mn></mtd><mtd><mn>2</mn></mtd><mtd><mn>3</mn></mtd></mtr><mtr><mtd><mi>a</mi></mtd><mtd><mi>b</mi></mtd><mtd><mi>c</mi></mtd></mtr></mtable></math></mjx-assistive-mml></mjx-container>
+</td></tr>
+<tr>
+<td>Parentheses;<br>round brackets
+</td>
+<td><code>\begin{pmatrix}<br>1 &amp; 2 &amp; 3\\<br>a &amp; b &amp; c<br>\end{pmatrix}</code>
+</td>
+<td><mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" tabindex="0" ctxtmenu_counter="1" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="11.314ex" height="5.43ex" role="img" focusable="false" viewBox="0 -1450 5001 2400" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -2.149ex;"><defs><path id="MJX-2-TEX-S3-28" d="M701 -940Q701 -943 695 -949H664Q662 -947 636 -922T591 -879T537 -818T475 -737T412 -636T350 -511T295 -362T250 -186T221 17T209 251Q209 962 573 1361Q596 1386 616 1405T649 1437T664 1450H695Q701 1444 701 1441Q701 1436 681 1415T629 1356T557 1261T476 1118T400 927T340 675T308 359Q306 321 306 250Q306 -139 400 -430T690 -924Q701 -936 701 -940Z"></path><path id="MJX-2-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path><path id="MJX-2-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path><path id="MJX-2-TEX-N-33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"></path><path id="MJX-2-TEX-I-1D44E" d="M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z"></path><path id="MJX-2-TEX-I-1D44F" d="M73 647Q73 657 77 670T89 683Q90 683 161 688T234 694Q246 694 246 685T212 542Q204 508 195 472T180 418L176 399Q176 396 182 402Q231 442 283 442Q345 442 383 396T422 280Q422 169 343 79T173 -11Q123 -11 82 27T40 150V159Q40 180 48 217T97 414Q147 611 147 623T109 637Q104 637 101 637H96Q86 637 83 637T76 640T73 647ZM336 325V331Q336 405 275 405Q258 405 240 397T207 376T181 352T163 330L157 322L136 236Q114 150 114 114Q114 66 138 42Q154 26 178 26Q211 26 245 58Q270 81 285 114T318 219Q336 291 336 325Z"></path><path id="MJX-2-TEX-I-1D450" d="M34 159Q34 268 120 355T306 442Q362 442 394 418T427 355Q427 326 408 306T360 285Q341 285 330 295T319 325T330 359T352 380T366 386H367Q367 388 361 392T340 400T306 404Q276 404 249 390Q228 381 206 359Q162 315 142 235T121 119Q121 73 147 50Q169 26 205 26H209Q321 26 394 111Q403 121 406 121Q410 121 419 112T429 98T420 83T391 55T346 25T282 0T202 -11Q127 -11 81 37T34 159Z"></path><path id="MJX-2-TEX-S3-29" d="M34 1438Q34 1446 37 1448T50 1450H56H71Q73 1448 99 1423T144 1380T198 1319T260 1238T323 1137T385 1013T440 864T485 688T514 485T526 251Q526 134 519 53Q472 -519 162 -860Q139 -885 119 -904T86 -936T71 -949H56Q43 -949 39 -947T34 -937Q88 -883 140 -813Q428 -430 428 251Q428 453 402 628T338 922T245 1146T145 1309T46 1425Q44 1427 42 1429T39 1433T36 1436L34 1438Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mrow"><g data-mml-node="mo" transform="translate(0 -0.5)"><use data-c="28" xlink:href="#MJX-2-TEX-S3-28"></use></g><g data-mml-node="mtable" transform="translate(736,0)"><g data-mml-node="mtr" transform="translate(0,700)"><g data-mml-node="mtd" transform="translate(14.5,0)"><g data-mml-node="mn"><use data-c="31" xlink:href="#MJX-2-TEX-N-31"></use></g></g><g data-mml-node="mtd" transform="translate(1529,0)"><g data-mml-node="mn"><use data-c="32" xlink:href="#MJX-2-TEX-N-32"></use></g></g><g data-mml-node="mtd" transform="translate(3029,0)"><g data-mml-node="mn"><use data-c="33" xlink:href="#MJX-2-TEX-N-33"></use></g></g></g><g data-mml-node="mtr" transform="translate(0,-700)"><g data-mml-node="mtd"><g data-mml-node="mi"><use data-c="1D44E" xlink:href="#MJX-2-TEX-I-1D44E"></use></g></g><g data-mml-node="mtd" transform="translate(1564.5,0)"><g data-mml-node="mi"><use data-c="1D44F" xlink:href="#MJX-2-TEX-I-1D44F"></use></g></g><g data-mml-node="mtd" transform="translate(3062.5,0)"><g data-mml-node="mi"><use data-c="1D450" xlink:href="#MJX-2-TEX-I-1D450"></use></g></g></g></g><g data-mml-node="mo" transform="translate(4265,0) translate(0 -0.5)"><use data-c="29" xlink:href="#MJX-2-TEX-S3-29"></use></g></g></g></g></svg><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">(</mo><mtable columnspacing="1em" rowspacing="4pt"><mtr><mtd><mn>1</mn></mtd><mtd><mn>2</mn></mtd><mtd><mn>3</mn></mtd></mtr><mtr><mtd><mi>a</mi></mtd><mtd><mi>b</mi></mtd><mtd><mi>c</mi></mtd></mtr></mtable><mo data-mjx-texclass="CLOSE">)</mo></mrow></math></mjx-assistive-mml></mjx-container>
+</td></tr>
+<tr>
+<td>Brackets;<br>square brackets
+</td>
+<td><code>\begin{bmatrix}<br>1 &amp; 2 &amp; 3\\<br>a &amp; b &amp; c<br>\end{bmatrix}</code>
+</td>
+<td><mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" tabindex="0" ctxtmenu_counter="2" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="10.373ex" height="5.43ex" role="img" focusable="false" viewBox="0 -1450 4585 2400" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -2.149ex;"><defs><path id="MJX-3-TEX-S3-5B" d="M247 -949V1450H516V1388H309V-887H516V-949H247Z"></path><path id="MJX-3-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path><path id="MJX-3-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path><path id="MJX-3-TEX-N-33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"></path><path id="MJX-3-TEX-I-1D44E" d="M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z"></path><path id="MJX-3-TEX-I-1D44F" d="M73 647Q73 657 77 670T89 683Q90 683 161 688T234 694Q246 694 246 685T212 542Q204 508 195 472T180 418L176 399Q176 396 182 402Q231 442 283 442Q345 442 383 396T422 280Q422 169 343 79T173 -11Q123 -11 82 27T40 150V159Q40 180 48 217T97 414Q147 611 147 623T109 637Q104 637 101 637H96Q86 637 83 637T76 640T73 647ZM336 325V331Q336 405 275 405Q258 405 240 397T207 376T181 352T163 330L157 322L136 236Q114 150 114 114Q114 66 138 42Q154 26 178 26Q211 26 245 58Q270 81 285 114T318 219Q336 291 336 325Z"></path><path id="MJX-3-TEX-I-1D450" d="M34 159Q34 268 120 355T306 442Q362 442 394 418T427 355Q427 326 408 306T360 285Q341 285 330 295T319 325T330 359T352 380T366 386H367Q367 388 361 392T340 400T306 404Q276 404 249 390Q228 381 206 359Q162 315 142 235T121 119Q121 73 147 50Q169 26 205 26H209Q321 26 394 111Q403 121 406 121Q410 121 419 112T429 98T420 83T391 55T346 25T282 0T202 -11Q127 -11 81 37T34 159Z"></path><path id="MJX-3-TEX-S3-5D" d="M11 1388V1450H280V-949H11V-887H218V1388H11Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mrow"><g data-mml-node="mo" transform="translate(0 -0.5)"><use data-c="5B" xlink:href="#MJX-3-TEX-S3-5B"></use></g><g data-mml-node="mtable" transform="translate(528,0)"><g data-mml-node="mtr" transform="translate(0,700)"><g data-mml-node="mtd" transform="translate(14.5,0)"><g data-mml-node="mn"><use data-c="31" xlink:href="#MJX-3-TEX-N-31"></use></g></g><g data-mml-node="mtd" transform="translate(1529,0)"><g data-mml-node="mn"><use data-c="32" xlink:href="#MJX-3-TEX-N-32"></use></g></g><g data-mml-node="mtd" transform="translate(3029,0)"><g data-mml-node="mn"><use data-c="33" xlink:href="#MJX-3-TEX-N-33"></use></g></g></g><g data-mml-node="mtr" transform="translate(0,-700)"><g data-mml-node="mtd"><g data-mml-node="mi"><use data-c="1D44E" xlink:href="#MJX-3-TEX-I-1D44E"></use></g></g><g data-mml-node="mtd" transform="translate(1564.5,0)"><g data-mml-node="mi"><use data-c="1D44F" xlink:href="#MJX-3-TEX-I-1D44F"></use></g></g><g data-mml-node="mtd" transform="translate(3062.5,0)"><g data-mml-node="mi"><use data-c="1D450" xlink:href="#MJX-3-TEX-I-1D450"></use></g></g></g></g><g data-mml-node="mo" transform="translate(4057,0) translate(0 -0.5)"><use data-c="5D" xlink:href="#MJX-3-TEX-S3-5D"></use></g></g></g></g></svg><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">[</mo><mtable columnspacing="1em" rowspacing="4pt"><mtr><mtd><mn>1</mn></mtd><mtd><mn>2</mn></mtd><mtd><mn>3</mn></mtd></mtr><mtr><mtd><mi>a</mi></mtd><mtd><mi>b</mi></mtd><mtd><mi>c</mi></mtd></mtr></mtable><mo data-mjx-texclass="CLOSE">]</mo></mrow></math></mjx-assistive-mml></mjx-container>
+</td></tr>
+<tr>
+<td>Braces;<br>curly brackets
+</td>
+<td><code>\begin{Bmatrix}<br>1 &amp; 2 &amp; 3\\<br>a &amp; b &amp; c<br>\end{Bmatrix}</code>
+</td>
+<td><mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" tabindex="0" ctxtmenu_counter="3" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="11.378ex" height="5.43ex" role="img" focusable="false" viewBox="0 -1450 5029 2400" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -2.149ex;"><defs><path id="MJX-4-TEX-S3-7B" d="M618 -943L612 -949H582L568 -943Q472 -903 411 -841T332 -703Q327 -682 327 -653T325 -350Q324 -28 323 -18Q317 24 301 61T264 124T221 171T179 205T147 225T132 234Q130 238 130 250Q130 255 130 258T131 264T132 267T134 269T139 272T144 275Q207 308 256 367Q310 436 323 519Q324 529 325 851Q326 1124 326 1154T332 1205Q369 1358 566 1443L582 1450H612L618 1444V1429Q618 1413 616 1411L608 1406Q599 1402 585 1393T552 1372T515 1343T479 1305T449 1257T429 1200Q425 1180 425 1152T423 851Q422 579 422 549T416 498Q407 459 388 424T346 364T297 318T250 284T214 264T197 254L188 251L205 242Q290 200 345 138T416 3Q421 -18 421 -48T423 -349Q423 -397 423 -472Q424 -677 428 -694Q429 -697 429 -699Q434 -722 443 -743T465 -782T491 -816T519 -845T548 -868T574 -886T595 -899T610 -908L616 -910Q618 -912 618 -928V-943Z"></path><path id="MJX-4-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path><path id="MJX-4-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path><path id="MJX-4-TEX-N-33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"></path><path id="MJX-4-TEX-I-1D44E" d="M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z"></path><path id="MJX-4-TEX-I-1D44F" d="M73 647Q73 657 77 670T89 683Q90 683 161 688T234 694Q246 694 246 685T212 542Q204 508 195 472T180 418L176 399Q176 396 182 402Q231 442 283 442Q345 442 383 396T422 280Q422 169 343 79T173 -11Q123 -11 82 27T40 150V159Q40 180 48 217T97 414Q147 611 147 623T109 637Q104 637 101 637H96Q86 637 83 637T76 640T73 647ZM336 325V331Q336 405 275 405Q258 405 240 397T207 376T181 352T163 330L157 322L136 236Q114 150 114 114Q114 66 138 42Q154 26 178 26Q211 26 245 58Q270 81 285 114T318 219Q336 291 336 325Z"></path><path id="MJX-4-TEX-I-1D450" d="M34 159Q34 268 120 355T306 442Q362 442 394 418T427 355Q427 326 408 306T360 285Q341 285 330 295T319 325T330 359T352 380T366 386H367Q367 388 361 392T340 400T306 404Q276 404 249 390Q228 381 206 359Q162 315 142 235T121 119Q121 73 147 50Q169 26 205 26H209Q321 26 394 111Q403 121 406 121Q410 121 419 112T429 98T420 83T391 55T346 25T282 0T202 -11Q127 -11 81 37T34 159Z"></path><path id="MJX-4-TEX-S3-7D" d="M131 1414T131 1429T133 1447T148 1450H153H167L182 1444Q276 1404 336 1343T415 1207Q421 1184 421 1154T423 851L424 531L426 517Q434 462 460 415T518 339T571 296T608 274Q615 270 616 267T618 251Q618 241 618 238T615 232T608 227Q542 194 491 132T426 -15L424 -29L423 -350Q422 -622 422 -652T415 -706Q397 -780 337 -841T182 -943L167 -949H153Q137 -949 134 -946T131 -928Q131 -914 132 -911T144 -904Q146 -903 148 -902Q299 -820 323 -680Q324 -663 325 -349T327 -19Q355 145 541 241L561 250L541 260Q356 355 327 520Q326 537 325 850T323 1181Q315 1227 293 1267T244 1332T193 1374T151 1401T132 1413Q131 1414 131 1429Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mrow"><g data-mml-node="mo" transform="translate(0 -0.5)"><use data-c="7B" xlink:href="#MJX-4-TEX-S3-7B"></use></g><g data-mml-node="mtable" transform="translate(750,0)"><g data-mml-node="mtr" transform="translate(0,700)"><g data-mml-node="mtd" transform="translate(14.5,0)"><g data-mml-node="mn"><use data-c="31" xlink:href="#MJX-4-TEX-N-31"></use></g></g><g data-mml-node="mtd" transform="translate(1529,0)"><g data-mml-node="mn"><use data-c="32" xlink:href="#MJX-4-TEX-N-32"></use></g></g><g data-mml-node="mtd" transform="translate(3029,0)"><g data-mml-node="mn"><use data-c="33" xlink:href="#MJX-4-TEX-N-33"></use></g></g></g><g data-mml-node="mtr" transform="translate(0,-700)"><g data-mml-node="mtd"><g data-mml-node="mi"><use data-c="1D44E" xlink:href="#MJX-4-TEX-I-1D44E"></use></g></g><g data-mml-node="mtd" transform="translate(1564.5,0)"><g data-mml-node="mi"><use data-c="1D44F" xlink:href="#MJX-4-TEX-I-1D44F"></use></g></g><g data-mml-node="mtd" transform="translate(3062.5,0)"><g data-mml-node="mi"><use data-c="1D450" xlink:href="#MJX-4-TEX-I-1D450"></use></g></g></g></g><g data-mml-node="mo" transform="translate(4279,0) translate(0 -0.5)"><use data-c="7D" xlink:href="#MJX-4-TEX-S3-7D"></use></g></g></g></g></svg><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">{</mo><mtable columnspacing="1em" rowspacing="4pt"><mtr><mtd><mn>1</mn></mtd><mtd><mn>2</mn></mtd><mtd><mn>3</mn></mtd></mtr><mtr><mtd><mi>a</mi></mtd><mtd><mi>b</mi></mtd><mtd><mi>c</mi></mtd></mtr></mtable><mo data-mjx-texclass="CLOSE">}</mo></mrow></math></mjx-assistive-mml></mjx-container>
+</td></tr>
+<tr>
+<td>Pipes
+</td>
+<td><code>\begin{vmatrix}<br>1 &amp; 2 &amp; 3\\<br>a &amp; b &amp; c<br>\end{vmatrix}</code>
+</td>
+<td><mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" tabindex="0" ctxtmenu_counter="4" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="9.491ex" height="5.43ex" role="img" focusable="false" viewBox="0 -1450 4195 2400" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -2.149ex;"><defs><path id="MJX-5-TEX-S4-2223" d="M139 -249H137Q125 -249 119 -235V251L120 737Q130 750 139 750Q152 750 159 735V-235Q151 -249 141 -249H139Z"></path><path id="MJX-5-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path><path id="MJX-5-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path><path id="MJX-5-TEX-N-33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"></path><path id="MJX-5-TEX-I-1D44E" d="M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z"></path><path id="MJX-5-TEX-I-1D44F" d="M73 647Q73 657 77 670T89 683Q90 683 161 688T234 694Q246 694 246 685T212 542Q204 508 195 472T180 418L176 399Q176 396 182 402Q231 442 283 442Q345 442 383 396T422 280Q422 169 343 79T173 -11Q123 -11 82 27T40 150V159Q40 180 48 217T97 414Q147 611 147 623T109 637Q104 637 101 637H96Q86 637 83 637T76 640T73 647ZM336 325V331Q336 405 275 405Q258 405 240 397T207 376T181 352T163 330L157 322L136 236Q114 150 114 114Q114 66 138 42Q154 26 178 26Q211 26 245 58Q270 81 285 114T318 219Q336 291 336 325Z"></path><path id="MJX-5-TEX-I-1D450" d="M34 159Q34 268 120 355T306 442Q362 442 394 418T427 355Q427 326 408 306T360 285Q341 285 330 295T319 325T330 359T352 380T366 386H367Q367 388 361 392T340 400T306 404Q276 404 249 390Q228 381 206 359Q162 315 142 235T121 119Q121 73 147 50Q169 26 205 26H209Q321 26 394 111Q403 121 406 121Q410 121 419 112T429 98T420 83T391 55T346 25T282 0T202 -11Q127 -11 81 37T34 159Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mrow"><g data-mml-node="mo"><svg width="278" height="2400" y="-950" x="27.5" viewBox="0 -297.3 278 2400"><use data-c="2223" xlink:href="#MJX-5-TEX-S4-2223" transform="scale(1,3.604)"></use></svg></g><g data-mml-node="mtable" transform="translate(333,0)"><g data-mml-node="mtr" transform="translate(0,700)"><g data-mml-node="mtd" transform="translate(14.5,0)"><g data-mml-node="mn"><use data-c="31" xlink:href="#MJX-5-TEX-N-31"></use></g></g><g data-mml-node="mtd" transform="translate(1529,0)"><g data-mml-node="mn"><use data-c="32" xlink:href="#MJX-5-TEX-N-32"></use></g></g><g data-mml-node="mtd" transform="translate(3029,0)"><g data-mml-node="mn"><use data-c="33" xlink:href="#MJX-5-TEX-N-33"></use></g></g></g><g data-mml-node="mtr" transform="translate(0,-700)"><g data-mml-node="mtd"><g data-mml-node="mi"><use data-c="1D44E" xlink:href="#MJX-5-TEX-I-1D44E"></use></g></g><g data-mml-node="mtd" transform="translate(1564.5,0)"><g data-mml-node="mi"><use data-c="1D44F" xlink:href="#MJX-5-TEX-I-1D44F"></use></g></g><g data-mml-node="mtd" transform="translate(3062.5,0)"><g data-mml-node="mi"><use data-c="1D450" xlink:href="#MJX-5-TEX-I-1D450"></use></g></g></g></g><g data-mml-node="mo" transform="translate(3862,0)"><svg width="278" height="2400" y="-950" x="27.5" viewBox="0 -297.3 278 2400"><use data-c="2223" xlink:href="#MJX-5-TEX-S4-2223" transform="scale(1,3.604)"></use></svg></g></g></g></g></svg><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">|</mo><mtable columnspacing="1em" rowspacing="4pt"><mtr><mtd><mn>1</mn></mtd><mtd><mn>2</mn></mtd><mtd><mn>3</mn></mtd></mtr><mtr><mtd><mi>a</mi></mtd><mtd><mi>b</mi></mtd><mtd><mi>c</mi></mtd></mtr></mtable><mo data-mjx-texclass="CLOSE">|</mo></mrow></math></mjx-assistive-mml></mjx-container>
+</td></tr>
+<tr>
+<td>Double pipes
+</td>
+<td><code>\begin{Vmatrix}<br>1 &amp; 2 &amp; 3\\<br>a &amp; b &amp; c<br>\end{Vmatrix}</code>
+</td>
+<td><mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" tabindex="0" ctxtmenu_counter="5" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="10.5ex" height="5.43ex" role="img" focusable="false" viewBox="0 -1450 4641 2400" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -2.149ex;"><defs><path id="MJX-6-TEX-S4-2225" d="M133 736Q138 750 153 750Q164 750 170 739Q172 735 172 250T170 -239Q164 -250 152 -250Q144 -250 138 -244L137 -243Q133 -241 133 -179T132 250Q132 731 133 736ZM329 739Q334 750 346 750Q353 750 361 744L362 743Q366 741 366 679T367 250T367 -178T362 -243L361 -244Q355 -250 347 -250Q335 -250 329 -239Q327 -235 327 250T329 739Z"></path><path id="MJX-6-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path><path id="MJX-6-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path><path id="MJX-6-TEX-N-33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"></path><path id="MJX-6-TEX-I-1D44E" d="M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z"></path><path id="MJX-6-TEX-I-1D44F" d="M73 647Q73 657 77 670T89 683Q90 683 161 688T234 694Q246 694 246 685T212 542Q204 508 195 472T180 418L176 399Q176 396 182 402Q231 442 283 442Q345 442 383 396T422 280Q422 169 343 79T173 -11Q123 -11 82 27T40 150V159Q40 180 48 217T97 414Q147 611 147 623T109 637Q104 637 101 637H96Q86 637 83 637T76 640T73 647ZM336 325V331Q336 405 275 405Q258 405 240 397T207 376T181 352T163 330L157 322L136 236Q114 150 114 114Q114 66 138 42Q154 26 178 26Q211 26 245 58Q270 81 285 114T318 219Q336 291 336 325Z"></path><path id="MJX-6-TEX-I-1D450" d="M34 159Q34 268 120 355T306 442Q362 442 394 418T427 355Q427 326 408 306T360 285Q341 285 330 295T319 325T330 359T352 380T366 386H367Q367 388 361 392T340 400T306 404Q276 404 249 390Q228 381 206 359Q162 315 142 235T121 119Q121 73 147 50Q169 26 205 26H209Q321 26 394 111Q403 121 406 121Q410 121 419 112T429 98T420 83T391 55T346 25T282 0T202 -11Q127 -11 81 37T34 159Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mrow"><g data-mml-node="mo"><svg width="500" height="2400" y="-950" x="28" viewBox="0 -300 500 2400"><use data-c="2225" xlink:href="#MJX-6-TEX-S4-2225" transform="scale(1,3.6)"></use></svg></g><g data-mml-node="mtable" transform="translate(556,0)"><g data-mml-node="mtr" transform="translate(0,700)"><g data-mml-node="mtd" transform="translate(14.5,0)"><g data-mml-node="mn"><use data-c="31" xlink:href="#MJX-6-TEX-N-31"></use></g></g><g data-mml-node="mtd" transform="translate(1529,0)"><g data-mml-node="mn"><use data-c="32" xlink:href="#MJX-6-TEX-N-32"></use></g></g><g data-mml-node="mtd" transform="translate(3029,0)"><g data-mml-node="mn"><use data-c="33" xlink:href="#MJX-6-TEX-N-33"></use></g></g></g><g data-mml-node="mtr" transform="translate(0,-700)"><g data-mml-node="mtd"><g data-mml-node="mi"><use data-c="1D44E" xlink:href="#MJX-6-TEX-I-1D44E"></use></g></g><g data-mml-node="mtd" transform="translate(1564.5,0)"><g data-mml-node="mi"><use data-c="1D44F" xlink:href="#MJX-6-TEX-I-1D44F"></use></g></g><g data-mml-node="mtd" transform="translate(3062.5,0)"><g data-mml-node="mi"><use data-c="1D450" xlink:href="#MJX-6-TEX-I-1D450"></use></g></g></g></g><g data-mml-node="mo" transform="translate(4085,0)"><svg width="500" height="2400" y="-950" x="28" viewBox="0 -300 500 2400"><use data-c="2225" xlink:href="#MJX-6-TEX-S4-2225" transform="scale(1,3.6)"></use></svg></g></g></g></g></svg><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN" symmetric="true">‖</mo><mtable columnspacing="1em" rowspacing="4pt"><mtr><mtd><mn>1</mn></mtd><mtd><mn>2</mn></mtd><mtd><mn>3</mn></mtd></mtr><mtr><mtd><mi>a</mi></mtd><mtd><mi>b</mi></mtd><mtd><mi>c</mi></mtd></mtr></mtable><mo data-mjx-texclass="CLOSE" symmetric="true">‖</mo></mrow></math></mjx-assistive-mml></mjx-container>
+</td></tr></tbody></table>
+</div>
+<p>If you need to create matrices with different <a href="https://www.overleaf.com/learn/latex/Brackets_and_Parentheses" title="Brackets and Parentheses">delimiters</a>, you can add them manually to a plain <code>matrix</code>. For example:
+</p>
+<div style="text-align: center;">
+<table class="wikitable">
+<tbody><tr>
+<th><span class="texhtml" style="font-family:'CMU Serif', cmr10, LMRoman10-Regular, 'Times New Roman', 'Nimbus Roman No9 L', Times, serif">L<span style="text-transform:uppercase;font-size:70%;margin-left:-0.36em;vertical-align:0.3em;line-height:0;margin-right:-0.15em">a</span>T<span style="text-transform:uppercase;margin-left:-0.1667em;vertical-align:-0.5ex;line-height:0;margin-right:-0.125em">e</span>X</span> markup
+</th>
+<th>Renders as
+</th></tr>
+<tr>
+<td><code>\left\lceil<br>\begin{matrix}<br>1 &amp; 2 &amp; 3\\<br>a &amp; b &amp; c<br>\end{matrix}<br>\right\rceil</code>
+</td>
+<td><mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" tabindex="0" ctxtmenu_counter="6" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="10.622ex" height="5.43ex" role="img" focusable="false" viewBox="0 -1450 4695 2400" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -2.149ex;"><defs><path id="MJX-7-TEX-S3-2308" d="M246 -949V1450H571V1388H308V-949H246Z"></path><path id="MJX-7-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path><path id="MJX-7-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path><path id="MJX-7-TEX-N-33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"></path><path id="MJX-7-TEX-I-1D44E" d="M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z"></path><path id="MJX-7-TEX-I-1D44F" d="M73 647Q73 657 77 670T89 683Q90 683 161 688T234 694Q246 694 246 685T212 542Q204 508 195 472T180 418L176 399Q176 396 182 402Q231 442 283 442Q345 442 383 396T422 280Q422 169 343 79T173 -11Q123 -11 82 27T40 150V159Q40 180 48 217T97 414Q147 611 147 623T109 637Q104 637 101 637H96Q86 637 83 637T76 640T73 647ZM336 325V331Q336 405 275 405Q258 405 240 397T207 376T181 352T163 330L157 322L136 236Q114 150 114 114Q114 66 138 42Q154 26 178 26Q211 26 245 58Q270 81 285 114T318 219Q336 291 336 325Z"></path><path id="MJX-7-TEX-I-1D450" d="M34 159Q34 268 120 355T306 442Q362 442 394 418T427 355Q427 326 408 306T360 285Q341 285 330 295T319 325T330 359T352 380T366 386H367Q367 388 361 392T340 400T306 404Q276 404 249 390Q228 381 206 359Q162 315 142 235T121 119Q121 73 147 50Q169 26 205 26H209Q321 26 394 111Q403 121 406 121Q410 121 419 112T429 98T420 83T391 55T346 25T282 0T202 -11Q127 -11 81 37T34 159Z"></path><path id="MJX-7-TEX-S3-2309" d="M11 1388V1450H336V-949H274V1388H11Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mrow"><g data-mml-node="mo" transform="translate(0 -0.5)"><use data-c="2308" xlink:href="#MJX-7-TEX-S3-2308"></use></g><g data-mml-node="mtable" transform="translate(583,0)"><g data-mml-node="mtr" transform="translate(0,700)"><g data-mml-node="mtd" transform="translate(14.5,0)"><g data-mml-node="mn"><use data-c="31" xlink:href="#MJX-7-TEX-N-31"></use></g></g><g data-mml-node="mtd" transform="translate(1529,0)"><g data-mml-node="mn"><use data-c="32" xlink:href="#MJX-7-TEX-N-32"></use></g></g><g data-mml-node="mtd" transform="translate(3029,0)"><g data-mml-node="mn"><use data-c="33" xlink:href="#MJX-7-TEX-N-33"></use></g></g></g><g data-mml-node="mtr" transform="translate(0,-700)"><g data-mml-node="mtd"><g data-mml-node="mi"><use data-c="1D44E" xlink:href="#MJX-7-TEX-I-1D44E"></use></g></g><g data-mml-node="mtd" transform="translate(1564.5,0)"><g data-mml-node="mi"><use data-c="1D44F" xlink:href="#MJX-7-TEX-I-1D44F"></use></g></g><g data-mml-node="mtd" transform="translate(3062.5,0)"><g data-mml-node="mi"><use data-c="1D450" xlink:href="#MJX-7-TEX-I-1D450"></use></g></g></g></g><g data-mml-node="mo" transform="translate(4112,0) translate(0 -0.5)"><use data-c="2309" xlink:href="#MJX-7-TEX-S3-2309"></use></g></g></g></g></svg><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">⌈</mo><mtable columnspacing="1em" rowspacing="4pt"><mtr><mtd><mn>1</mn></mtd><mtd><mn>2</mn></mtd><mtd><mn>3</mn></mtd></mtr><mtr><mtd><mi>a</mi></mtd><mtd><mi>b</mi></mtd><mtd><mi>c</mi></mtd></mtr></mtable><mo data-mjx-texclass="CLOSE">⌉</mo></mrow></math></mjx-assistive-mml></mjx-container>
+</td></tr>
+<tr>
+<td><code>\left\langle<br>\begin{matrix}<br>1 &amp; 2 &amp; 3\\<br>a &amp; b &amp; c<br>\end{matrix}<br>\right\rvert</code>
+</td>
+<td><mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" tabindex="0" ctxtmenu_counter="7" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="10.434ex" height="5.43ex" role="img" focusable="false" viewBox="0 -1450 4612 2400" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -2.149ex;"><defs><path id="MJX-8-TEX-S3-27E8" d="M126 242V259L361 845Q595 1431 597 1435Q610 1450 624 1450Q634 1450 644 1443T654 1419V1411L422 831Q190 253 190 250T422 -331L654 -910V-919Q654 -936 644 -943T624 -950Q612 -950 597 -935Q595 -931 361 -345L126 242Z"></path><path id="MJX-8-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path><path id="MJX-8-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path><path id="MJX-8-TEX-N-33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"></path><path id="MJX-8-TEX-I-1D44E" d="M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z"></path><path id="MJX-8-TEX-I-1D44F" d="M73 647Q73 657 77 670T89 683Q90 683 161 688T234 694Q246 694 246 685T212 542Q204 508 195 472T180 418L176 399Q176 396 182 402Q231 442 283 442Q345 442 383 396T422 280Q422 169 343 79T173 -11Q123 -11 82 27T40 150V159Q40 180 48 217T97 414Q147 611 147 623T109 637Q104 637 101 637H96Q86 637 83 637T76 640T73 647ZM336 325V331Q336 405 275 405Q258 405 240 397T207 376T181 352T163 330L157 322L136 236Q114 150 114 114Q114 66 138 42Q154 26 178 26Q211 26 245 58Q270 81 285 114T318 219Q336 291 336 325Z"></path><path id="MJX-8-TEX-I-1D450" d="M34 159Q34 268 120 355T306 442Q362 442 394 418T427 355Q427 326 408 306T360 285Q341 285 330 295T319 325T330 359T352 380T366 386H367Q367 388 361 392T340 400T306 404Q276 404 249 390Q228 381 206 359Q162 315 142 235T121 119Q121 73 147 50Q169 26 205 26H209Q321 26 394 111Q403 121 406 121Q410 121 419 112T429 98T420 83T391 55T346 25T282 0T202 -11Q127 -11 81 37T34 159Z"></path><path id="MJX-8-TEX-S4-2223" d="M139 -249H137Q125 -249 119 -235V251L120 737Q130 750 139 750Q152 750 159 735V-235Q151 -249 141 -249H139Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mrow"><g data-mml-node="mo"><use data-c="27E8" xlink:href="#MJX-8-TEX-S3-27E8"></use></g><g data-mml-node="mtable" transform="translate(750,0)"><g data-mml-node="mtr" transform="translate(0,700)"><g data-mml-node="mtd" transform="translate(14.5,0)"><g data-mml-node="mn"><use data-c="31" xlink:href="#MJX-8-TEX-N-31"></use></g></g><g data-mml-node="mtd" transform="translate(1529,0)"><g data-mml-node="mn"><use data-c="32" xlink:href="#MJX-8-TEX-N-32"></use></g></g><g data-mml-node="mtd" transform="translate(3029,0)"><g data-mml-node="mn"><use data-c="33" xlink:href="#MJX-8-TEX-N-33"></use></g></g></g><g data-mml-node="mtr" transform="translate(0,-700)"><g data-mml-node="mtd"><g data-mml-node="mi"><use data-c="1D44E" xlink:href="#MJX-8-TEX-I-1D44E"></use></g></g><g data-mml-node="mtd" transform="translate(1564.5,0)"><g data-mml-node="mi"><use data-c="1D44F" xlink:href="#MJX-8-TEX-I-1D44F"></use></g></g><g data-mml-node="mtd" transform="translate(3062.5,0)"><g data-mml-node="mi"><use data-c="1D450" xlink:href="#MJX-8-TEX-I-1D450"></use></g></g></g></g><g data-mml-node="mo" transform="translate(4279,0)"><svg width="278" height="2400" y="-950" x="27.5" viewBox="0 -297.3 278 2400"><use data-c="2223" xlink:href="#MJX-8-TEX-S4-2223" transform="scale(1,3.604)"></use></svg></g></g></g></g></svg><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">⟨</mo><mtable columnspacing="1em" rowspacing="4pt"><mtr><mtd><mn>1</mn></mtd><mtd><mn>2</mn></mtd><mtd><mn>3</mn></mtd></mtr><mtr><mtd><mi>a</mi></mtd><mtd><mi>b</mi></mtd><mtd><mi>c</mi></mtd></mtr></mtable><mo data-mjx-texclass="CLOSE">|</mo></mrow></math></mjx-assistive-mml></mjx-container>
+</td></tr>
+<tr>
+<td><code>\left\langle<br>\begin{matrix}<br>1 &amp; 2 &amp; 3\\<br>a &amp; b &amp; c<br>\end{matrix}<br>\right\rangle</code>
+</td>
+<td><mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" tabindex="0" ctxtmenu_counter="8" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="11.378ex" height="5.43ex" role="img" focusable="false" viewBox="0 -1450 5029 2400" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -2.149ex;"><defs><path id="MJX-9-TEX-S3-27E8" d="M126 242V259L361 845Q595 1431 597 1435Q610 1450 624 1450Q634 1450 644 1443T654 1419V1411L422 831Q190 253 190 250T422 -331L654 -910V-919Q654 -936 644 -943T624 -950Q612 -950 597 -935Q595 -931 361 -345L126 242Z"></path><path id="MJX-9-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path><path id="MJX-9-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path><path id="MJX-9-TEX-N-33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"></path><path id="MJX-9-TEX-I-1D44E" d="M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z"></path><path id="MJX-9-TEX-I-1D44F" d="M73 647Q73 657 77 670T89 683Q90 683 161 688T234 694Q246 694 246 685T212 542Q204 508 195 472T180 418L176 399Q176 396 182 402Q231 442 283 442Q345 442 383 396T422 280Q422 169 343 79T173 -11Q123 -11 82 27T40 150V159Q40 180 48 217T97 414Q147 611 147 623T109 637Q104 637 101 637H96Q86 637 83 637T76 640T73 647ZM336 325V331Q336 405 275 405Q258 405 240 397T207 376T181 352T163 330L157 322L136 236Q114 150 114 114Q114 66 138 42Q154 26 178 26Q211 26 245 58Q270 81 285 114T318 219Q336 291 336 325Z"></path><path id="MJX-9-TEX-I-1D450" d="M34 159Q34 268 120 355T306 442Q362 442 394 418T427 355Q427 326 408 306T360 285Q341 285 330 295T319 325T330 359T352 380T366 386H367Q367 388 361 392T340 400T306 404Q276 404 249 390Q228 381 206 359Q162 315 142 235T121 119Q121 73 147 50Q169 26 205 26H209Q321 26 394 111Q403 121 406 121Q410 121 419 112T429 98T420 83T391 55T346 25T282 0T202 -11Q127 -11 81 37T34 159Z"></path><path id="MJX-9-TEX-S3-27E9" d="M94 1424Q94 1426 97 1432T107 1444T124 1450Q141 1450 152 1435Q154 1431 388 845L623 259V242L388 -345Q153 -933 152 -934Q142 -949 127 -949H125Q95 -949 95 -919V-910L327 -331Q559 247 559 250T327 831Q94 1411 94 1424Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mrow"><g data-mml-node="mo"><use data-c="27E8" xlink:href="#MJX-9-TEX-S3-27E8"></use></g><g data-mml-node="mtable" transform="translate(750,0)"><g data-mml-node="mtr" transform="translate(0,700)"><g data-mml-node="mtd" transform="translate(14.5,0)"><g data-mml-node="mn"><use data-c="31" xlink:href="#MJX-9-TEX-N-31"></use></g></g><g data-mml-node="mtd" transform="translate(1529,0)"><g data-mml-node="mn"><use data-c="32" xlink:href="#MJX-9-TEX-N-32"></use></g></g><g data-mml-node="mtd" transform="translate(3029,0)"><g data-mml-node="mn"><use data-c="33" xlink:href="#MJX-9-TEX-N-33"></use></g></g></g><g data-mml-node="mtr" transform="translate(0,-700)"><g data-mml-node="mtd"><g data-mml-node="mi"><use data-c="1D44E" xlink:href="#MJX-9-TEX-I-1D44E"></use></g></g><g data-mml-node="mtd" transform="translate(1564.5,0)"><g data-mml-node="mi"><use data-c="1D44F" xlink:href="#MJX-9-TEX-I-1D44F"></use></g></g><g data-mml-node="mtd" transform="translate(3062.5,0)"><g data-mml-node="mi"><use data-c="1D450" xlink:href="#MJX-9-TEX-I-1D450"></use></g></g></g></g><g data-mml-node="mo" transform="translate(4279,0) translate(0 -0.5)"><use data-c="27E9" xlink:href="#MJX-9-TEX-S3-27E9"></use></g></g></g></g></svg><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow data-mjx-texclass="INNER"><mo data-mjx-texclass="OPEN">⟨</mo><mtable columnspacing="1em" rowspacing="4pt"><mtr><mtd><mn>1</mn></mtd><mtd><mn>2</mn></mtd><mtd><mn>3</mn></mtd></mtr><mtr><mtd><mi>a</mi></mtd><mtd><mi>b</mi></mtd><mtd><mi>c</mi></mtd></mtr></mtable><mo data-mjx-texclass="CLOSE">⟩</mo></mrow></math></mjx-assistive-mml></mjx-container>
+</td></tr></tbody></table>
+</div>
+<h3><span class="mw-headline" id="Inline_matrices">2.2.2.2</span>Inline matrices</h3>
+<p>When typesetting inline math, the usual <code>matrix</code> environments above may look too big. It may be better to use <code>smallmatrix</code> in such situations, although you will need to provide your own <a href="https://www.overleaf.com/learn/latex/Brackets_and_Parentheses" title="Brackets and Parentheses">delimiters</a>.
+</p>
+<p class="mw-empty-elt"></p><div class="example">
+<div class="code">
+<div class="mw-highlight mw-highlight-lang-latex mw-content-ltr" dir="ltr"><pre><span></span><span class="k">\documentclass</span><span class="nb">{</span>article<span class="nb">}</span>
+<span class="k">\usepackage</span><span class="nb">{</span>amsmath<span class="nb">}</span>
+<span class="k">\begin</span><span class="nb">{</span>document<span class="nb">}</span>
+<span class="k">\noindent</span> Trying to typeset an inline matrix here:
+ <span class="s">$</span><span class="nv">\begin</span><span class="nb">{pmatrix}</span>
+<span class="nb">  a &amp; b</span><span class="nv">\\</span><span class="nb"> </span>
+<span class="nb">  c &amp; d</span>
+<span class="nv">\end</span><span class="nb">{pmatrix}</span><span class="s">$</span>,  
+but it looks too big, so let's try 
+<span class="s">$</span><span class="nv">\big</span><span class="o">(</span><span class="nv">\begin</span><span class="nb">{smallmatrix}</span>
+<span class="nb">  a &amp; b</span><span class="nv">\\</span><span class="nb"></span>
+<span class="nb">  c &amp; d</span>
+<span class="nv">\end</span><span class="nb">{smallmatrix}</span><span class="nv">\big</span><span class="o">)</span><span class="s">$</span> 
+instead.
+<span class="k">\end</span><span class="nb">{</span>document<span class="nb">}</span>
+</pre></div>
+</div>
+</div>
+
+<p><a class="open-in-overleaf" target="_blank" href="https://www.overleaf.com/docs?engine=pdflatex
+&amp;snip_name=amsmath+matrix+example
+&amp;snip=%5Cdocumentclass%7Barticle%7D%0A%5Cusepackage%7Bamsmath%7D%0A%5Cbegin%7Bdocument%7D%0A%5Cnoindent+Trying+to+typeset+an+inline+matrix+here%3A%0A+%24%5Cbegin%7Bpmatrix%7D%0A++a+%26+b%5C%5C+%0A++c+%26+d%0A%5Cend%7Bpmatrix%7D%24%2C++%0Abut+it+looks+too+big%2C+so+let%27s+try+%0A%24%5Cbig%28%5Cbegin%7Bsmallmatrix%7D%0A++a+%26+b%5C%5C%0A++c+%26+d%0A%5Cend%7Bsmallmatrix%7D%5Cbig%29%24+%0Ainstead.%0A%5Cend%7Bdocument%7D"><i class="fa fa-share"></i>&nbsp;Open this <code>smallmatrix</code> example in Overleaf</a>
+</p><p class="mw-empty-elt"></p>
+<p>The following image shows the output produced by the example above:
+</p><p><img alt="Amsmatrix.png" src="https://sharelatex-wiki-cdn-671420.c.cdn77.org/learn-scripts/images/5/5b/Amsmatrix.png" decoding="async" width="600" height="74">
+</p><p>The <code>mathtools</code> package provides <code>psmallmatrix</code>, <code>bsmallmatrix</code> etc environments for convenience.
+</p>
+<!--
+<h3><span class="mw-headline" id="Further_reading">Further reading</span></h3>
+<ul><li><a href="https://www.overleaf.com/learn/latex/Mathematical_expressions" title="Mathematical expressions">Mathematical expressions</a></li>
+<li><a href="https://www.overleaf.com/learn/latex/Brackets_and_Parentheses" title="Brackets and Parentheses">Brackets and Parentheses</a></li>
+<li><a href="https://www.overleaf.com/learn/latex/Aligning_equations_with_amsmath" title="Aligning equations with amsmath">Aligning equations with amsmath</a></li>
+<li><a href="https://www.overleaf.com/learn/latex/Display_style_in_math_mode" title="Display style in math mode">Display style in math mode</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.ctan.org/tex-archive/info/lshort/">The not so short introduction to <span class="texhtml" style="font-family:'CMU Serif', cmr10, LMRoman10-Regular, 'Times New Roman', 'Nimbus Roman No9 L', Times, serif">L<span style="text-transform:uppercase;font-size:70%;margin-left:-0.36em;vertical-align:0.3em;line-height:0;margin-right:-0.15em">a</span>T<span style="text-transform:uppercase;margin-left:-0.1667em;vertical-align:-0.5ex;line-height:0;margin-right:-0.125em">e</span>X<span style="margin-left:0.15em">2</span><span style="font-style:italic;vertical-align:-0.35ex;line-height:0">ε</span></span></a></li>
+<li><a rel="nofollow" class="external text" href="http://texdoc.net/pkg/amsmath">amsmath package documentation</a></li>
+<li><a rel="nofollow" class="external text" href="http://texdoc.net/pkg/mathtools">mathtools package documentation</a></li></ul>
+-->
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+<a href="typesetting_basic.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="typesetting_figure.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/Wendyyyyyyyyyyy/Communication-Intensive-Courses-in-Mathematics",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": [],
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

@@ -10,10 +10,12 @@ Writing basic equations in LaTeX is straightforward, for example:
 \begin{document}
 
 The well known Pythagorean theorem \(x^2 + y^2 = z^2\) was proved to be invalid for other exponents. Meaning the next equation has no integer solutions:
-\[ x^n + y^n = z^n \]
+\[ x^n + y^n = z^n. \]
 
 \end{document}
 ```
+
+![latex1-1](/images/latex1-1.jpg).
 
 As you see, the way the equations are displayed depends on the delimiter, in this case `\[...\]` and `\(...\)`.
 
@@ -43,12 +45,10 @@ Standard \LaTeX{} practice is to write inline math by enclosing it between \verb
 \begin{quote}
 In physics, the mass-energy equivalence is stated by the equation \(E=mc^2\), discovered in 1905 by Albert Einstein.
 \end{quote}
-
 Instead if writing (enclosing) inline math between \verb|\(...\)| you can use \texttt{\$...\$} to achieve the same result:
 \begin{quote}
 In physics, the mass-energy equivalence is stated by the equation $E=mc^2$, discovered in 1905 by Albert Einstein.
 \end{quote}
-
 Or, you can use \verb|\begin{math}...\end{math}|:
 \begin{quote}
 In physics, the mass-energy equivalence is stated by the equation \begin{math}E=mc^2\end{math}, discovered in 1905 by Albert Einstein.
@@ -56,6 +56,8 @@ In physics, the mass-energy equivalence is stated by the equation \begin{math}E=
 
 \end{document}
 ```
+
+![latex1-2](/images/latex1-2.jpg).
 
 ### Display Math Modes
 
@@ -84,21 +86,29 @@ In natural units ($c$ = 1), the formula expresses the identity
 \end{document}
 ```
 
+![latex1-3](/images/latex1-3.jpg).
+
 ### 2.1.3 Another example
 
 The following example uses the `equation*` environment which is provided by the `amsmath` package—see the [amsmath article](https://www.overleaf.com/learn/latex/Aligning_equations) for more information.
 
 ```latex
 \documentclass{article}
+
 \usepackage{amsmath} % for the equation* environment
+
 \begin{document}
+
 This is a simple math expression \(\sqrt{x^2+1}\) inside text.
 And this is also the same: \begin{math} \sqrt{x^2+1} \end{math} but by using another command.
-This is a simple math expression without numbering \[\sqrt{x^2+1}\] separated from text.
-This is also the same: \begin{displaymath} \sqrt{x^2+1} \end{displaymath}
-\ldots and this: \begin{equation*} \sqrt{x^2+1} \end{equation*}
+This is a simple math expression without numbering \[ \sqrt{x^2+1}, \] separated from text.
+This is also the same: \begin{displaymath} \sqrt{x^2+1}; \end{displaymath}
+and this: \begin{equation*} \sqrt{x^2+1}. \end{equation*}
+
 \end{document}
 ```
+
+![latex1-4](/images/latex1-4.jpg).
 
 ### 2.1.4 Reference guide
 
@@ -106,9 +116,13 @@ Below is a table with some common maths symbols. For a more complete list see th
 
 | description | code | examples |
 |---|---|---|
-| Greek letters | `\alpha \beta \gamma \rho \sigma \delta \epsilon` | α β γ ρ σ δ ϵ |
-| Binary operators | `\times \otimes \oplus \cup \cap` | |
-| Relation operators | `< > \subset \supset \subseteq \supseteq` | |
-| Others | `\int \oint \sum \prod` | |
+| Greek letters | `\alpha \beta \gamma \rho \sigma \delta \epsilon` | $\alpha\ \beta\ \gamma\ \rho\ \sigma\ \delta\ \epsilon$ |
+| Binary operators | `\times \otimes \oplus \cup \cap` | $\times\ \otimes\ \oplus\ \cup\ \cap$ |
+| Relation operators | `< > \subset \supset \subseteq \supseteq` | $<\ >\ \subset\ \supset\ \subseteq\ \supseteq$ |
+| Others | `\int \oint \sum \prod` | $\int\ \oint\ \sum\ \prod$ |
 
 Different classes of mathematical symbols are characterized by different formatting (for example, variables are italicized, but [operators](https://www.overleaf.com/learn/latex/Operators) are not) and different [spacing](https://www.overleaf.com/learn/latex/Spacing_in_math_mode).
+
+- - -
+
+Next: **[Math Symbols](latexmath.md)**

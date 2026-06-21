@@ -16,7 +16,7 @@
 
 # Typesetting
 
-[Using LaTeX](https://kahoohku.github.io/Communication-Intensive-Courses-in-Mathematics/typesetting_basic.html)
+[Using LaTeX](latex.md)
 
 [Math Mode Commands](https://kahoohku.github.io/Communication-Intensive-Courses-in-Mathematics/typesetting_laTeX.html)
 
