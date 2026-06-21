@@ -15,7 +15,7 @@ The well known Pythagorean theorem \(x^2 + y^2 = z^2\) was proved to be invalid 
 \end{document}
 ```
 
-![latex1-1](/images/latex1-1.jpg).
+![latex1-1](images/latex1-1.jpg).
 
 As you see, the way the equations are displayed depends on the delimiter, in this case `\[...\]` and `\(...\)`.
 
@@ -57,7 +57,7 @@ In physics, the mass-energy equivalence is stated by the equation \begin{math}E=
 \end{document}
 ```
 
-![latex1-2](/images/latex1-2.jpg).
+![latex1-2](images/latex1-2.jpg).
 
 ### Display Math Modes
 
@@ -86,9 +86,9 @@ In natural units ($c$ = 1), the formula expresses the identity
 \end{document}
 ```
 
-![latex1-3](/images/latex1-3.jpg).
+![latex1-3](images/latex1-3.jpg).
 
-### 2.1.3 Another example
+### Another example
 
 The following example uses the `equation*` environment which is provided by the `amsmath` package—see the [amsmath article](https://www.overleaf.com/learn/latex/Aligning_equations) for more information.
 
@@ -108,9 +108,9 @@ and this: \begin{equation*} \sqrt{x^2+1}. \end{equation*}
 \end{document}
 ```
 
-![latex1-4](/images/latex1-4.jpg).
+![latex1-4](images/latex1-4.jpg).
 
-### 2.1.4 Reference guide
+### Reference guide
 
 Below is a table with some common maths symbols. For a more complete list see the [List of Greek letters and math symbols](https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols):
 
