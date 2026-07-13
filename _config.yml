@@ -1,8 +1,18 @@
-theme: jekyll-theme-minimal
+theme: just-the-docs
 title: Professional Communication in Mathematics and Statistics
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
 kramdown:
   parse_block_html: true
   disable_indented_code_blocks: true
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
